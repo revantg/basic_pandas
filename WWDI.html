@@ -1,0 +1,1664 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html lang="en" data-behaviour="application" class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html lang="en" data-behaviour="application" class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en" data-behaviour="application" class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html data-behaviour="application" lang="en"><!--<![endif]--><head profile="http://a9.com/-/spec/opensearch/1.1/">
+  <meta name="msvalidate.01" content="82C779DE57BA1BC37AEF2B7FC6D31D04">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript" src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/63d60ec0a6"></script><script src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/nr-1071.js"></script><script src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/600828166774736" async=""></script><script src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/identity.js" async=""></script><script type="text/javascript" async="" src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/fbevents.js"></script><script type="text/javascript" async="" src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/mixpanel-2-latest.bin"></script><script type="text/javascript" async="" src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/analytics.js"></script><script type="text/javascript" async="" src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/w.js"></script><script type="text/javascript" async="" src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/analytics_002.js"></script><script type="text/javascript" async="">_linkedin_data_partner_id = "28706";</script><script type="text/javascript" async="" src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/insight.js"></script><script async="" id="cio-tracker" data-site-id="39ee8b8ff1ed81951d84" src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/track.js"></script><script async="" src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/gtm.js"></script><script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"63d60ec0a6","applicationID":"101710262","transactionName":"d1xeQEQOXllcFxxBA1NWQxtFCV1C","queueTime":0,"applicationTime":16,"agent":""}</script>
+<script>window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+
+  <meta name="robots" content="index, follow">
+
+  <link rel="search" type="application/opensearchdescription+xml" title="Quandl" href="https://www.quandl.com/opensearch.xml">
+
+  <link rel="apple-touch-icon-precomposed" href="https://www.quandl.com/images/head/apple-touch-icon.png">
+  <link rel="icon" href="https://www.quandl.com/images/head/apple-touch-icon.png">
+  <link rel="image_src" type="image/png" href="https://www.quandl.com/images/head/quandl-logo-social.png">
+
+  <meta property="og:title" content="Quandl">
+  <meta property="og:url" content="https://www.quandl.com">
+  <meta property="og:description" content="The source for financial, economic, and alternative datasets, serving investment professionals.">
+  <meta property="og:image" content="http://www.quandl.com/images/head/quandl-logo-social.png">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="/images/head/quandl-logo-twitter.png">
+  <meta name="twitter:site" content="@quandl">
+  <meta name="twitter:title" content="Quandl">
+  <meta name="twitter:description" content="The source for financial, economic, and alternative datasets, serving investment professionals.">
+
+  <meta name="google-site-verification" content="9qvd1SCSyNwmz9cxGqxgtXJHqwsWkVkYUyuz0o5SRys">
+  <meta name="msvalidate.01" content="9AA8D9E90DBCA4138E42EF9D32B42C01">
+  
+
+  <link href="https://www.quandl.com/" rel="canonical">
+  <link rel="shortcut icon" type="image/png" href="https://www.quandl.com/assets/quandl-icon-32x32-092ea5839e97c68c141f81fa64724a7007e9df6c10e225b310b2c5258500564b.png">
+
+  <script>
+//<![CDATA[
+window.gon={};gon.cache={"User":{"current_user":{"id":400462,"username":"revant1610123kietedu","email":"revant.1610123@kiet.edu","first_name":"Revant","last_name":"Gupta","photo_url":null,"api_key":"zQDZMnBsC_6bNDkviXpy","administrator":false,"should_confirm":false,"confirm_email":"revant.1610123@kiet.edu","card_name":null,"address_line1":null,"address_line2":null,"address_city":null,"address_state":null,"address_zip":null,"address_country":null,"stripe_key":"pk_live_4VMYwPkOfJUdxHEmOj4lQpyn","features":{},"user_id":400462,"customer_id":null,"user_type":"academic"}}};gon.alerts=[{"type":"success","msg":"Your account was successfully confirmed.","link":"","cookieKey":"success-your-account-was-successfully-confirmed"}];
+//]]>
+</script>
+    <!-- Google tag manager only works for public site, for production only -->
+  <!-- Google tag manager data layer init -->
+  <script>dataLayer = [{}];</script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PR9P8NJ');</script>
+  <!-- End Google Tag Manager -->
+
+<script src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/a"></script><script type="text/javascript" async="" src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/conversion_async.js"></script><meta name="ember-cli-head-start"><!-- `ember-cli-meta-tags/templates/head.hbs` -->
+  <meta name="description" content="Current and historical data tables from World Bank World Development Indicators via Quandl. Easy download in CSV, JSON, XML or via API." media="&lt;next@service:media::ember588&gt;" id="ember1984" class="ember-view">
+
+
+<meta name="ember-cli-head-end">
+<title>WWDI | World Bank World Development Indicators | Quandl</title><script async="" charset="utf-8" type="text/javascript" src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/clickstream.js" crossorigin="anonymous"></script><link rel="stylesheet" type="text/css" media="all" href="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/reset.css"></head>
+
+<body class="ember-application vsc-initialized">
+  <!-- Google tag manager only works for public site, for production only -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PR9P8NJ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+<div id="body-content">
+
+<div class="modal fade" id="generic_modal"></div>
+<div id="container">
+<div id="notices"></div>
+
+<div class="centered" id="main" role="main">
+<div id="content">
+
+</div>
+</div>
+</div>
+
+</div>
+    <style>
+      #spinner {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 64px;
+        height: 64px;
+      }
+      #spinner .loader {
+        width: 64px;
+        height: 64px;
+        background-repeat: no-repeat;
+        background-image: url("data:image/gif;base64,R0lGODlhMAAwAMQfAMzMzMLCwtPT06urq7q6urOzs5ubm15eXnR0dPn5+YKCgoyMjKOjo5OTk/39/UtLS3t7e/X19UJCQjk5OfHx8d3d3WpqamRkZNnZ2eLi4u3t7VNTU+jo6CkpKf///////yH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NDkxMSwgMjAxMy8xMC8yOS0xMTo0NzoxNiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjczRkFDMTc5RDJBQjExRTVCQjM4RjFFMjZDRUE3MEUyIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjczRkFDMTdBRDJBQjExRTVCQjM4RjFFMjZDRUE3MEUyIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NzNGQUMxNzdEMkFCMTFFNUJCMzhGMUUyNkNFQTcwRTIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NzNGQUMxNzhEMkFCMTFFNUJCMzhGMUUyNkNFQTcwRTIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQFBQAfACwAAAAAMAAwAAAF/6AnjmRpnmiqrmzrvh5gGIED32jSbPymULgWBqAxMR6H5OHRCKowC4QFQiBRLBvlIZtxnjSKC0JqCYwEW+0W4DUNxGPEZZEQabDaLKZkczbgY1McIwYSWhJ0IwEQYgN9MAYWcVIKESMcCA88DxZdHg4LE6KiCHUwAJJxBwMlFAMKEAyDIgETEg+4DxMGOARkFgamfMKfCLe5DxIbljcZAwxsLgkHx7m3FW0vCRbVuMpFKRoBAwCPTgMTyLoKKhxRYwbMThQXHbcSHQ+eJwkGCAoALThq427DLQh7UmSAABAghAXyvGQQgG0FBwgMHTYglo1FggFTYFmo0hFGBAMYY7pFLNnCgYAAAljKnEmzps2bOD1EqLAyJwkHAWYYSOizBIAFDQw0aDCrqAgHA5LOWBDN6aeoQqlaHXE06dJ9VoEKFWCuTdkVO3t62UmBo1UKFeI23eohQwW7c2/sFADWhYa4GMDh0EBgQIEBfVtQWOwFwAACBQoQOOshgQPK2YBG3szRwUQBGDC3EWD4cI0SEQAIEAAgb8kIASIHAFIig2rWRGc64MCBMoXbABIX9by6gmifCdzSXc7cZwgAIfkEBQUAHwAsAAAAADAAMAAABTrgJ45kaZ5oqq5s675wLM90bd94ru987//AoHBILBqPyKRyyWw6n9CodEqtWq/YrHbL7Xq/4LB4rAsBACH5BAUFAB8ALAAAAAAwADAAAAX/oCeOZGmeaKqubOu+HhUQHGyrgbVtVuHcLcfPVLlsDofNgwBUJQiNxoBSajyQyAdk2Cw5BogwokEVOSBXLK/WLQkgEIUcUSAt0llEpF0qxOUKCAYkADtISnUjGQYQDQJAAX9zA30HDw8bgyMABxOeEokwEQsIcRAIjyUZBQOpIhkbE5cPEhOuLxwNcAsBXCsGsrMPEwtADhUAZS4QEsK0CL58KwvBsxMK0UQAGdICE82XtQFOBQoLvNk2A57sCgk4EOdyFdIBChYQTCoRBubyoXz2sEjAwN8CBQCltYgkTwE9hSIoDDg37sSTcw0AQBRBYEOHjxMgaEBBQYBAiBgkunSQwHJChwYbWSxYybLlA24xUUToVLNmB0o5T+z81tMl0KAmZvasdfOEg3cxU9Ks9fKEBgIDAJxU2PFjh5AjS3BgYIBsAagQJVJEIcDAgAFkHyJl6xauAblzTYxlYBZtXiKsCGz9a+Ip4cOIE5OgQMGvYgcYCAQA4Bjx1QAz8JIQMjeDZMwAojnQkCGDhnQBMc/ASSJBhdIVKktzwAFAgArZIrzOEHuuYYsZMLyWfTiBBg3EFStfznx5CAAh+QQFBQAfACwDAAIALAApAAAF/+AnjmRpigJAnWzrlhiEIFDgvTjp3WaGWDPLJZDDeQSMDyFRGgBniEuj6PIEICMGU+RpXKA/RYTK4ihGWADJ8IVeFg7yidgkVX7BIYlTMAwqVIBYIwUlV0IIhSMCFxuOB3RGBiIyChwmGgEBGSQaBxsHoaCAORRJCgYZPDgFD6GvD5NFHhkZcVQNoK+fZ3JyDK67Gw2rJBQYW752j6IbAiYOAQYNDM/KJAQbD9oPA8UiAAsN0w2c1yMADRALkSQOA+MGBgtq50UOBQvy8/X2ORjiyF3ypwPAgAEDRTgAwIAaKYIiMkCQMGHCBm8kIlRIBpHCAREPHnyYQACiCwYTQtuq/GBhjEloCD6oDCnT2kt3MWc+kPDA5s0sKWeydPnBw62XHkGKJDkiAoAAyG5KpGgR44cEBAYUGNDPpAeDCO1oLUBWw08WGAYQIFvArL8EAAoAcGuCQtat7a4B2NCh7wNFJpwG6Kp3QoeKhjsALmEU4oXDiA1vIHq2QuTLeW8GuBx5AJUxR3Fk4IzYp4sMAABgCP0CAmTEHS4UcSoghbkcGvj27SsBQxEKAGoLwPCt8QcHxTRMnCDhgmkXcGsDSEgiQ4UKtkxwUC3Hg4baHL5dHYGBMkTWI7yfCwEAIfkEBQUAHwAsAwACACwAKgAABf/gJ45kaX5OliVn674l14hKBd/4RykkkuW4wiBgKpQsDA/QBVgongMHiWEhXRrKpYniXHgVAlKhOkJmtSSBd60gkHYX0QWBITkEBIA0x1l/iSQYPBYQgCI7IxA/OQUQXw0aJgkAAJEjCQoPIw8WFDkJBA0LDBxAYUVLEaVLBJolBmdoOAAmDwMtEYuybxauIgc2JQkCAwwFFbGyGBcSDxIbbiYVBgwMBgOWuyIZAw0MpyUeAdcDAwbg2iLJJOLk5ujpMBzV1gMR8dIEAZ4jHhVCBXTh+6AhkwQJBwyJcJBgz8APCSCIOPhBAq2HLYhIKIHAIcZ+M0pM2LDqI8gTJE2vltDI0eO6eBEnbrR4qQKGYBgLOkOoEIA+AshMVtDHb5u+AAEA3FOZDynSoto8YAAgYKmJCAF+XkwnwMKEX1uFTcXAIl2wgxsnhGWKoCLajRfKMuUw860IeB8r1EVbUSEMhi9xaXo7U+ALDRgEGIaxwC1fiUAuQmWXjMIBEV8/bFiMawQAzh5CV15w4MEDBSVvOKhACaIJ0aJNrM4GJAUGDR7VwQ68i/eH3UxbwEYTAgAh+QQFBQAfACwEAAIAKwApAAAF/+AnjmRpeknimWzrtkmxKAP13vgYGQgEIQtb7sYhFAQrUgChaCoQhOGr0mgsGoEEacB0IhjSloPRMBiqGGXPWwizOOY4lhRp9H5BkqcSqCRxCXFmDQAlGgZNDRUkCQwXBwd5OQBXBgsMESccfiQOBh8bIwpaOB4BZgVCORWhJBuLQyl/k60jD1FuYRkHJoUnKrkmERCgIg8ImXoVRgHJwSMZEKEPFmklHAyfHwWkzyIJAAQBGiwCIwwMGd5S5iLo6utDAyPc8SYcAUgkFAEFzfadDFzYcACCLxErZtlz0EACwQ0PDrQDyALABoKQDjxYoJCiiAESMkI65szjCJAiD5xsQGayhEWMIzm27NTwYcR2DjgI0ODApKeBBQ9OnPkBnz4RHJQQvReADsAMGDJ0/ABuBKd1GhRImCABgjUTFTDwjKeB14QPZx8kZTE1l7YSENraS8DLhIS1MyM8aAELkBu6LDZ0c4GiQgZVOeaROPv2RYIKhjEMvuEBQQkEk11EzVAh8wsPDCwQNOC5xSbIwTyMdUOBQ+mlH+SuCwEAIfkEBQUAHwAsBAACACsALQAABf/gJ45kaYrOqa6sCTQGkbR07RUkE9V0JAgUE0cBERUBPBaF8YFlPCRAkYRLqgqLESM4EkyNAetp1iBVSAnDB4H4GGakSIVbcwzKTQOnFCmUtyQOBRBsDHA0FWVlAVAmERolNwcWCBYXTDwZBAMCKTwabKGVVh6eSRUXoggXSGJiqqtnJ6auaAyTbBdZjgABAoe1IhQNlhYLe3ybBQNhwSQeAgEAwCMVAwXYBZDOmdfZ29w9AdcDreGRGBklCQIAv+fPBQgHuuAijfD3Aw8PGyII9vKRyHDAhBqBJgg8MAGBFsIPChk6REjQ4MNI+/r925Yggkd88DwMsFTvXgYAKHfVPIyQLs6PdhVAXhTh4wcADDKDUagQcISHkyh7ukpz4MGBBUI/QKKQU0wCBSMkfLiQdGItAhM+8OM34eBMBwgkbOUn4QA1gQ4siB0rViUND01FcEAp64OHLGMfSLiQRIOGBDLtSOjQYYKCbRiybpUwgUAdDhgqqCthgPCEyx0swCnA+MMECQvirpuMwe2HAJYvY67yQcACBBAY8fBAAcMHDrQWFFaNGQEtuE47OgCJYDfvDmZnftDNG/OXiwAmGMfsWLmb1IQhnH044ADjB3isk2hHJ0kIACH5BAUFAB8ALAQAAgArAC0AAAX/oCeOZGmKzqmurCkMDJC0dO0BkLJAg11zGIqJsygWFRXfKkFgMAacEsZ4DChVAMOTUUiNNNSFAnM1OQpPGCNKIijeCsaMlOAIbY6AYaCOmPQGBX4kAAoIClY2HANaBgIqCXMkARcWCBYXBD4cAQEZShEKlgiXCBplShmkqwgXSag2GhCjq58nXrBtB5YWB3ImCRgAGLi5Z6UGg3QABAEEr7kjHADQJZydncrRLdfY2ttLzM7V4CPfHgkVGBWS5TeGPMXufxsP9Q8N7fNfFw8H/wc2JNpHaAPAfxsaECwBwODBhAtJaLDgD6DAiJPq3cs3IpK+coUQxDNXoeQdgucyplRQaQsjCZYr550jEaFkhZPR3FiAQEBexwgfUTWYMEEC0QVB5wko+qCp0YERF0xoSnWCApceIEig6tSCT1QRMAhgI8LAVK5WyxE4MKHDgwFzMEjY6lTCo20DOnSY2/aqCAIPiBZlAK6ChL1zjU4AMKKCAQgNGINjgDjx4QUuDVRO3AGBy7yW53bAjFHDg81EJWMs0JZohwkGsIoAYKHegQKySQBBFQIAIfkEBQUAHwAsBAACACoALQAABf+gJ45kaZ5oqqIZQVRrLHtYYy/CvDoc55gJQ8MgNHB0qEigUCBoSpkhUYhBngAD5iDwG1GKRYq15FgymYkSoLFoB06JrgxLOKdLgsIAIBdpBgsGOTIaBFkDGH0rGRAIjQgAMxEVAhlIDgwICpsIC2JjkgsQm5sQlqAyQZqlCk+ocwiOEBYDig4VGBqKqAGkBXcjCQIEAS+vJRQVRyYUAc7OEccyEQDPANHSMRXEAafZOxoCFMDfHhUGbQTlKhgIF+8XtetACxexsRaD8yOMFvcItPaR6PcvoEARCeoV1Hew3QUL7+R5SIBt37l0XipUcHUQSoUMGzt6BMkxGzlkGr2RSVujoEEkOAniZCvw4MGGmgNEmtuw4YBPngz3MXjgs+iGBiIb9Cx6YIOCXaBAkqPJ9MADA9kAILhp4Y2fpkYPwDhGQMIECWYnMBghwALPnl5faTgwoWbNs/o4FDAwYNmxAnXt3sV6cEBgwRMWdAyAVvADtR0jWDj8+IHKfQIeT9gsoYBOGgouHIDw8vPEkjNCAAAh+QQFBQAfACwEAAMAKgAsAAAF/+AnjmRpUoJAmWzrshljGEz23qSXJJ7pFIzBIJjA3TwVUaBISgyFDIbG+LKNAKVf8OmgtjyCAUE0LsVkDMHXmyx8BoFuSQMIcHolAqOQNCawAwV3Xh8LCoYKfTgOGBgrhAUQC5MKA3KEXgkMh5MLDY+YVB4DnIYGTKFUGAqsChAAeCMeERQRsakjAgwNBrAlHnQAAKC4shqoJBHCAgAVt8U4AMzO0FTBAhHVorQ82iURBbxY3i8aCxYiFgHP5CIOBiQWCFbtyQomZfUjEfd5+iTv4s37R8KchQsf1OFxcKkeOHGyOGSg0JCgiClJKlqc8iGDxmLsjGHQ8DFUjAXwvrrYColJwAEJDyRsyEeQg4UHJRSVIzBAjRc3JR4wwGHgwYQOEwYaGcCiAUsRDTognXD0ALKLg0YEYAG0BYajVMN2SCmiQoMDG17tg4BTxAML2VwwmBq2alwBG0hIyMcBwggLOlkYoFt3w5QEEDqUOADKAYBASwlPkNDBQhEAEiTo/UCTkIYNkjuU6TyCKa4AYI92WJCr7YjMW4sJUPDgbdcPHhCYuEAMl0SNNklsGGfxQwQDBxMV//XURQgAIfkEBQUAHwAsBAADACoAKwAABf+gJ45kaSYZRpls67JaYRhD9t6lk7QBPTAFBw6nAQQqQpKjwBj8BruhKxGoEmxKQvMZlbIyhGoAkBxxfk2sFxYOECosigCgMUUAA8Jq6Ki4A11DFAYQChANe4IaEWseARALkRAEjY0OAwqRCwoGgZU4j5oKDJ6fLxoNhZkYLAkRpaYZAzSsJhQVuImmJIwtGRW/artDwcDDXre4vcdDCc7MJwFAHNA3EQYI2Qq11SwDCKqFut0iCQ0ICumGAeQl5ujqEOztJN/hCuPt19no3PQjVKb9G0iwYDsNBGhQM4jBwgMJDw4AKJgAQsQDByIKe1GljpcKGzCKfFAAR4EDEyanPFiQj8dFkRsG3BgwoUPKDh0glFFSooLIkfNacHjQQYJRCTUpjYjAIJsBNQ4MSBApAcIyFgVsHjXaQYEZBClrbhCwdIFIBR5dMCi6VUIHBCMUdHhA98EEBIEqAIADKmXbDg1EgFRZF+LETwkusOU6gawHAA/rPpyg9JOADTZrTpApIsMGwnSNOjbFoQFGeSUWTIA4GS+zCC0jKECa0kJaggTSDbiKIwQAIfkEBQUAHwAsAgADACwAKwAABf/gJ45kaYoex0Vn675lEgwDocG46bRYTQyBnPBTqXA8JQ+gwGQOcQCAAMBJAgbNwO7ZokinGCSJQmDauK7IF5A5RTIViilRCQAS3Ey0shUmCgsNCwNoERFiQxgLBowKAGhoHoCMBgsEiJBDi4wLAZiZOBEMC6QGVS+foBozZy8YGqmgsS03oKq2kK+zuC+HvCYeAgWtvzAJAxAQHwttxS9BIwgNfc5JBiTKzdXW2B/aAQoIjtXQItI7CQod6+sNzsfJy80N6xP26wXODgIErRX2AO9toLZtQIeAAbVt+8AAYcKFIwQ4nNBhAx5Z/O7ogHAwYAdCoCg0sHDAwoJTJDTRXGC3DsJFSA4YHEBA80CDlyMcIJtJgEQFAQRhZLBAs+iFCmlIAECw4cEBBrtKYLhQlOaFR1AeTJAgwZ67E584VKVpASmMCBYmPFj7gKsAEh4IGGhQgMWIAReIIniKswUArmzXMhyRoAFbCQhQ6izKoG8LAhM+BH7w4StDpwcyS1hQgkKcIQLaTp4AEu2GzJlPY7DlQIFkthM2nBp6GvWBDVhBcUg74kG5BBAwpz6gMNMxmgbMjijwoPaBBw2iPvHg+EMCAxuyb1hQHSIARlqehAAAIfkEBQUAHwAsAgADACwAKwAABf+gJ45kaY6adq5sayYCQQiJa5vOWhFBQFS3oCODUZkwvR4gF2w5KoBorZTh+QTM5ioCEAgAGRxAGdG2EpgogHJycDhZUgYcvznSmbrLATD4A1NNDoFNGQYMAwMGGGaNIn2JigSOjRgGkQYAlGYJAX6XZZtafAQARqKoqaqrrK2uQRQAFXqvIg4BDQsLDGy1JQIKugsKA7SuBMHCDYS+yMILyyN9CgZArMDCxEwNEx3eEgOst8K8IgYdExLq6AKtGrJMGg/p6usIxqoBE/T16aG1BPbVUzfhwb9XHOYNlDDBAr4gc6yZaICuXwdNmxIMQGABQYNeJCJA8OZtggFUAw64dLRwgAEtZAgUYBShIYwWDRA6IthpwaaNCgo2bLAwCeLOowgOMLKBYcM+gQWCRFCgkyOCUywcICj4oOuEDRxKAFA0U0SACysvFHWB4YGErnAnhBsxYMPbDdGkKUAAYa2LAG7hdu3AYASBBxsOHLB7kkQCDiBtZHAqmOFaBQ8UKx6K1RG3t14RhEqAILHmDReWbnKw4OkEpSMcYNa8+EJnSgGGMegcQOjmB4V9kSCwWGhj4XIStdMSAgAh+QQFBQAfACwCAAMALAArAAAF/+AnjmRpjkl0rmxrehkQVI5rvysVjNntfxROpGYijASeXyuRqVQwJ85OlEkqWZhMM/HqAQTcK6uZwYRLnoTDWgpq2L5EJUO5ejCMDwNA/J2VGgMiDAwcYocZhHofUIdXHIp5FY5XDgCEDAF/lDd3ABhwnKKjpKWmp6g3GByhqSMeAAYNDQWbrh8aswYGCwGtqQENu7IGtyXBw8IkGQMGA3WmucK8voMSIxtTpLCytGFGHSITHxKTphSrVg4HJwrGjNcmB7amAvEl88YUGyYd7qIUBBg6IYhEhwkCODkooACCggG2PDQYJ+JBAVEBLCCAAMHCgF8CDCgw0OPVrxYUFq44VNBQgQYfEQY0bGDuBgeOLFkiKOkiAoQHQB8cABCnAYKcEBZAa+HBgNADUB9YWCqiAgECCUkAQLARAgJtLSIgeAr1wAMjIwhYeCDiIwkBDRQ0IHojg4UNZaFKKPgBwAUS2Uo4iEBvRYKxeTdsoPuhQYkHCk7+KPAAr94FYRz8JPEAQeEfHgYckCAB8kARCx4r6MMJw4ABBEJhYDfiAFhjGT8cuHDxHQkdAU77CAEAIfkEBQUAHwAsAgADACwAKwAABf/gJ45kaY5Ocq5sazoaJmRubY8RAAhAdNuJRMThMVF2vMrP5aFgPjRTAgngLFuJKMZn0gigxevKwcFUoqfUKkHhXjWaRPjHIRQKnPnNo79FCAMFAwQUWGIrHHd3A2glBRAXCAGHJRqKgo0iFAgdnZ0LlCQYigAnEB0TqakdA6EjGRiZIhWqtR0bDq4uDLW9srokA721v8AiGcMTt7nGKwaoqp2TzR9kbh8JCp6dBtQfHK0GAXoECggKpdQRDCINH1/eK+kjDMzxJfMi9SgABAJ9uta1awDvA4ALDyZIQKCEGrgP4sJUSPjhgYQJBzR4s0YC1IOPHycwAKhugwSQHxfU2rsXwSRKixZWxnOgoCLKCQZILsmi4oSACTYTPii2R8ACBQsIyBRRYANQjPkOCYAgAoGkFZYMFCjkyoEBBCMQLLjWwkGBDwoMaLyR4OsICAvW1nA3wsITGx5ahTXQ04VeEhD6iphSpQSHmh/OFSxLlcSGAw1FAFBgwQKEaSOyDojsIgFYxwcKVkAQCUHlqB6I/PCAmMQFNAZKW71A11WADQ9EbPjQgJmHBrJJL1gqhgDCBxsayM0bnHazOv5McIBgwWp1zvdeLbCqYHF2Eg4yVBBsIwQAIfkEBQUAHwAsAgADACwAKwAABf+gJ45kaZLOqa7smWhZ0s70mGRVFdf8mug4WW9I+mUyGCGR6IBlNKml1BE1JSJK6ZACCAQ42mEEQAiUI2EexcsGnwgLiAKQ9iTIbI1V0el3JgZ1GWwYVSMNfxKKEx0BdTcchiIcEhOKlxMWWXUlBBOWl5USaJwnAZ+hlQ+kpSUUD6CYCJKtIgaJix10rQ4JWQ4KjH0SDLURBAMDGCUABgoGFbUeBAYMDAYZ0ioVDMkDDLvaJdzd3+EiGADZ0tTW2CMVCA8SGwsUxsjKIxwHoIwQtML0ymJgwoODByc4EiciwQEJCBM2YNjwYcR5Eyl6WGAwYgcCnFiZqAALooQOmtK2ZBhgQN8JABdgPUDgRouGBnIULFh2wgEZAZwCQFhAVAGDTSyaNSiAdIWDATqLGmh6osCBDQ82KLhXQyjROCBpENiw4YDZBxlLYBAgSYOBnA1qtljwwKzZDRfkVmiAAMGCcx7GDAjAdQawunbx8vRAQcGFvo+jpTGA+KwFVgEs9O1rYUAdDBYQY/U8YoDmzRfShgEAgewF0iMyb0bwupTPLyYiLHiMwAIEuRQpMICAIK7G3MBphAAAIfkEBQUAHwAsAgADACsAKwAABf/gJ45kaZLeqa6sqrVwLM/0F2EiFtW86HCVSsbR43mIH0eqyDx5EsjmLFIBCHbSmKcyAmS1AsKIcsoMDIRE1iMQEQBqFOMx+UwOXmmiDeAsRwF1Dw8iDxlZDhoRfz4XEoOQHwaMXyMZD4+QmBZRlZaYmpudnkkIH6GSlKQAdaciGxykR1EeBRsTuBY4ngkAAQGxYwQDAaNSDgEDBctYpCYJywXDXM7P0cNtIxwCZKTIysvBHAsWBxYMxk29v8EUEBIb8RINzrMjAw8H+vob2dVJCjbs0/dgwD8fEAQO3MDgoIg5Aw88yCNFlQgNFh4I3CBhQToaGpIROGSiAoQL+hquxGFCgcGClwaCldgCgGSWBQZyLghg8QSHAgwA9HRSAGfOBgU+lgiAwIJTAythADBqYAEApSMENEXA9UIBnxkoRSjaYMGAZiwMXODK1YICtC0VKDBAbUSCCm+irvDQYC1bCxBkJjCAAAIEBAvQ9hjgt+uClQIMy1WAQEwTDQr8Og1AggCEyZQbSsGwoCkEyyMwfJ6M4OsaDABezGRQ+HCDbg5tFFUwAHduEQn0wggBACH5BAUFAB8ALAIAAwArACoAAAX/4CeOpMhlTqmubDsCyvNYxepFkefuZDB1k19nUXJQRJQUz6XZAIPBDoGUyFQqmcTSNXhCfxatyEPBYCi6Lcvg/W401ERErF4x2tFDpORJs/w7GBJ4HQZqHhwCGWoNHV4dB3Q8GQACABWALgYPPxMIi2oYlQAYmSIJAQMBSh8cBAMAdSKUlhmmAAcfExIWFbIsFQIVkiIYDx8SIwdwv3wOph8QEyoMzVsRGysK0NYl2CsQ3N0kRCo14zsZ2SMdCKzoI30kAhbJEggc8CQeFQAAzCIcACAgQJw1Xx8GECCmjweGhksI1Hg4IgEHhvAQKhTjYAACCwgIGPzFzx8zDwtkxnyQUWAkST+xSGQDBXFfuRJTatpU8eCczhEBVGwQ8HOfAhEbZDBwuUMggQAASUQwYOGDhaXoEhAwwHXAkRWJvqITYGCAWQMxl1AAECBfHQBlzwZgWuEoAgQF3u2oYIDB2VI8NEAYUTWoighRAwboa2BhxKrkJGlt0MBrkQyK1AyAPELBnjEFIChQAIEBxrecRTRgxWGBa9cKiI5L0MCqhQsIKIoA8Bp2znFTIUBYkNZE7wUKEMI7Aa2AAtgDmKJzQLaB4y0hAAAh+QQFBQAfACwCAAMAKwArAAAF/6AnjqSYUGWqrizJNdYBBW1tj8LWdRM/3EBV4tKRGCU8THApCkwmR2NnwVwyilEkohos8LIdBReo0UWftCBlHRz0nj1xUFOpa7oHyeSxuAc5FRkVHCsOAgFKJAEBhEyAgo0lAhcPEg8QGWMkCRmdCSkZG1BSCA6aIw6pKgt7D64PE2mnLAl5r64TDbMtDhaWt7m7LQatr7HCLBQWo08KpsgrGRCVDw2f0B4cAhURJRgAmdgeGYsEAd3iKQ6L5X7pJOvsBO4i6OIZ5uboDgQLCAsA0mXYZo+Bqw0PNsh65yHHhgMQN1ygl27AA4gYHyyseBHjAY0MReTwKJGiOAcGDq66KiAMA6JCAxBYQEBg1zoDOANcS5GAw85TGRgwGMDAQKIbDioAQLEEg4EBUA0EvPECAoQFAZ5RFUrUQLgaERoggKAAAgIBQn7iKMoAgNYWARAomKsAwQ94AIgSUOtBAweTLAqQpYvAQIkACxo0WFCALxMBVgmzHKHBQAOclivMchATgecGTEVguIy5AdpZCQgoHhBaxAvSlyNtfksCQOLFG0NWIFAAA+2QIn7XCAEAIfkEBQUAHwAsAgABACsALQAABf/gJ45kaYpUEHBn677k8EyT1MA46SVn03W0H4SXc0UGEESjQgL8aNDOoNjiWGifySMwUgChwQuROnIoPo/07KARIb7gzqZNHgkeEnV6Mv0s4FEHY3UEWnoPHzcfAU9xBnVNEnl6Ewwjf3EXEZAjEVd6kgJlBhM/HQp0nCIBEjUSWQ0OJRgEBBgmg1QACBsPBwweqhktHhUALCQVArJ1FB9MmyYZCgcHFwa5nB4RFRHBJRQIDxvkEguqJcHfJQy+1dUPAOg4DhAb79UblvMwCvf4D/rwc1HA3bsNoga+gCCBXC9FCl1wWHDhgoUBzCJ+iDAsowgOGKJp/KABgMkKHkfklhAAQABLkSpXtnyZLiZJkwBQivAgwECDAchGcvyQEYCFihcQ3LI5QgMCCwiiXmiQbSSApFGjWhjG9MPVrFqZdLUC9sICmDYJWKyoVCEHUSl3AmiwwMBSfgIGFBgAIO5OD+vmUShAeC/XHB4yZPD7gkNhAgPuwqAw4EyDDIFhRIBMWCAMD48+JFEQVEdmERo4J8RRAQIEEgTScSBQQMBpHs6KcCnh+UMGAwsWNABwuo6GcyJeyxuRYF8iA7nRedgtgsGgBKFHSFblAcAjArkc9NYIuEUGuolWd0UNIADm9SaKvwgBACH5BAUFAB8ALAIAAQArACwAAAX/oCeOZGmOXHWubFsG1vZchWvfw9RN+mTctsBCwdCQKpKOZCnhAYArx4LHOwhGBiVz2VlAT42J5EHuXCKihXbbQXxLmc2ETG4SRI01s/smBZZ0ZQwiADxbOgF9IxgPY4ETA1g7SzoKiiMOCHN0ExscmAMPHUoDCZeLcmJiNSUcAAAZpyUVChsbFneyKwkcpiQcsbonDgwIFgi5wi1SZDIPrMorAA8H1QcbF0bRJwwb1tUPidsm3d8H4eMm09+3FOklDgbNDxvi7yUFEAgK9tsRFGhMBEyX4BUsB/dMZAAgoKGvhCMWNhTwEKKHgq8yIBSRoQADAu7S/RvoAYMxCxYWwJC8F0HBBQQwDzCo+A7DS5gwIYRMCOAYTgQQtCWkAMEnggMNaL4DgOCCUwXBdCXIsJIEBgYNCgiV1bFAAQwbLSYIMKBA2a02InAIC4QCAa9eP91IQKDBAgZygYwtO4BA1RX5FgwxgNYFBQAECOR1wUGwY34mNAQIsBhTBKUsBDgWrCCZCA4DDDBgcEUXhQYKHpcW4YAAgwEDXrO9BGCIAgUD2CaIDXt0YUUCzAKg2dpA71IWRWgILTpq8ggNd94IAQAh+QQFBQAfACwDAAEAKgAsAAAF/+AnjmRpio52rmxLYsqxIYBr24T0dd0nDTeXYDAAeEicR6nzyARPnsFBItkoOKPCZ2JiPE2Ex+ZAliwSIsNK8SUlEA+yfFP7AE/qtohjGcundxkPPSMdEwJ6IhFwfwcPBCMDE4aTH16JHx4GcXIPFhQjHgBwEhcBR5gfERAPrXF1JB4ZGWipIwkDChANGLYrHgmoocK+JQQLCAuwxSwGGyMbAcwsAs8kn9MnA0okGxXZYCYH3+BIMiMPEBHlxs/cy+wiAA0KDYjlDhG1sfEOHBi0iMVTVSFDBXIDbxU8mJCEP4DBRGgIUMQBu3z7MihAwNEAqIQJDCBQQNJCAYHgMqCMJKmrwbqBFVaShLDgY7wIyFgiGGAxIQyOyV76SsGCQwEGkJglABAgQAaU7AAQCEAAwD4bCSK2acrVZgtRBgwUEHrDgYCpU4MAWBB2wQCyNiIIAADAK4uQDcIasGciAgYAKk5cdRFS7154KrwMwGIrAYO8exsgzBQgzwctvjJEbhDgqgPMIgoMTjSRgACUAS4ZINAzIQXMAwI33MNhdIsQACH5BAUFAB8ALAMAAQAqACwAAAX/oCeOZGmeaKqikWFdS7XOM2dN+PQA9MoRBEEpgdA9jpOLpociXI4bg2MkeEiO2EmBaQpsHofDVyoiTK7YR8fALSnAYfFB5glI0NkBSQOgryIIG3FhGwEiCRYdaRMbHCIcb2cWGCsOEHCEB0IiAhtnEmcEIhoHHR0TphJ+KAOYBw8QCSQVDWIIPCIQpzmoFisJDV9HCJQmGhkkGaC8OZspCQQKCgZLNAHMvHptNBXYOYYjAAYNBsjbJBe7OR0bESIOAS8XF8Tn4ajrHaKPFgj+CBcUuLPnAUApUw/2iQBA7x8CC+YIOgBQAEC1cA0dOiLo4+G/Cw1kcVwBQN4FCKtG2abAwKABg40qh4iMWYlChgozaaJIgOHmRZ0nePoE+uwYzhEOBARIqTPBzBbSFBTISdRDggEQFmiFAK7qIwVatSpgQBUoh7BiyXo9xCDr1q5rNRiIyoACTQdTTkysmHdkggoCBAxcOyIDAAGHy6roywXDYcR2aWQgMEAAY8mH+1xGQatBgwVwe3AQkGHw4gHkxhmAOSJChgyRTSjeaaB27QYpKRAoUIBAbHsOCiy4XbcEgAG8BwDY3IZCS3IRw/HmHYB5mwiBf4+ogJyyM8IJKA4IMLsqBdY0QgAAIfkEBQUAHwAsAwACACkAKwAABf/gJ45kaTqDghiR6b4wSSGkpcW46ABBVnqKj4SEaOVeAMhmcxh4RpnNhCSRBI4uzKHkFAWGpckAa2qUHhZj5VEaEkgejSM3Z482l4oIaErvDRdMCxQxfCU2UBYfE1MbAHs0JAc3MAFLJAtPIxoMFhcNeiJjVaQfEDEODB8bqwqEJgmvIglbpFVCPjAeAAYNBQlYEUO2w1dkwWzEIgIjGAwGAxzHJwtCth8WwLuRHwrS0yQZdrcTzB8UCoojBnPgzQhTHxePIqEkEJTuexiPwCP2JPLpgxFBwQUSA9oNjFEBggVFC/wtxKGhAIMCAifC0aQRh4ePHzt6BMlRpAuSJU20/iC5h4IAWSo/hPyQoMCCmwBSqvRgrJuCXDFnGQgiAkIBnSIjDB1hFGlHniQUmAs6y+bNAAoXZv1RAUAGp+AyiJVIVQSHChkqcABrgi2Ms2nXHqHA4+s0DRXyanD7gcOzZ1PJUBjM90MABgMGMGBgBA4HDltHFP7gwGLixd9GOMBAIACAxu52GUB8cWuGzgEIBHaXgMDiaCYwBJjtWaMHDhheUEBNACBVBxVSry77IQLMHCEAADs=");
+      }
+    </style>
+    <script type="text/javascript" charset="utf-8">
+      setTimeout(function(){
+        var spinner = document.getElementById('spinner');
+        if (spinner) {
+          spinner.style.display = 'block';
+        }
+      }, 2000);
+    </script>
+
+    <link rel="stylesheet" href="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/vendor-485833b59150637668f5803a021f9214.css">
+<link rel="stylesheet" href="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/next-4d7362c2990e33e22db75151cd7ee2a4.css">
+
+<script src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/vendor-5cba10d1fd274e6cac64731c9b370953.js"></script>
+<script src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/next-3210be31a0923bd2d907e64b96d815c8.js"></script>
+
+
+  <!-- ================== Google Remarketing Tag ========================== -->
+
+  <script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 922099414;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+  </script>
+
+  <script type="text/javascript" src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/conversion.js"></script>
+
+  <noscript>
+    <div style="display:inline;">
+      <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/922099414/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+  </noscript>
+
+
+
+  <!-- =========================== Customer.io  ========================== -->
+  <script type="text/javascript">
+    var _cio = _cio || [];
+    (function() {
+      var a,b,c;a=function(f){return function(){_cio.push([f].
+      concat(Array.prototype.slice.call(arguments,0)))}};b=["identify",
+      "track"];for(c=0;c<b.length;c++){_cio[b[c]]=a(b[c])};
+      var t = document.createElement('script'),
+          s = document.getElementsByTagName('script')[0];
+      t.async = true;
+      t.id    = 'cio-tracker';
+      t.setAttribute('data-site-id', '39ee8b8ff1ed81951d84');
+      t.src = 'https://assets.customer.io/assets/track.js';
+      s.parentNode.insertBefore(t, s);
+    })();
+  </script>
+
+    <script type="text/javascript">
+      _cio.identify({
+        id: '400462',
+        email: 'revant.1610123@kiet.edu',
+        username: 'revant1610123kietedu',
+        first_name: 'Revant',
+        last_name: 'Gupta',
+        created_at: 1533328583,
+        should_confirm: false
+      });
+    </script>
+
+
+
+<div id="modal-overlays"></div><div id="ember591" class="ember-view">  <div data-test-user-logged-in="" class="hidden"></div>
+
+<div id="ember599" class="__b62fc next application is-not-ie database database-resource database-resource-documentation database-resource-documentation-topic ember-view">  <div id="ember608" class="alerts cookie-alerts ember-view"><div id="ember1189" class="alert alert-success ember-view">    <a href="#" class="close fa fa-times" data-ember-action="" data-ember-action-1190="1190"></a>
+    <div class="alert-content">
+      <p>
+          Your account was successfully confirmed.
+      </p>
+    </div>
+</div></div>
+  <div id="ember613" class="ember-view"><!----></div>
+
+<!---->
+  <div class="application-wrapper">
+    <top-bar data-test-nav="retail" id="ember619" class="__8cf3c application-header noselect ember-view"><div class="__8cf3c__primary-navigation">
+  <div data-test-nav="left" class="__8cf3c__left-section">
+<a href="https://www.quandl.com/" id="ember624" class="__8cf3c__small-logo ember-view">      <img src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/quandl-word-mark-fb41d14c7a394be8118897fb977de828.svg" alt="Quandl" class="quandl-logo">
+</a>
+      <div id="ember631" class="__fae6c ember-view"><div class="__fae6c__wrapper">
+  <input data-test-search-input="large" placeholder="Search finance data feeds" id="ember639" class="top-bar--medium ember-text-field valid-input ember-view" type="text">
+  <input data-test-search-input="small" placeholder="Search" id="ember640" class="top-bar--small ember-text-field valid-input ember-view" type="text">
+  <div data-test-nav-button="search" class="__fae6c__button" data-ember-action="" data-ember-action-641="641"><i aria-hidden="true" id="ember644" class="fa fa-search ember-view"></i></div>
+</div>
+</div>
+  </div>
+
+  <div class="__8cf3c__center-section top-bar--medium">
+<a href="https://www.quandl.com/" id="ember645" class="top-bar__block top-bar__block--centered ember-view">      <img src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/quandl-word-mark-fb41d14c7a394be8118897fb977de828.svg" alt="Quandl" class="quandl-logo">
+</a>  </div>
+
+  <div data-test-nav="right" class="__8cf3c__right-section">
+          <a href="https://www.quandl.com/docs-and-help" id="ember648" class="top-bar__block top-bar__right ember-view">docs &amp; help</a>
+  <div data-test-dropdown="user" id="ember659" class="__8eb74 ember-view"><div id="ember664" class="__8eb74__wrapper qa-user-menu __8108f ember-view"><div id="ember669" class="__8eb74__block--right js-dropdown-trigger ember-view">  <div id="ember674" class="ember-view">            <img src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/user-icon-9aca575f7ad9dd4431919c687903b4f6.svg" alt="Quandl User" class="__8eb74__user-icon">
+
+</div>
+
+  <div class="dropdown-arrow">
+      <img src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/angle-down-arrow-ab1b0c6d3e7313899460e7b2b6eb137f.svg" class="dropdown-button__arrow dropdown-button__arrow--down">
+  </div>
+</div>
+<div style="" id="ember683" class="menu--content js-dropdown-content ember-view">    <ul>
+<!---->    
+      <li><a data-test-leslie="fdsaf" href="https://www.quandl.com/account" id="ember684" class="ember-view">account settings</a></li>
+      <li><a href="https://www.quandl.com/bookmarks" id="ember701" class="ember-view">bookmarks</a></li>
+      <li><hr></li>
+      <li><a class="qa-logout" data-ember-action="" data-ember-action-713="713">log out</a></li>
+    </ul>
+</div>
+</div></div>
+
+
+    <div data-test-dropdown="hamburger" id="ember716" class="__13662 ember-view"><div id="ember717" class="__13662__wrapper __8108f ember-view"><div id="ember718" class="__13662__block--right js-dropdown-trigger ember-view">      <a id="ember723" class="hamburger-menu __40485 ember-view"><span class="line line-1"></span>
+<span class="line line-2"></span>
+<span class="line line-3"></span>
+</a>
+
+
+<!----></div>
+<div style="" id="ember724" class="menu--content js-dropdown-content ember-view">    <ul>
+        <li>
+            <a href="https://www.quandl.com/alternative-data" id="ember1192" class="ember-view">alternative data</a>
+        </li>
+        <li>
+            <hr>
+                  </li>
+        <li>
+            <a href="https://www.quandl.com/monetize-alternative-data" id="ember1195" class="ember-view">data partners</a>
+        </li>
+        <li>
+            <hr>
+                  </li>
+        <li class="list-item--small">
+            <a href="https://www.quandl.com/docs-and-help" id="ember1198" class="ember-view">docs &amp; help</a>
+        </li>
+        <li>
+            <a href="https://www.quandl.com/what-we-do" id="ember1200" class="ember-view">what we do</a>
+        </li>
+        <li>
+            <a href="https://www.quandl.com/about" id="ember1202" class="ember-view">about us</a>
+        </li>
+        <li>
+            <a href="http://blog.quandl.com/">blog</a>
+        </li>
+        <li class="list-item--small">
+            <hr>
+                  </li>
+        <li class="list-item--small">
+            <a href="https://www.quandl.com/account" id="ember1206" class="ember-view">account settings</a>
+        </li>
+        <li class="list-item--small">
+            <a href="https://www.quandl.com/bookmarks" id="ember1208" class="ember-view">bookmarks</a>
+        </li>
+        <li class="list-item--small">
+            <hr>
+                  </li>
+        <li data-test-nav="logout" class="list-item--small">
+            <a class="qa-logout" data-ember-action="" data-ember-action-1211="1211">log out</a>
+        </li>
+    </ul>
+</div>
+</div></div>
+  </div>
+</div>
+
+<!----></top-bar>
+
+    <global-alerts id="ember772" class="hide ember-view"><!----></global-alerts>
+    <div class="data-product">
+  <div class="data-product__content">
+    <header class="data-product__header">
+      <div id="ember1606" class="__4d11e ember-view"><!---->
+<div data-test-product-name-information="" class="__4d11e__information">
+<!---->  <h1 class="__4d11e__product-name medium-header medium-header--emphasis">World Bank World Development Indicators</h1>
+</div>
+</div>
+    </header>
+
+    <div class="data-product__menu">
+<ul data-test-product-navigation="" id="ember1609" class="__df583 ember-view">        <li id="ember1614" class="data-product-menu__list-item __e98bc ember-view">    <a data-test-product-link="Data" href="https://www.quandl.com/data/WWDI-World-Bank-World-Development-Indicators" id="ember1615" class="data-product-link ember-view">Data</a>
+</li>
+          <li id="ember1616" class="data-product-menu__list-item __e98bc ember-view">    <a data-test-product-link="Documentation" href="https://www.quandl.com/data/WWDI-World-Bank-World-Development-Indicators/documentation" id="ember1617" class="data-product-link active ember-view">Documentation</a>
+</li>
+        <li id="ember1631" class="data-product-menu__list-item __e98bc ember-view">    <a data-test-product-link="Usage" href="https://www.quandl.com/data/WWDI-World-Bank-World-Development-Indicators/usage" id="ember1632" class="data-product-link ember-view">Usage</a>
+</li>
+
+</ul>    </div>
+
+<ul id="ember1647" class="__421e6 ember-view">      <li id="ember1652" class="__e3937 active ember-view">resource
+</li>
+      <li id="ember1653" class="__e3937 ember-view">overview
+</li>
+
+</ul>
+    <main class="data-product__main">
+        <div class="data-product__info">
+          <div class="product-readme">
+<div id="ember1964" class="__2e874 ember-view">  <div class="documentation-navigation-header">Contents</div>
+  <ul class="documentation-navigation">
+          <li data-test-docs-link="Introduction" data-test-documentation-link="" id="ember1971" class="documentation-navigation-link __ef268 ember-view"><!---->
+<div class="__ef268__label">
+    Introduction
+</div>
+
+  <div class="__ef268__active-arrow">
+<!---->  </div>
+</li>
+      <li data-test-docs-link="Data Organization" data-test-documentation-link="" id="ember1974" class="documentation-navigation-link __ef268 active ember-view">  
+
+<div class="__ef268__label">
+    Data Organization
+</div>
+
+  <div class="__ef268__active-arrow">
+      <i aria-hidden="true" id="ember1985" class="fa fa-angle-right ember-view"></i>
+  </div>
+</li>
+
+  </ul>
+</div>
+  <div data-test-product-documentation="" class="product-readme__content">
+    <div class="markdown-to-html">
+    
+
+    <h2>Nomenclature</h2>
+<p>Each dataset in this database has a Quandl code of the following formats:</p>
+<p><code>WWDI/{COUNTRY}_{INDICATOR}</code></p>
+<p>where <code>WWDI</code> represents the Quandl database code, <code>{COUNTRY}</code> is the ISO 3-letter code of the country in question, and <code>{INDICATOR}</code> is the indicator code.</p>
+<p>Here are some examples showing how the dataset codes are constructed:</p>
+<table>
+<thead>
+<tr><th>Indicator</th><th>Country</th><th>Full Quandl Code</th></tr>
+</thead>
+<tbody>
+<tr><td>Access to electricity (% of population)</td><td>World</td><td>WWDI/WLD_EG_ELC_ACCS_ZS</td></tr>
+<tr><td>Adjusted net national income (annual % growth)</td><td>World</td><td>WWDI/WLD_NY_ADJ_NNTY_KD_ZG</td></tr>
+</tbody>
+</table>
+<h3>Download parameters and codes here</h3>
+<p><a href="https://s3.amazonaws.com/quandl-production-static/World+Bank+Descriptions/wwdi_indicators">Indicators</a></p>
+<p><a href="https://s3.amazonaws.com/quandl-production-static/World+Bank+Descriptions/country_codes">Countries</a></p>
+<p>The following is a list of all available indicators:</p>
+<table>
+<thead>
+<tr><th>INDICATOR</th><th>CODE</th></tr>
+</thead>
+<tbody>
+<tr><td>Access to electricity (% of population)</td><td>EG_ELC_ACCS_ZS</td></tr>
+<tr><td>Adjusted net national income (annual % growth)</td><td>NY_ADJ_NNTY_KD_ZG</td></tr>
+<tr><td>Adjusted net national income (constant 2000 US$)</td><td>NY_ADJ_NNTY_KD</td></tr>
+<tr><td>Adjusted net national income (current US$)</td><td>NY_ADJ_NNTY_CD</td></tr>
+<tr><td>Adjusted net savings, excluding particulate emission damage (% of GNI)</td><td>NY_ADJ_SVNX_GN_ZS</td></tr>
+<tr><td>Adjusted net savings, excluding particulate emission damage (current US$)</td><td>NY_ADJ_SVNX_CD</td></tr>
+<tr><td>Adjusted net savings, including particulate emission damage (% of GNI)</td><td>NY_ADJ_SVNG_GN_ZS</td></tr>
+<tr><td>Adjusted net savings, including particulate emission damage (current US$)</td><td>NY_ADJ_SVNG_CD</td></tr>
+<tr><td>Adjusted savings: carbon dioxide damage (% of GNI)</td><td>NY_ADJ_DCO2_GN_ZS</td></tr>
+<tr><td>Adjusted savings: carbon dioxide damage (current US$)</td><td>NY_ADJ_DCO2_CD</td></tr>
+<tr><td>Adjusted savings: consumption of fixed capital (% of GNI)</td><td>NY_ADJ_DKAP_GN_ZS</td></tr>
+<tr><td>Adjusted savings: consumption of fixed capital (current US$)</td><td>NY_ADJ_DKAP_CD</td></tr>
+<tr><td>Adjusted savings: education expenditure (% of GNI)</td><td>NY_ADJ_AEDU_GN_ZS</td></tr>
+<tr><td>Adjusted savings: education expenditure (current US$)</td><td>NY_ADJ_AEDU_CD</td></tr>
+<tr><td>Adjusted savings: energy depletion (% of GNI)</td><td>NY_ADJ_DNGY_GN_ZS</td></tr>
+<tr><td>Adjusted savings: energy depletion (current US$)</td><td>NY_ADJ_DNGY_CD</td></tr>
+<tr><td>Adjusted savings: gross savings (% of GNI)</td><td>NY_ADJ_ICTR_GN_ZS</td></tr>
+<tr><td>Adjusted savings: mineral depletion (% of GNI)</td><td>NY_ADJ_DMIN_GN_ZS</td></tr>
+<tr><td>Adjusted savings: mineral depletion (current US$)</td><td>NY_ADJ_DMIN_CD</td></tr>
+<tr><td>Adjusted savings: natural resources depletion (% of GNI)</td><td>NY_ADJ_DRES_GN_ZS</td></tr>
+<tr><td>Adjusted savings: net forest depletion (% of GNI)</td><td>NY_ADJ_DFOR_GN_ZS</td></tr>
+<tr><td>Adjusted savings: net forest depletion (current US$)</td><td>NY_ADJ_DFOR_CD</td></tr>
+<tr><td>Adjusted savings: net national savings (% of GNI)</td><td>NY_ADJ_NNAT_GN_ZS</td></tr>
+<tr><td>Adjusted savings: net national savings (current US$)</td><td>NY_ADJ_NNAT_CD</td></tr>
+<tr><td>Adjusted savings: particulate emission damage (% of GNI)</td><td>NY_ADJ_DPEM_GN_ZS</td></tr>
+<tr><td>Adjusted savings: particulate emission damage (current US$)</td><td>NY_ADJ_DPEM_CD</td></tr>
+<tr><td>Adolescent fertility rate (births per 1,000 women ages 15-19)</td><td>SP_ADO_TFRT</td></tr>
+<tr><td>Age dependency ratio (% of working-age population)</td><td>SP_POP_DPND</td></tr>
+<tr><td>Age dependency ratio, old (% of working-age population)</td><td>SP_POP_DPND_OL</td></tr>
+<tr><td>Age dependency ratio, young (% of working-age population)</td><td>SP_POP_DPND_YG</td></tr>
+<tr><td>Agricultural irrigated land (% of total agricultural land)</td><td>AG_LND_IRIG_AG_ZS</td></tr>
+<tr><td>Agricultural land (% of land area)</td><td>AG_LND_AGRI_ZS</td></tr>
+<tr><td>Agricultural land (sq. km)</td><td>AG_LND_AGRI_K2</td></tr>
+<tr><td>Agricultural machinery, tractors</td><td>AG_AGR_TRAC_NO</td></tr>
+<tr><td>Agricultural machinery, tractors per 100 sq. km of arable land</td><td>AG_LND_TRAC_ZS</td></tr>
+<tr><td>Agricultural methane emissions (% of total)</td><td>EN_ATM_METH_AG_ZS</td></tr>
+<tr><td>Agricultural methane emissions (thousand metric tons of CO2 equivalent)</td><td>EN_ATM_METH_AG_KT_CE</td></tr>
+<tr><td>Agricultural nitrous oxide emissions (% of total)</td><td>EN_ATM_NOXE_AG_ZS</td></tr>
+<tr><td>Agricultural nitrous oxide emissions (thousand metric tons of CO2 equivalent)</td><td>EN_ATM_NOXE_AG_KT_CE</td></tr>
+<tr><td>Agricultural raw materials exports (% of merchandise exports)</td><td>TX_VAL_AGRI_ZS_UN</td></tr>
+<tr><td>Agricultural raw materials imports (% of merchandise imports)</td><td>TM_VAL_AGRI_ZS_UN</td></tr>
+<tr><td>Agriculture value added per worker (constant 2000 US$)</td><td>EA_PRD_AGRI_KD</td></tr>
+<tr><td>Agriculture, value added (% of GDP)</td><td>NV_AGR_TOTL_ZS</td></tr>
+<tr><td>Agriculture, value added (annual % growth)</td><td>NV_AGR_TOTL_KD_ZG</td></tr>
+<tr><td>Agriculture, value added (constant 2000 US$)</td><td>NV_AGR_TOTL_KD</td></tr>
+<tr><td>Agriculture, value added (constant LCU)</td><td>NV_AGR_TOTL_KN</td></tr>
+<tr><td>Agriculture, value added (current LCU)</td><td>NV_AGR_TOTL_CN</td></tr>
+<tr><td>Agriculture, value added (current US$)</td><td>NV_AGR_TOTL_CD</td></tr>
+<tr><td>Air transport, freight (million ton-km)</td><td>IS_AIR_GOOD_MT_K1</td></tr>
+<tr><td>Air transport, passengers carried</td><td>IS_AIR_PSGR</td></tr>
+<tr><td>Air transport, registered carrier departures worldwide</td><td>IS_AIR_DPRT</td></tr>
+<tr><td>Alternative and nuclear energy (% of total energy use)</td><td>EG_USE_COMM_CL_ZS</td></tr>
+<tr><td>Annual freshwater withdrawals, agriculture (% of total freshwater withdrawal)</td><td>ER_H2O_FWAG_ZS</td></tr>
+<tr><td>Annual freshwater withdrawals, domestic (% of total freshwater withdrawal)</td><td>ER_H2O_FWDM_ZS</td></tr>
+<tr><td>Annual freshwater withdrawals, industry (% of total freshwater withdrawal)</td><td>ER_H2O_FWIN_ZS</td></tr>
+<tr><td>Annual freshwater withdrawals, total (% of internal resources)</td><td>ER_H2O_FWTL_ZS</td></tr>
+<tr><td>Annual freshwater withdrawals, total (billion cubic meters)</td><td>ER_H2O_FWTL_K3</td></tr>
+<tr><td>Antiretroviral therapy coverage (% of people with advanced HIV infection)</td><td>SH_HIV_ARTC_ZS</td></tr>
+<tr><td>Arable land (% of land area)</td><td>AG_LND_ARBL_ZS</td></tr>
+<tr><td>Arable land (hectares per person)</td><td>AG_LND_ARBL_HA_PC</td></tr>
+<tr><td>Arable land (hectares)</td><td>AG_LND_ARBL_HA</td></tr>
+<tr><td>ARI treatment (% of children under 5 taken to a health provider)</td><td>SH_STA_ARIC_ZS</td></tr>
+<tr><td>Armed forces personnel (% of total labor force)</td><td>MS_MIL_TOTL_TF_ZS</td></tr>
+<tr><td>Armed forces personnel, total</td><td>MS_MIL_TOTL_P1</td></tr>
+<tr><td>Arms exports (constant 1990 US$)</td><td>MS_MIL_XPRT_KD</td></tr>
+<tr><td>Arms imports (constant 1990 US$)</td><td>MS_MIL_MPRT_KD</td></tr>
+<tr><td>Automated teller machines (ATMs) (per 100,000 adults)</td><td>FB_ATM_TOTL_P5</td></tr>
+<tr><td>Average number of times firms spent in meetings with tax officials</td><td>IC_TAX_METG</td></tr>
+<tr><td>Average precipitation in depth (mm per year)</td><td>AG_LND_PRCP_MM</td></tr>
+<tr><td>Average time to clear exports through customs (days)</td><td>IC_CUS_DURS_EX</td></tr>
+<tr><td>Bank capital to assets ratio (%)</td><td>FB_BNK_CAPA_ZS</td></tr>
+<tr><td>Bank liquid reserves to bank assets ratio (%)</td><td>FD_RES_LIQU_AS_ZS</td></tr>
+<tr><td>Bank nonperforming loans to total gross loans (%)</td><td>FB_AST_NPER_ZS</td></tr>
+<tr><td>Battle-related deaths (number of people)</td><td>VC_BTL_DETH</td></tr>
+<tr><td>Binding coverage, all products (%)</td><td>TM_TAX_MRCH_BC_ZS</td></tr>
+<tr><td>Binding coverage, manufactured products (%)</td><td>TM_TAX_MANF_BC_ZS</td></tr>
+<tr><td>Binding coverage, primary products (%)</td><td>TM_TAX_TCOM_BC_ZS</td></tr>
+<tr><td>Bird species, threatened</td><td>EN_BIR_THRD_NO</td></tr>
+<tr><td>Birth rate, crude (per 1,000 people)</td><td>SP_DYN_CBRT_IN</td></tr>
+<tr><td>Births attended by skilled health staff (% of total)</td><td>SH_STA_BRTC_ZS</td></tr>
+<tr><td>Borrowers from commercial banks (per 1,000 adults)</td><td>FB_CBK_BRWR_P3</td></tr>
+<tr><td>Bound rate, simple mean, all products (%)</td><td>TM_TAX_MRCH_BR_ZS</td></tr>
+<tr><td>Bound rate, simple mean, manufactured products (%)</td><td>TM_TAX_MANF_BR_ZS</td></tr>
+<tr><td>Bound rate, simple mean, primary products (%)</td><td>TM_TAX_TCOM_BR_ZS</td></tr>
+<tr><td>Broad money (% of GDP)</td><td>FM_LBL_BMNY_GD_ZS</td></tr>
+<tr><td>Broad money (current LCU)</td><td>FM_LBL_BMNY_CN</td></tr>
+<tr><td>Broad money growth (annual %)</td><td>FM_LBL_BMNY_ZG</td></tr>
+<tr><td>Broad money to total reserves ratio</td><td>FM_LBL_BMNY_IR_ZS</td></tr>
+<tr><td>Burden of customs procedure, WEF (1=extremely inefficient to 7=extremely efficient)</td><td>IQ_WEF_CUST_XQ</td></tr>
+<tr><td>Business extent of disclosure index (0=less disclosure to 10=more disclosure)</td><td>IC_BUS_DISC_XQ</td></tr>
+<tr><td>Cash surplus/deficit (% of GDP)</td><td>GC_BAL_CASH_GD_ZS</td></tr>
+<tr><td>Cash surplus/deficit (current LCU)</td><td>GC_BAL_CASH_CN</td></tr>
+<tr><td>Central government debt, total (% of GDP)</td><td>GC_DOD_TOTL_GD_ZS</td></tr>
+<tr><td>Central government debt, total (current LCU)</td><td>GC_DOD_TOTL_CN</td></tr>
+<tr><td>Cereal production (metric tons)</td><td>AG_PRD_CREL_MT</td></tr>
+<tr><td>Cereal yield (kg per hectare)</td><td>AG_YLD_CREL_KG</td></tr>
+<tr><td>Changes in inventories (constant LCU)</td><td>NE_GDI_STKB_KN</td></tr>
+<tr><td>Changes in inventories (current LCU)</td><td>NE_GDI_STKB_CN</td></tr>
+<tr><td>Changes in inventories (current US$)</td><td>NE_GDI_STKB_CD</td></tr>
+<tr><td>Changes in net reserves (BoP, current US$)</td><td>BN_RES_INCL_CD</td></tr>
+<tr><td>Chemicals (% of value added in manufacturing)</td><td>NV_MNF_CHEM_ZS_UN</td></tr>
+<tr><td>Child employment in agriculture (% of economically active children ages 7-14)</td><td>SL_AGR_0714_ZS</td></tr>
+<tr><td>Child employment in agriculture, female (% of female economically active children ages 7-14)</td><td>SL_AGR_0714_FE_ZS</td></tr>
+<tr><td>Child employment in agriculture, male (% of male economically active children ages 7-14)</td><td>SL_AGR_0714_MA_ZS</td></tr>
+<tr><td>Child employment in manufacturing (% of economically active children ages 7-14)</td><td>SL_MNF_0714_ZS</td></tr>
+<tr><td>Child employment in manufacturing, female (% of female economically active children ages 7-14)</td><td>SL_MNF_0714_FE_ZS</td></tr>
+<tr><td>Child employment in manufacturing, male (% of male economically active children ages 7-14)</td><td>SL_MNF_0714_MA_ZS</td></tr>
+<tr><td>Child employment in services (% of economically active children ages 7-14)</td><td>SL_SRV_0714_ZS</td></tr>
+<tr><td>Child employment in services, female (% of female economically active children ages 7-14)</td><td>SL_SRV_0714_FE_ZS</td></tr>
+<tr><td>Child employment in services, male (% of male economically active children ages 7-14)</td><td>SL_SRV_0714_MA_ZS</td></tr>
+<tr><td>Children (0-14) living with HIV</td><td>SH_HIV_0014</td></tr>
+<tr><td>Children out of school, primary</td><td>SE_PRM_UNER</td></tr>
+<tr><td>Children out of school, primary, female</td><td>SE_PRM_UNER_FE</td></tr>
+<tr><td>Children out of school, primary, male</td><td>SE_PRM_UNER_MA</td></tr>
+<tr><td>Children with fever receiving antimalarial drugs (% of children under age 5 with fever)</td><td>SH_MLR_TRET_ZS</td></tr>
+<tr><td>Claims on central government (annual growth as % of broad money)</td><td>FM_AST_CGOV_ZG_M3</td></tr>
+<tr><td>Claims on central government, etc. (% GDP)</td><td>FS_AST_CGOV_GD_ZS</td></tr>
+<tr><td>Claims on other sectors of the domestic economy (% of GDP)</td><td>FS_AST_DOMO_GD_ZS</td></tr>
+<tr><td>Claims on other sectors of the domestic economy (annual growth as % of broad money)</td><td>FM_AST_DOMO_ZG_M3</td></tr>
+<tr><td>Claims on private sector (annual growth as % of broad money)</td><td>FM_AST_PRVT_ZG_M3</td></tr>
+<tr><td>CO2 emissions (kg per 2000 US$ of GDP)</td><td>EN_ATM_CO2E_KD_GD</td></tr>
+<tr><td>CO2 emissions (kg per 2005 PPP $ of GDP)</td><td>EN_ATM_CO2E_PP_GD_KD</td></tr>
+<tr><td>CO2 emissions (kg per PPP $ of GDP)</td><td>EN_ATM_CO2E_PP_GD</td></tr>
+<tr><td>CO2 emissions (kt)</td><td>EN_ATM_CO2E_KT</td></tr>
+<tr><td>CO2 emissions (metric tons per capita)</td><td>EN_ATM_CO2E_PC</td></tr>
+<tr><td>CO2 emissions from electricity and heat production, total (% of total fuel combustion)</td><td>EN_CO2_ETOT_ZS</td></tr>
+<tr><td>CO2 emissions from electricity and heat production, total (million metric tons)</td><td>EN_CO2_ETOT_MT</td></tr>
+<tr><td>CO2 emissions from gaseous fuel consumption (% of total)</td><td>EN_ATM_CO2E_GF_ZS</td></tr>
+<tr><td>CO2 emissions from gaseous fuel consumption (kt)</td><td>EN_ATM_CO2E_GF_KT</td></tr>
+<tr><td>CO2 emissions from liquid fuel consumption (% of total)</td><td>EN_ATM_CO2E_LF_ZS</td></tr>
+<tr><td>CO2 emissions from liquid fuel consumption (kt)</td><td>EN_ATM_CO2E_LF_KT</td></tr>
+<tr><td>CO2 emissions from manufacturing industries and construction (% of total fuel combustion)</td><td>EN_CO2_MANF_ZS</td></tr>
+<tr><td>CO2 emissions from manufacturing industries and construction (million metric tons)</td><td>EN_CO2_MANF_MT</td></tr>
+<tr><td>CO2 emissions from other sectors, excluding residential 
+buildings and commercial and public services (% of total fuel 
+combustion)</td><td>EN_CO2_OTHX_ZS</td></tr>
+<tr><td>CO2 emissions from other sectors, excluding residential buildings and commercial and public services (million metric tons)</td><td>EN_CO2_OTHX_MT</td></tr>
+<tr><td>CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion)</td><td>EN_CO2_BLDG_ZS</td></tr>
+<tr><td>CO2 emissions from residential buildings and commercial and public services (million metric tons)</td><td>EN_CO2_BLDG_MT</td></tr>
+<tr><td>CO2 emissions from solid fuel consumption (% of total)</td><td>EN_ATM_CO2E_SF_ZS</td></tr>
+<tr><td>CO2 emissions from solid fuel consumption (kt)</td><td>EN_ATM_CO2E_SF_KT</td></tr>
+<tr><td>CO2 emissions from transport (% of total fuel combustion)</td><td>EN_CO2_TRAN_ZS</td></tr>
+<tr><td>CO2 emissions from transport (million metric tons)</td><td>EN_CO2_TRAN_MT</td></tr>
+<tr><td>CO2 intensity (kg per kg of oil equivalent energy use)</td><td>EN_ATM_CO2E_EG_ZS</td></tr>
+<tr><td>Coal rents (% of GDP)</td><td>NY_GDP_COAL_RT_ZS</td></tr>
+<tr><td>Combustible renewables and waste (% of total energy)</td><td>EG_USE_CRNW_ZS</td></tr>
+<tr><td>Combustible renewables and waste (metric tons of oil equivalent)</td><td>EG_USE_CRNW_KT_OE</td></tr>
+<tr><td>Commercial bank branches (per 100,000 adults)</td><td>FB_CBK_BRCH_P5</td></tr>
+<tr><td>Commercial banks and other lending (PPG + PNG) (NFL, current US$)</td><td>DT_NFL_PCBO_CD</td></tr>
+<tr><td>Commercial service exports (current US$)</td><td>TX_VAL_SERV_CD_WT</td></tr>
+<tr><td>Commercial service imports (current US$)</td><td>TM_VAL_SERV_CD_WT</td></tr>
+<tr><td>Communications, computer, etc. (% of service exports, BoP)</td><td>BX_GSR_CMCP_ZS</td></tr>
+<tr><td>Communications, computer, etc. (% of service imports, BoP)</td><td>BM_GSR_CMCP_ZS</td></tr>
+<tr><td>Community health workers (per 1,000 people)</td><td>SH_MED_CMHW_P3</td></tr>
+<tr><td>Compensation of employees (% of expense)</td><td>GC_XPN_COMP_ZS</td></tr>
+<tr><td>Compensation of employees (current LCU)</td><td>GC_XPN_COMP_CN</td></tr>
+<tr><td>Completeness of birth registration (%)</td><td>SP_REG_BRTH_ZS</td></tr>
+<tr><td>Completeness of birth registration, rural (%)</td><td>SP_REG_BRTH_RU_ZS</td></tr>
+<tr><td>Completeness of birth registration, urban (%)</td><td>SP_REG_BRTH_UR_ZS</td></tr>
+<tr><td>Completeness of infant death reporting (% of reported infant deaths to estimated infant deaths)</td><td>SP_DTH_INFR_ZS</td></tr>
+<tr><td>Completeness of total death reporting (% of reported total deaths to estimated total deaths)</td><td>SP_DTH_REPT_ZS</td></tr>
+<tr><td>Computer, communications and other services (% of commercial service exports)</td><td>TX_VAL_OTHR_ZS_WT</td></tr>
+<tr><td>Computer, communications and other services (% of commercial service imports)</td><td>TM_VAL_OTHR_ZS_WT</td></tr>
+<tr><td>Condom use, population ages 15-24, female (% of females ages 15-24)</td><td>SH_CON_1524_FE_ZS</td></tr>
+<tr><td>Condom use, population ages 15-24, male (% of males ages 15-24)</td><td>SH_CON_1524_MA_ZS</td></tr>
+<tr><td>Consumer price index (2005 = 100)</td><td>FP_CPI_TOTL</td></tr>
+<tr><td>Consumption of iodized salt (% of households)</td><td>SN_ITK_SALT_ZS</td></tr>
+<tr><td>Container port traffic (TEU: 20 foot equivalent units)</td><td>IS_SHP_GOOD_TU</td></tr>
+<tr><td>Contraceptive prevalence (% of women ages 15-49)</td><td>SP_DYN_CONU_ZS</td></tr>
+<tr><td>Contributing family workers, female (% of females employed)</td><td>SL_FAM_WORK_FE_ZS</td></tr>
+<tr><td>Contributing family workers, male (% of males employed)</td><td>SL_FAM_WORK_MA_ZS</td></tr>
+<tr><td>Contributing family workers, total (% of total employed)</td><td>SL_FAM_WORK_ZS</td></tr>
+<tr><td>Cost of business start-up procedures (% of GNI per capita)</td><td>IC_REG_COST_PC_ZS</td></tr>
+<tr><td>Cost to export (US$ per container)</td><td>IC_EXP_COST_CD</td></tr>
+<tr><td>Cost to import (US$ per container)</td><td>IC_IMP_COST_CD</td></tr>
+<tr><td>CPIA building human resources rating (1=low to 6=high)</td><td>IQ_CPA_HRES_XQ</td></tr>
+<tr><td>CPIA business regulatory environment rating (1=low to 6=high)</td><td>IQ_CPA_BREG_XQ</td></tr>
+<tr><td>CPIA debt policy rating (1=low to 6=high)</td><td>IQ_CPA_DEBT_XQ</td></tr>
+<tr><td>CPIA economic management cluster average (1=low to 6=high)</td><td>IQ_CPA_ECON_XQ</td></tr>
+<tr><td>CPIA efficiency of revenue mobilization rating (1=low to 6=high)</td><td>IQ_CPA_REVN_XQ</td></tr>
+<tr><td>CPIA equity of public resource use rating (1=low to 6=high)</td><td>IQ_CPA_PRES_XQ</td></tr>
+<tr><td>CPIA financial sector rating (1=low to 6=high)</td><td>IQ_CPA_FINS_XQ</td></tr>
+<tr><td>CPIA fiscal policy rating (1=low to 6=high)</td><td>IQ_CPA_FISP_XQ</td></tr>
+<tr><td>CPIA gender equality rating (1=low to 6=high)</td><td>IQ_CPA_GNDR_XQ</td></tr>
+<tr><td>CPIA macroeconomic management rating (1=low to 6=high)</td><td>IQ_CPA_MACR_XQ</td></tr>
+<tr><td>CPIA policies for social inclusion/equity cluster average (1=low to 6=high)</td><td>IQ_CPA_SOCI_XQ</td></tr>
+<tr><td>CPIA policy and institutions for environmental sustainability rating (1=low to 6=high)</td><td>IQ_CPA_ENVR_XQ</td></tr>
+<tr><td>CPIA property rights and rule-based governance rating (1=low to 6=high)</td><td>IQ_CPA_PROP_XQ</td></tr>
+<tr><td>CPIA public sector management and institutions cluster average (1=low to 6=high)</td><td>IQ_CPA_PUBS_XQ</td></tr>
+<tr><td>CPIA quality of budgetary and financial management rating (1=low to 6=high)</td><td>IQ_CPA_FINQ_XQ</td></tr>
+<tr><td>CPIA quality of public administration rating (1=low to 6=high)</td><td>IQ_CPA_PADM_XQ</td></tr>
+<tr><td>CPIA social protection rating (1=low to 6=high)</td><td>IQ_CPA_PROT_XQ</td></tr>
+<tr><td>CPIA structural policies cluster average (1=low to 6=high)</td><td>IQ_CPA_STRC_XQ</td></tr>
+<tr><td>CPIA trade rating (1=low to 6=high)</td><td>IQ_CPA_TRAD_XQ</td></tr>
+<tr><td>CPIA transparency, accountability, and corruption in the public sector rating (1=low to 6=high)</td><td>IQ_CPA_TRAN_XQ</td></tr>
+<tr><td>Credit depth of information index (0=low to 6=high)</td><td>IC_CRD_INFO_XQ</td></tr>
+<tr><td>Crop production index (2004-2006 = 100)</td><td>AG_PRD_CROP_XD</td></tr>
+<tr><td>Current account balance (% of GDP)</td><td>BN_CAB_XOKA_GD_ZS</td></tr>
+<tr><td>Current account balance (BoP, current US$)</td><td>BN_CAB_XOKA_CD</td></tr>
+<tr><td>Current transfers, receipts (BoP, current US$)</td><td>BX_TRF_CURR_CD</td></tr>
+<tr><td>Customs and other import duties (% of tax revenue)</td><td>GC_TAX_IMPT_ZS</td></tr>
+<tr><td>Customs and other import duties (current LCU)</td><td>GC_TAX_IMPT_CN</td></tr>
+<tr><td>Daily newspapers (per 1,000 people)</td><td>IT_PRT_NEWS_P3</td></tr>
+<tr><td>Death rate, crude (per 1,000 people)</td><td>SP_DYN_CDRT_IN</td></tr>
+<tr><td>Debt service (PPG and IMF only, % of exports, excluding workers' remittances)</td><td>DT_TDS_DPPF_XP_ZS</td></tr>
+<tr><td>Debt service on external debt, public and publicly guaranteed (PPG) (TDS, current US$)</td><td>DT_TDS_DPPG_CD</td></tr>
+<tr><td>Debt service on external debt, total (TDS, current US$)</td><td>DT_TDS_DECT_CD</td></tr>
+<tr><td>DEC alternative conversion factor (LCU per US$)</td><td>PA_NUS_ATLS</td></tr>
+<tr><td>Delay in obtaining an electrical connection (days)</td><td>IC_ELC_DURS</td></tr>
+<tr><td>Deposit interest rate (%)</td><td>FR_INR_DPST</td></tr>
+<tr><td>Depositors with commercial banks (per 1,000 adults)</td><td>FB_CBK_DPTR_P3</td></tr>
+<tr><td>Depth of hunger (kilocalories per person per day)</td><td>SN_ITK_DPTH</td></tr>
+<tr><td>Diarrhea treatment (% of children under 5 receiving oral rehydration and continued feeding)</td><td>SH_STA_ORCF_ZS</td></tr>
+<tr><td>Disaster risk reduction progress score (1-5 scale; 5=best)</td><td>EN_CLC_DRSK_XQ</td></tr>
+<tr><td>Discrepancy in expenditure estimate of GDP (constant LCU)</td><td>NY_GDP_DISC_KN</td></tr>
+<tr><td>Discrepancy in expenditure estimate of GDP (current LCU)</td><td>NY_GDP_DISC_CN</td></tr>
+<tr><td>Documents to export (number)</td><td>IC_EXP_DOCS</td></tr>
+<tr><td>Documents to import (number)</td><td>IC_IMP_DOCS</td></tr>
+<tr><td>Domestic credit provided by banking sector (% of GDP)</td><td>FS_AST_DOMS_GD_ZS</td></tr>
+<tr><td>Domestic credit to private sector (% of GDP)</td><td>FS_AST_PRVT_GD_ZS</td></tr>
+<tr><td>Droughts, floods, extreme temperatures (% of population, average 1990-2009)</td><td>EN_CLC_MDAT_ZS</td></tr>
+<tr><td>Ease of doing business index (1=most business-friendly regulations)</td><td>IC_BUS_EASE_XQ</td></tr>
+<tr><td>Economically active children, female (% of female children ages 7-14)</td><td>SL_TLF_0714_FE_ZS</td></tr>
+<tr><td>Economically active children, male (% of male children ages 7-14)</td><td>SL_TLF_0714_MA_ZS</td></tr>
+<tr><td>Economically active children, study and work (% of economically active children, ages 7-14)</td><td>SL_TLF_0714_SW_ZS</td></tr>
+<tr><td>Economically active children, study and work, female (% of female economically active children, ages 7-14)</td><td>SL_TLF_0714_SW_FE_ZS</td></tr>
+<tr><td>Economically active children, study and work, male (% of male economically active children, ages 7-14)</td><td>SL_TLF_0714_SW_MA_ZS</td></tr>
+<tr><td>Economically active children, total (% of children ages 7-14)</td><td>SL_TLF_0714_ZS</td></tr>
+<tr><td>Economically active children, work only (% of economically active children, ages 7-14)</td><td>SL_TLF_0714_WK_ZS</td></tr>
+<tr><td>Economically active children, work only, female (% of female economically active children, ages 7-14)</td><td>SL_TLF_0714_WK_FE_ZS</td></tr>
+<tr><td>Economically active children, work only, male (% of male economically active children, ages 7-14)</td><td>SL_TLF_0714_WK_MA_ZS</td></tr>
+<tr><td>Electric power consumption (kWh per capita)</td><td>EG_USE_ELEC_KH_PC</td></tr>
+<tr><td>Electric power consumption (kWh)</td><td>EG_USE_ELEC_KH</td></tr>
+<tr><td>Electric power transmission and distribution losses (% of output)</td><td>EG_ELC_LOSS_ZS</td></tr>
+<tr><td>Electric power transmission and distribution losses (kWh)</td><td>EG_ELC_LOSS_KH</td></tr>
+<tr><td>Electricity production (kWh)</td><td>EG_ELC_PROD_KH</td></tr>
+<tr><td>Electricity production from coal sources (% of total)</td><td>EG_ELC_COAL_ZS</td></tr>
+<tr><td>Electricity production from coal sources (kWh)</td><td>EG_ELC_COAL_KH</td></tr>
+<tr><td>Electricity production from hydroelectric sources (% of total)</td><td>EG_ELC_HYRO_ZS</td></tr>
+<tr><td>Electricity production from hydroelectric sources (kWh)</td><td>EG_ELC_HYRO_KH</td></tr>
+<tr><td>Electricity production from natural gas sources (% of total)</td><td>EG_ELC_NGAS_ZS</td></tr>
+<tr><td>Electricity production from natural gas sources (kWh)</td><td>EG_ELC_NGAS_KH</td></tr>
+<tr><td>Electricity production from nuclear sources (% of total)</td><td>EG_ELC_NUCL_ZS</td></tr>
+<tr><td>Electricity production from nuclear sources (kWh)</td><td>EG_ELC_NUCL_KH</td></tr>
+<tr><td>Electricity production from oil sources (% of total)</td><td>EG_ELC_PETR_ZS</td></tr>
+<tr><td>Electricity production from oil sources (kWh)</td><td>EG_ELC_PETR_KH</td></tr>
+<tr><td>Electricity production from oil, gas and coal sources (% of total)</td><td>EG_ELC_FOSL_ZS</td></tr>
+<tr><td>Electricity production from renewable sources (kWh)</td><td>EG_ELC_RNEW_KH</td></tr>
+<tr><td>Electricity production from renewable sources, excluding hydroelectric (% of total)</td><td>EG_ELC_RNWX_ZS</td></tr>
+<tr><td>Electricity production from renewable sources, excluding hydroelectric (kWh)</td><td>EG_ELC_RNWX_KH</td></tr>
+<tr><td>Emigration rate of tertiary educated (% of total tertiary educated population)</td><td>SM_EMI_TERT_ZS</td></tr>
+<tr><td>Employees, agriculture, female (% of female employment)</td><td>SL_AGR_EMPL_FE_ZS</td></tr>
+<tr><td>Employees, agriculture, male (% of male employment)</td><td>SL_AGR_EMPL_MA_ZS</td></tr>
+<tr><td>Employees, industry, female (% of female employment)</td><td>SL_IND_EMPL_FE_ZS</td></tr>
+<tr><td>Employees, industry, male (% of male employment)</td><td>SL_IND_EMPL_MA_ZS</td></tr>
+<tr><td>Employees, services, female (% of female employment)</td><td>SL_SRV_EMPL_FE_ZS</td></tr>
+<tr><td>Employees, services, male (% of male employment)</td><td>SL_SRV_EMPL_MA_ZS</td></tr>
+<tr><td>Employers, female (% of employment)</td><td>SL_EMP_MPYR_FE_ZS</td></tr>
+<tr><td>Employers, male (% of employment)</td><td>SL_EMP_MPYR_MA_ZS</td></tr>
+<tr><td>Employers, total (% of employment)</td><td>SL_EMP_MPYR_ZS</td></tr>
+<tr><td>Employment in agriculture (% of total employment)</td><td>SL_AGR_EMPL_ZS</td></tr>
+<tr><td>Employment in industry (% of total employment)</td><td>SL_IND_EMPL_ZS</td></tr>
+<tr><td>Employment in services (% of total employment)</td><td>SL_SRV_EMPL_ZS</td></tr>
+<tr><td>Employment to population ratio, 15+, female (%)</td><td>SL_EMP_TOTL_SP_FE_ZS</td></tr>
+<tr><td>Employment to population ratio, 15+, male (%)</td><td>SL_EMP_TOTL_SP_MA_ZS</td></tr>
+<tr><td>Employment to population ratio, 15+, total (%)</td><td>SL_EMP_TOTL_SP_ZS</td></tr>
+<tr><td>Employment to population ratio, ages 15-24, female (%)</td><td>SL_EMP_1524_SP_FE_ZS</td></tr>
+<tr><td>Employment to population ratio, ages 15-24, male (%)</td><td>SL_EMP_1524_SP_MA_ZS</td></tr>
+<tr><td>Employment to population ratio, ages 15-24, total (%)</td><td>SL_EMP_1524_SP_ZS</td></tr>
+<tr><td>Energy imports, net (% of energy use)</td><td>EG_IMP_CONS_ZS</td></tr>
+<tr><td>Energy production (kt of oil equivalent)</td><td>EG_EGY_PROD_KT_OE</td></tr>
+<tr><td>Energy related methane emissions (% of total)</td><td>EN_ATM_METH_EG_ZS</td></tr>
+<tr><td>Energy use (kg of oil equivalent per capita)</td><td>EG_USE_PCAP_KG_OE</td></tr>
+<tr><td>Energy use (kg of oil equivalent) per $1,000 GDP (constant 2005 PPP)</td><td>EG_USE_COMM_GD_PP_KD</td></tr>
+<tr><td>Energy use (kt of oil equivalent)</td><td>EG_USE_COMM_KT_OE</td></tr>
+<tr><td>Exclusive breastfeeding (% of children under 6 months)</td><td>SH_STA_BFED_ZS</td></tr>
+<tr><td>Expenditure per student, primary (% of GDP per capita)</td><td>SE_XPD_PRIM_PC_ZS</td></tr>
+<tr><td>Expenditure per student, secondary (% of GDP per capita)</td><td>SE_XPD_SECO_PC_ZS</td></tr>
+<tr><td>Expenditure per student, tertiary (% of GDP per capita)</td><td>SE_XPD_TERT_PC_ZS</td></tr>
+<tr><td>Expense (% of GDP)</td><td>GC_XPN_TOTL_GD_ZS</td></tr>
+<tr><td>Expense (current LCU)</td><td>GC_XPN_TOTL_CN</td></tr>
+<tr><td>Export value index (2000 = 100)</td><td>TX_VAL_MRCH_XD_WD</td></tr>
+<tr><td>Export volume index (2000 = 100)</td><td>TX_QTY_MRCH_XD_WD</td></tr>
+<tr><td>Exports as a capacity to import (constant LCU)</td><td>NY_EXP_CAPM_KN</td></tr>
+<tr><td>Exports of goods and services (% of GDP)</td><td>NE_EXP_GNFS_ZS</td></tr>
+<tr><td>Exports of goods and services (annual % growth)</td><td>NE_EXP_GNFS_KD_ZG</td></tr>
+<tr><td>Exports of goods and services (BoP, current US$)</td><td>BX_GSR_GNFS_CD</td></tr>
+<tr><td>Exports of goods and services (constant 2000 US$)</td><td>NE_EXP_GNFS_KD</td></tr>
+<tr><td>Exports of goods and services (constant LCU)</td><td>NE_EXP_GNFS_KN</td></tr>
+<tr><td>Exports of goods and services (current LCU)</td><td>NE_EXP_GNFS_CN</td></tr>
+<tr><td>Exports of goods and services (current US$)</td><td>NE_EXP_GNFS_CD</td></tr>
+<tr><td>Exports of goods, services and income (BoP, current US$)</td><td>BX_GSR_TOTL_CD</td></tr>
+<tr><td>External balance on goods and services (% of GDP)</td><td>NE_RSB_GNFS_ZS</td></tr>
+<tr><td>External balance on goods and services (constant LCU)</td><td>NE_RSB_GNFS_KN</td></tr>
+<tr><td>External balance on goods and services (current LCU)</td><td>NE_RSB_GNFS_CN</td></tr>
+<tr><td>External balance on goods and services (current US$)</td><td>NE_RSB_GNFS_CD</td></tr>
+<tr><td>External debt stocks (% of GNI)</td><td>DT_DOD_DECT_GN_ZS</td></tr>
+<tr><td>External debt stocks, long-term (DOD, current US$)</td><td>DT_DOD_DLXF_CD</td></tr>
+<tr><td>External debt stocks, private nonguaranteed (PNG) (DOD, current US$)</td><td>DT_DOD_DPNG_CD</td></tr>
+<tr><td>External debt stocks, public and publicly guaranteed (PPG) (DOD, current US$)</td><td>DT_DOD_DPPG_CD</td></tr>
+<tr><td>External debt stocks, short-term (DOD, current US$)</td><td>DT_DOD_DSTC_CD</td></tr>
+<tr><td>External debt stocks, total (DOD, current US$)</td><td>DT_DOD_DECT_CD</td></tr>
+<tr><td>External resources for health (% of total expenditure on health)</td><td>SH_XPD_EXTR_ZS</td></tr>
+<tr><td>Female headed households (% of households with a female head)</td><td>SP_HOU_FEMA_ZS</td></tr>
+<tr><td>Female legistlators, senior officials and managers (% of total)</td><td>SG_GEN_LSOM_ZS</td></tr>
+<tr><td>Fertility rate, total (births per woman)</td><td>SP_DYN_TFRT_IN</td></tr>
+<tr><td>Fertilizer consumption (% of fertilizer production)</td><td>AG_CON_FERT_PT_ZS</td></tr>
+<tr><td>Fertilizer consumption (kilograms per hectare of arable land)</td><td>AG_CON_FERT_ZS</td></tr>
+<tr><td>Final consumption expenditure (constant 2000 US$)</td><td>NE_CON_TOTL_KD</td></tr>
+<tr><td>Final consumption expenditure (constant LCU)</td><td>NE_CON_TOTL_KN</td></tr>
+<tr><td>Final consumption expenditure (current LCU)</td><td>NE_CON_TOTL_CN</td></tr>
+<tr><td>Final consumption expenditure (current US$)</td><td>NE_CON_TOTL_CD</td></tr>
+<tr><td>Final consumption expenditure, etc. (% of GDP)</td><td>NE_CON_TETC_ZS</td></tr>
+<tr><td>Final consumption expenditure, etc. (annual % growth)</td><td>NE_CON_TETC_KD_ZG</td></tr>
+<tr><td>Final consumption expenditure, etc. (constant 2000 US$)</td><td>NE_CON_TETC_KD</td></tr>
+<tr><td>Final consumption expenditure, etc. (constant LCU)</td><td>NE_CON_TETC_KN</td></tr>
+<tr><td>Final consumption expenditure, etc. (current LCU)</td><td>NE_CON_TETC_CN</td></tr>
+<tr><td>Final consumption expenditure, etc. (current US$)</td><td>NE_CON_TETC_CD</td></tr>
+<tr><td>Firing cost (weeks of wages)</td><td>IC_EMP_FIRE_WK</td></tr>
+<tr><td>Firms expected to give gifts in meetings with tax officials (% of firms)</td><td>IC_TAX_GIFT_ZS</td></tr>
+<tr><td>Firms formally registered when operations started (% of firms)</td><td>IC_FRM_FREG_ZS</td></tr>
+<tr><td>Firms offering formal training (% of firms)</td><td>IC_FRM_TRNG_ZS</td></tr>
+<tr><td>Firms that do not report all sales for tax purposes (% of firms)</td><td>IC_FRM_INFM_ZS</td></tr>
+<tr><td>Firms using banks to finance investment (% of firms)</td><td>IC_FRM_BNKS_ZS</td></tr>
+<tr><td>Firms with female participation in ownership (% of firms)</td><td>IC_FRM_FEMO_ZS</td></tr>
+<tr><td>Fish species, threatened</td><td>EN_FSH_THRD_NO</td></tr>
+<tr><td>Fixed broadband Internet subscribers</td><td>IT_NET_BBND</td></tr>
+<tr><td>Fixed broadband Internet subscribers (per 100 people)</td><td>IT_NET_BBND_P2</td></tr>
+<tr><td>Food exports (% of merchandise exports)</td><td>TX_VAL_FOOD_ZS_UN</td></tr>
+<tr><td>Food imports (% of merchandise imports)</td><td>TM_VAL_FOOD_ZS_UN</td></tr>
+<tr><td>Food production index (2004-2006 = 100)</td><td>AG_PRD_FOOD_XD</td></tr>
+<tr><td>Food, beverages and tobacco (% of value added in manufacturing)</td><td>NV_MNF_FBTO_ZS_UN</td></tr>
+<tr><td>Foreign direct investment, net (BoP, current US$)</td><td>BN_KLT_DINV_CD</td></tr>
+<tr><td>Foreign direct investment, net inflows (% of GDP)</td><td>BX_KLT_DINV_WD_GD_ZS</td></tr>
+<tr><td>Foreign direct investment, net inflows (BoP, current US$)</td><td>BX_KLT_DINV_CD_WD</td></tr>
+<tr><td>Foreign direct investment, net outflows (% of GDP)</td><td>BM_KLT_DINV_GD_ZS</td></tr>
+<tr><td>Forest area (% of land area)</td><td>AG_LND_FRST_ZS</td></tr>
+<tr><td>Forest area (sq. km)</td><td>AG_LND_FRST_K2</td></tr>
+<tr><td>Forest rents (% of GDP)</td><td>NY_GDP_FRST_RT_ZS</td></tr>
+<tr><td>Fossil fuel energy consumption (% of total)</td><td>EG_USE_COMM_FO_ZS</td></tr>
+<tr><td>Fuel exports (% of merchandise exports)</td><td>TX_VAL_FUEL_ZS_UN</td></tr>
+<tr><td>Fuel imports (% of merchandise imports)</td><td>TM_VAL_FUEL_ZS_UN</td></tr>
+<tr><td>GDP (constant 2000 US$)</td><td>NY_GDP_MKTP_KD</td></tr>
+<tr><td>GDP (constant LCU)</td><td>NY_GDP_MKTP_KN</td></tr>
+<tr><td>GDP (current LCU)</td><td>NY_GDP_MKTP_CN</td></tr>
+<tr><td>GDP (current US$)</td><td>NY_GDP_MKTP_CD</td></tr>
+<tr><td>GDP deflator (base year varies by country)</td><td>NY_GDP_DEFL_ZS</td></tr>
+<tr><td>GDP growth (annual %)</td><td>NY_GDP_MKTP_KD_ZG</td></tr>
+<tr><td>GDP per capita (constant 2000 US$)</td><td>NY_GDP_PCAP_KD</td></tr>
+<tr><td>GDP per capita (constant LCU)</td><td>NY_GDP_PCAP_KN</td></tr>
+<tr><td>GDP per capita (current US$)</td><td>NY_GDP_PCAP_CD</td></tr>
+<tr><td>GDP per capita growth (annual %)</td><td>NY_GDP_PCAP_KD_ZG</td></tr>
+<tr><td>GDP per capita, PPP (constant 2005 international $)</td><td>NY_GDP_PCAP_PP_KD</td></tr>
+<tr><td>GDP per capita, PPP (current international $)</td><td>NY_GDP_PCAP_PP_CD</td></tr>
+<tr><td>GDP per person employed (constant 1990 PPP $)</td><td>SL_GDP_PCAP_EM_KD</td></tr>
+<tr><td>GDP per unit of energy use (constant 2005 PPP $ per kg of oil equivalent)</td><td>EG_GDP_PUSE_KO_PP_KD</td></tr>
+<tr><td>GDP per unit of energy use (PPP $ per kg of oil equivalent)</td><td>EG_GDP_PUSE_KO_PP</td></tr>
+<tr><td>GDP, PPP (constant 2005 international $)</td><td>NY_GDP_MKTP_PP_KD</td></tr>
+<tr><td>GDP, PPP (current international $)</td><td>NY_GDP_MKTP_PP_CD</td></tr>
+<tr><td>GEF benefits index for biodiversity (0 = no biodiversity potential to 100 = maximum)</td><td>ER_BDV_TOTL_XQ</td></tr>
+<tr><td>General government final consumption expenditure (% of GDP)</td><td>NE_CON_GOVT_ZS</td></tr>
+<tr><td>General government final consumption expenditure (annual % growth)</td><td>NE_CON_GOVT_KD_ZG</td></tr>
+<tr><td>General government final consumption expenditure (constant 2000 US$)</td><td>NE_CON_GOVT_KD</td></tr>
+<tr><td>General government final consumption expenditure (constant LCU)</td><td>NE_CON_GOVT_KN</td></tr>
+<tr><td>General government final consumption expenditure (current LCU)</td><td>NE_CON_GOVT_CN</td></tr>
+<tr><td>General government final consumption expenditure (current US$)</td><td>NE_CON_GOVT_CD</td></tr>
+<tr><td>GHG net emissions/removals by LUCF (Mt of CO2 equivalent)</td><td>EN_CLC_GHGR_MT_CE</td></tr>
+<tr><td>GINI index</td><td>SI_POV_GINI</td></tr>
+<tr><td>GNI (constant 2000 US$)</td><td>NY_GNP_MKTP_KD</td></tr>
+<tr><td>GNI (constant LCU)</td><td>NY_GNP_MKTP_KN</td></tr>
+<tr><td>GNI (current LCU)</td><td>NY_GNP_MKTP_CN</td></tr>
+<tr><td>GNI (current US$)</td><td>NY_GNP_MKTP_CD</td></tr>
+<tr><td>GNI growth (annual %)</td><td>NY_GNP_MKTP_KD_ZG</td></tr>
+<tr><td>GNI per capita (constant 2000 US$)</td><td>NY_GNP_PCAP_KD</td></tr>
+<tr><td>GNI per capita (constant LCU)</td><td>NY_GNP_PCAP_KN</td></tr>
+<tr><td>GNI per capita growth (annual %)</td><td>NY_GNP_PCAP_KD_ZG</td></tr>
+<tr><td>GNI per capita, Atlas method (current US$)</td><td>NY_GNP_PCAP_CD</td></tr>
+<tr><td>GNI per capita, PPP (current international $)</td><td>NY_GNP_PCAP_PP_CD</td></tr>
+<tr><td>GNI, Atlas method (current US$)</td><td>NY_GNP_ATLS_CD</td></tr>
+<tr><td>GNI, PPP (current international $)</td><td>NY_GNP_MKTP_PP_CD</td></tr>
+<tr><td>Goods and services expense (% of expense)</td><td>GC_XPN_GSRV_ZS</td></tr>
+<tr><td>Goods and services expense (current LCU)</td><td>GC_XPN_GSRV_CN</td></tr>
+<tr><td>Goods exports (BoP, current US$)</td><td>BX_GSR_MRCH_CD</td></tr>
+<tr><td>Goods imports (BoP, current US$)</td><td>BM_GSR_MRCH_CD</td></tr>
+<tr><td>Grants and other revenue (% of revenue)</td><td>GC_REV_GOTR_ZS</td></tr>
+<tr><td>Grants and other revenue (current LCU)</td><td>GC_REV_GOTR_CN</td></tr>
+<tr><td>Grants, excluding technical cooperation (BoP, current US$)</td><td>BX_GRT_EXTA_CD_WD</td></tr>
+<tr><td>Gross capital formation (% of GDP)</td><td>NE_GDI_TOTL_ZS</td></tr>
+<tr><td>Gross capital formation (annual % growth)</td><td>NE_GDI_TOTL_KD_ZG</td></tr>
+<tr><td>Gross capital formation (constant 2000 US$)</td><td>NE_GDI_TOTL_KD</td></tr>
+<tr><td>Gross capital formation (constant LCU)</td><td>NE_GDI_TOTL_KN</td></tr>
+<tr><td>Gross capital formation (current LCU)</td><td>NE_GDI_TOTL_CN</td></tr>
+<tr><td>Gross capital formation (current US$)</td><td>NE_GDI_TOTL_CD</td></tr>
+<tr><td>Gross domestic income (constant 2000 US$)</td><td>NY_GDY_TOTL_KD</td></tr>
+<tr><td>Gross domestic income (constant LCU)</td><td>NY_GDY_TOTL_KN</td></tr>
+<tr><td>Gross domestic savings (% of GDP)</td><td>NY_GDS_TOTL_ZS</td></tr>
+<tr><td>Gross domestic savings (constant LCU)</td><td>NY_GDS_TOTL_KN</td></tr>
+<tr><td>Gross domestic savings (current LCU)</td><td>NY_GDS_TOTL_CN</td></tr>
+<tr><td>Gross domestic savings (current US$)</td><td>NY_GDS_TOTL_CD</td></tr>
+<tr><td>Gross fixed capital formation (% of GDP)</td><td>NE_GDI_FTOT_ZS</td></tr>
+<tr><td>Gross fixed capital formation (annual % growth)</td><td>NE_GDI_FTOT_KD_ZG</td></tr>
+<tr><td>Gross fixed capital formation (constant 2000 US$)</td><td>NE_GDI_FTOT_KD</td></tr>
+<tr><td>Gross fixed capital formation (constant LCU)</td><td>NE_GDI_FTOT_KN</td></tr>
+<tr><td>Gross fixed capital formation (current LCU)</td><td>NE_GDI_FTOT_CN</td></tr>
+<tr><td>Gross fixed capital formation (current US$)</td><td>NE_GDI_FTOT_CD</td></tr>
+<tr><td>Gross fixed capital formation, private sector (% of GDP)</td><td>NE_GDI_FPRV_ZS</td></tr>
+<tr><td>Gross fixed capital formation, private sector (current LCU)</td><td>NE_GDI_FPRV_CN</td></tr>
+<tr><td>Gross intake rate in grade 1, female (% of relevant age group)</td><td>SE_PRM_GINT_FE_ZS</td></tr>
+<tr><td>Gross intake rate in grade 1, male (% of relevant age group)</td><td>SE_PRM_GINT_MA_ZS</td></tr>
+<tr><td>Gross intake rate in grade 1, total (% of relevant age group)</td><td>SE_PRM_GINT_ZS</td></tr>
+<tr><td>Gross national expenditure (% of GDP)</td><td>NE_DAB_TOTL_ZS</td></tr>
+<tr><td>Gross national expenditure (constant 2000 US$)</td><td>NE_DAB_TOTL_KD</td></tr>
+<tr><td>Gross national expenditure (constant LCU)</td><td>NE_DAB_TOTL_KN</td></tr>
+<tr><td>Gross national expenditure (current LCU)</td><td>NE_DAB_TOTL_CN</td></tr>
+<tr><td>Gross national expenditure (current US$)</td><td>NE_DAB_TOTL_CD</td></tr>
+<tr><td>Gross national expenditure deflator (base year varies by country)</td><td>NE_DAB_DEFL_ZS</td></tr>
+<tr><td>Gross national income (constant LCU)</td><td>NY_GNY_TOTL_KN</td></tr>
+<tr><td>Gross savings (% of GDP)</td><td>NY_GNS_ICTR_ZS</td></tr>
+<tr><td>Gross savings (% of GNI)</td><td>NY_GNS_ICTR_GN_ZS</td></tr>
+<tr><td>Gross savings (current LCU)</td><td>NY_GNS_ICTR_CN</td></tr>
+<tr><td>Gross savings (current US$)</td><td>NY_GNS_ICTR_CD</td></tr>
+<tr><td>Gross value added at factor cost (constant 2000 US$)</td><td>NY_GDP_FCST_KD</td></tr>
+<tr><td>Gross value added at factor cost (constant LCU)</td><td>NY_GDP_FCST_KN</td></tr>
+<tr><td>Gross value added at factor cost (current LCU)</td><td>NY_GDP_FCST_CN</td></tr>
+<tr><td>Gross value added at factor cost (current US$)</td><td>NY_GDP_FCST_CD</td></tr>
+<tr><td>Health expenditure per capita (current US$)</td><td>SH_XPD_PCAP</td></tr>
+<tr><td>Health expenditure per capita, PPP (constant 2005 international $)</td><td>SH_XPD_PCAP_PP_KD</td></tr>
+<tr><td>Health expenditure, private (% of GDP)</td><td>SH_XPD_PRIV_ZS</td></tr>
+<tr><td>Health expenditure, private (% of total health expenditure)</td><td>SH_XPD_PRIV</td></tr>
+<tr><td>Health expenditure, public (% of GDP)</td><td>SH_XPD_PUBL_ZS</td></tr>
+<tr><td>Health expenditure, public (% of government expenditure)</td><td>SH_XPD_PUBL_GX_ZS</td></tr>
+<tr><td>Health expenditure, public (% of total health expenditure)</td><td>SH_XPD_PUBL</td></tr>
+<tr><td>Health expenditure, total (% of GDP)</td><td>SH_XPD_TOTL_ZS</td></tr>
+<tr><td>HFC gas emissions (thousand metric tons of CO2 equivalent)</td><td>EN_ATM_HFCG_KT_CE</td></tr>
+<tr><td>High-technology exports (% of manufactured exports)</td><td>TX_VAL_TECH_MF_ZS</td></tr>
+<tr><td>High-technology exports (current US$)</td><td>TX_VAL_TECH_CD</td></tr>
+<tr><td>Hospital beds (per 1,000 people)</td><td>SH_MED_BEDS_ZS</td></tr>
+<tr><td>Household final consumption expenditure (annual % growth)</td><td>NE_CON_PRVT_KD_ZG</td></tr>
+<tr><td>Household final consumption expenditure (constant 2000 US$)</td><td>NE_CON_PRVT_KD</td></tr>
+<tr><td>Household final consumption expenditure (constant LCU)</td><td>NE_CON_PRVT_KN</td></tr>
+<tr><td>Household final consumption expenditure (current LCU)</td><td>NE_CON_PRVT_CN</td></tr>
+<tr><td>Household final consumption expenditure (current US$)</td><td>NE_CON_PRVT_CD</td></tr>
+<tr><td>Household final consumption expenditure per capita (constant 2000 US$)</td><td>NE_CON_PRVT_PC_KD</td></tr>
+<tr><td>Household final consumption expenditure per capita growth (annual %)</td><td>NE_CON_PRVT_PC_KD_ZG</td></tr>
+<tr><td>Household final consumption expenditure, etc. (% of GDP)</td><td>NE_CON_PETC_ZS</td></tr>
+<tr><td>Household final consumption expenditure, etc. (annual % growth)</td><td>NE_CON_PETC_KD_ZG</td></tr>
+<tr><td>Household final consumption expenditure, etc. (constant 2000 US$)</td><td>NE_CON_PETC_KD</td></tr>
+<tr><td>Household final consumption expenditure, etc. (constant LCU)</td><td>NE_CON_PETC_KN</td></tr>
+<tr><td>Household final consumption expenditure, etc. (current LCU)</td><td>NE_CON_PETC_CN</td></tr>
+<tr><td>Household final consumption expenditure, etc. (current US$)</td><td>NE_CON_PETC_CD</td></tr>
+<tr><td>Household final consumption expenditure, PPP (constant 2005 international $)</td><td>NE_CON_PRVT_PP_KD</td></tr>
+<tr><td>Household final consumption expenditure, PPP (current international $)</td><td>NE_CON_PRVT_PP_CD</td></tr>
+<tr><td>IBRD loans and IDA credits (DOD, current US$)</td><td>DT_DOD_MWBG_CD</td></tr>
+<tr><td>ICT goods exports (% of total goods exports)</td><td>TX_VAL_ICTG_ZS_UN</td></tr>
+<tr><td>ICT goods imports (% total goods imports)</td><td>TM_VAL_ICTG_ZS_UN</td></tr>
+<tr><td>ICT service exports (% of service exports, BoP)</td><td>BX_GSR_CCIS_ZS</td></tr>
+<tr><td>ICT service exports (BoP, current US$)</td><td>BX_GSR_CCIS_CD</td></tr>
+<tr><td>IDA resource allocation index (1=low to 6=high)</td><td>IQ_CPA_IRAI_XQ</td></tr>
+<tr><td>Immunization, DPT (% of children ages 12-23 months)</td><td>SH_IMM_IDPT</td></tr>
+<tr><td>Immunization, measles (% of children ages 12-23 months)</td><td>SH_IMM_MEAS</td></tr>
+<tr><td>Import value index (2000 = 100)</td><td>TM_VAL_MRCH_XD_WD</td></tr>
+<tr><td>Import volume index (2000 = 100)</td><td>TM_QTY_MRCH_XD_WD</td></tr>
+<tr><td>Imports of goods and services (% of GDP)</td><td>NE_IMP_GNFS_ZS</td></tr>
+<tr><td>Imports of goods and services (annual % growth)</td><td>NE_IMP_GNFS_KD_ZG</td></tr>
+<tr><td>Imports of goods and services (BoP, current US$)</td><td>BM_GSR_GNFS_CD</td></tr>
+<tr><td>Imports of goods and services (constant 2000 US$)</td><td>NE_IMP_GNFS_KD</td></tr>
+<tr><td>Imports of goods and services (constant LCU)</td><td>NE_IMP_GNFS_KN</td></tr>
+<tr><td>Imports of goods and services (current LCU)</td><td>NE_IMP_GNFS_CN</td></tr>
+<tr><td>Imports of goods and services (current US$)</td><td>NE_IMP_GNFS_CD</td></tr>
+<tr><td>Imports of goods, services and income (BoP, current US$)</td><td>BM_GSR_TOTL_CD</td></tr>
+<tr><td>Improved sanitation facilities (% of population with access)</td><td>SH_STA_ACSN</td></tr>
+<tr><td>Improved sanitation facilities, rural (% of rural population with access)</td><td>SH_STA_ACSN_RU</td></tr>
+<tr><td>Improved sanitation facilities, urban (% of urban population with access)</td><td>SH_STA_ACSN_UR</td></tr>
+<tr><td>Improved water source (% of population with access)</td><td>SH_H2O_SAFE_ZS</td></tr>
+<tr><td>Improved water source, rural (% of rural population with access)</td><td>SH_H2O_SAFE_RU_ZS</td></tr>
+<tr><td>Improved water source, urban (% of urban population with access)</td><td>SH_H2O_SAFE_UR_ZS</td></tr>
+<tr><td>Incidence of tuberculosis (per 100,000 people)</td><td>SH_TBS_INCD</td></tr>
+<tr><td>Income payments (BoP, current US$)</td><td>BM_GSR_FCTY_CD</td></tr>
+<tr><td>Income receipts (BoP, current US$)</td><td>BX_GSR_FCTY_CD</td></tr>
+<tr><td>Income share held by fourth 20%</td><td>SI_DST_04TH_20</td></tr>
+<tr><td>Income share held by highest 10%</td><td>SI_DST_10TH_10</td></tr>
+<tr><td>Income share held by highest 20%</td><td>SI_DST_05TH_20</td></tr>
+<tr><td>Income share held by lowest 10%</td><td>SI_DST_FRST_10</td></tr>
+<tr><td>Income share held by lowest 20%</td><td>SI_DST_FRST_20</td></tr>
+<tr><td>Income share held by second 20%</td><td>SI_DST_02ND_20</td></tr>
+<tr><td>Income share held by third 20%</td><td>SI_DST_03RD_20</td></tr>
+<tr><td>Industrial nitrous oxide emissions (thousand metric tons of CO2 equivalent)</td><td>EN_ATM_NOXE_IN_KT_CE</td></tr>
+<tr><td>Industry, value added (% of GDP)</td><td>NV_IND_TOTL_ZS</td></tr>
+<tr><td>Industry, value added (annual % growth)</td><td>NV_IND_TOTL_KD_ZG</td></tr>
+<tr><td>Industry, value added (constant 2000 US$)</td><td>NV_IND_TOTL_KD</td></tr>
+<tr><td>Industry, value added (constant LCU)</td><td>NV_IND_TOTL_KN</td></tr>
+<tr><td>Industry, value added (current LCU)</td><td>NV_IND_TOTL_CN</td></tr>
+<tr><td>Industry, value added (current US$)</td><td>NV_IND_TOTL_CD</td></tr>
+<tr><td>Inflation, consumer prices (annual %)</td><td>FP_CPI_TOTL_ZG</td></tr>
+<tr><td>Inflation, GDP deflator (annual %)</td><td>NY_GDP_DEFL_KD_ZG</td></tr>
+<tr><td>Informal payments to public officials (% of firms)</td><td>IC_FRM_CORR_ZS</td></tr>
+<tr><td>Insurance and financial services (% of commercial service exports)</td><td>TX_VAL_INSF_ZS_WT</td></tr>
+<tr><td>Insurance and financial services (% of commercial service imports)</td><td>TM_VAL_INSF_ZS_WT</td></tr>
+<tr><td>Insurance and financial services (% of service exports, BoP)</td><td>BX_GSR_INSF_ZS</td></tr>
+<tr><td>Insurance and financial services (% of service imports, BoP)</td><td>BM_GSR_INSF_ZS</td></tr>
+<tr><td>Intentional homicides (per 100,000 people)</td><td>VC_IHR_PSRC_P5</td></tr>
+<tr><td>Interest payments (% of expense)</td><td>GC_XPN_INTP_ZS</td></tr>
+<tr><td>Interest payments (% of revenue)</td><td>GC_XPN_INTP_RV_ZS</td></tr>
+<tr><td>Interest payments (current LCU)</td><td>GC_XPN_INTP_CN</td></tr>
+<tr><td>Interest rate spread (lending rate minus deposit rate, %)</td><td>FR_INR_LNDP</td></tr>
+<tr><td>Internally displaced persons (number, high estimate)</td><td>VC_IDP_TOTL_HE</td></tr>
+<tr><td>Internally displaced persons (number, low estimate)</td><td>VC_IDP_TOTL_LE</td></tr>
+<tr><td>International migrant stock (% of population)</td><td>SM_POP_TOTL_ZS</td></tr>
+<tr><td>International migrant stock, total</td><td>SM_POP_TOTL</td></tr>
+<tr><td>International tourism, expenditures (% of total imports)</td><td>ST_INT_XPND_MP_ZS</td></tr>
+<tr><td>International tourism, expenditures (current US$)</td><td>ST_INT_XPND_CD</td></tr>
+<tr><td>International tourism, expenditures for passenger transport items (current US$)</td><td>ST_INT_TRNX_CD</td></tr>
+<tr><td>International tourism, expenditures for travel items (current US$)</td><td>ST_INT_TVLX_CD</td></tr>
+<tr><td>International tourism, number of arrivals</td><td>ST_INT_ARVL</td></tr>
+<tr><td>International tourism, number of departures</td><td>ST_INT_DPRT</td></tr>
+<tr><td>International tourism, receipts (% of total exports)</td><td>ST_INT_RCPT_XP_ZS</td></tr>
+<tr><td>International tourism, receipts (current US$)</td><td>ST_INT_RCPT_CD</td></tr>
+<tr><td>International tourism, receipts for passenger transport items (current US$)</td><td>ST_INT_TRNR_CD</td></tr>
+<tr><td>International tourism, receipts for travel items (current US$)</td><td>ST_INT_TVLR_CD</td></tr>
+<tr><td>Internet users</td><td>IT_NET_USER</td></tr>
+<tr><td>Internet users (per 100 people)</td><td>IT_NET_USER_P2</td></tr>
+<tr><td>Investment in energy with private participation (current US$)</td><td>IE_PPI_ENGY_CD</td></tr>
+<tr><td>Investment in telecoms with private participation (current US$)</td><td>IE_PPI_TELE_CD</td></tr>
+<tr><td>Investment in transport with private participation (current US$)</td><td>IE_PPI_TRAN_CD</td></tr>
+<tr><td>Investment in water and sanitation with private participation (current US$)</td><td>IE_PPI_WATR_CD</td></tr>
+<tr><td>ISO certification ownership (% of firms)</td><td>IC_FRM_ISOC_ZS</td></tr>
+<tr><td>Labor force participation rate, female (% of female population ages 15-64)</td><td>SL_TLF_ACTI_FE_ZS</td></tr>
+<tr><td>Labor force participation rate, male (% of male population ages 15-64)</td><td>SL_TLF_ACTI_MA_ZS</td></tr>
+<tr><td>Labor force participation rate, total (% of total population ages 15-64)</td><td>SL_TLF_ACTI_ZS</td></tr>
+<tr><td>Labor force with primary education (% of total)</td><td>SL_TLF_PRIM_ZS</td></tr>
+<tr><td>Labor force with primary education, female (% of female labor force)</td><td>SL_TLF_PRIM_FE_ZS</td></tr>
+<tr><td>Labor force with primary education, male (% of male labor force)</td><td>SL_TLF_PRIM_MA_ZS</td></tr>
+<tr><td>Labor force with secondary education (% of total)</td><td>SL_TLF_SECO_ZS</td></tr>
+<tr><td>Labor force with secondary education, female (% of female labor force)</td><td>SL_TLF_SECO_FE_ZS</td></tr>
+<tr><td>Labor force with secondary education, male (% of male labor force)</td><td>SL_TLF_SECO_MA_ZS</td></tr>
+<tr><td>Labor force with tertiary education (% of total)</td><td>SL_TLF_TERT_ZS</td></tr>
+<tr><td>Labor force with tertiary education, female (% of female labor force)</td><td>SL_TLF_TERT_FE_ZS</td></tr>
+<tr><td>Labor force with tertiary education, male (% of male labor force)</td><td>SL_TLF_TERT_MA_ZS</td></tr>
+<tr><td>Labor force, female (% of total labor force)</td><td>SL_TLF_TOTL_FE_ZS</td></tr>
+<tr><td>Labor force, total</td><td>SL_TLF_TOTL_IN</td></tr>
+<tr><td>Labor participation rate, female (% of female population ages 15+)</td><td>SL_TLF_CACT_FE_ZS</td></tr>
+<tr><td>Labor participation rate, male (% of male population ages 15+)</td><td>SL_TLF_CACT_MA_ZS</td></tr>
+<tr><td>Labor participation rate, total (% of total population ages 15+)</td><td>SL_TLF_CACT_ZS</td></tr>
+<tr><td>Labor tax and contributions (% of commercial profits)</td><td>IC_TAX_LABR_CP_ZS</td></tr>
+<tr><td>Land area (sq. km)</td><td>AG_LND_TOTL_K2</td></tr>
+<tr><td>Land area where elevation is below 5 meters (% of total land area)</td><td>AG_LND_EL5M_ZS</td></tr>
+<tr><td>Land under cereal production (hectares)</td><td>AG_LND_CREL_HA</td></tr>
+<tr><td>Lead time to export, median case (days)</td><td>LP_EXP_DURS_MD</td></tr>
+<tr><td>Lead time to import, median case (days)</td><td>LP_IMP_DURS_MD</td></tr>
+<tr><td>Lending interest rate (%)</td><td>FR_INR_LEND</td></tr>
+<tr><td>Life expectancy at birth, female (years)</td><td>SP_DYN_LE00_FE_IN</td></tr>
+<tr><td>Life expectancy at birth, male (years)</td><td>SP_DYN_LE00_MA_IN</td></tr>
+<tr><td>Life expectancy at birth, total (years)</td><td>SP_DYN_LE00_IN</td></tr>
+<tr><td>Lifetime risk of maternal death (%)</td><td>SH_MMR_RISK_ZS</td></tr>
+<tr><td>Lifetime risk of maternal death (1 in: rate varies by country)</td><td>SH_MMR_RISK</td></tr>
+<tr><td>Liner shipping connectivity index (maximum value in 2004 = 100)</td><td>IS_SHP_GCNW_XQ</td></tr>
+<tr><td>Liquid liabilities (M3) as % of GDP</td><td>FS_LBL_LIQU_GD_ZS</td></tr>
+<tr><td>Listed domestic companies, total</td><td>CM_MKT_LDOM_NO</td></tr>
+<tr><td>Literacy rate, adult female (% of females ages 15 and above)</td><td>SE_ADT_LITR_FE_ZS</td></tr>
+<tr><td>Literacy rate, adult male (% of males ages 15 and above)</td><td>SE_ADT_LITR_MA_ZS</td></tr>
+<tr><td>Literacy rate, adult total (% of people ages 15 and above)</td><td>SE_ADT_LITR_ZS</td></tr>
+<tr><td>Literacy rate, youth female (% of females ages 15-24)</td><td>SE_ADT_1524_LT_FE_ZS</td></tr>
+<tr><td>Literacy rate, youth male (% of males ages 15-24)</td><td>SE_ADT_1524_LT_MA_ZS</td></tr>
+<tr><td>Literacy rate, youth total (% of people ages 15-24)</td><td>SE_ADT_1524_LT_ZS</td></tr>
+<tr><td>Livestock production index (2004-2006 = 100)</td><td>AG_PRD_LVSK_XD</td></tr>
+<tr><td>Logistics performance index: Ability to track and trace consignments (1=low to 5=high)</td><td>LP_LPI_TRAC_XQ</td></tr>
+<tr><td>Logistics performance index: Competence and quality of logistics services (1=low to 5=high)</td><td>LP_LPI_LOGS_XQ</td></tr>
+<tr><td>Logistics performance index: Ease of arranging competitively priced shipments (1=low to 5=high)</td><td>LP_LPI_ITRN_XQ</td></tr>
+<tr><td>Logistics performance index: Efficiency of customs clearance process (1=low to 5=high)</td><td>LP_LPI_CUST_XQ</td></tr>
+<tr><td>Logistics performance index: Frequency with which shipments reach consignee within scheduled or expected time (1=low to 5=high)</td><td>LP_LPI_TIME_XQ</td></tr>
+<tr><td>Logistics performance index: Overall (1=low to 5=high)</td><td>LP_LPI_OVRL_XQ</td></tr>
+<tr><td>Logistics performance index: Quality of trade and transport-related infrastructure (1=low to 5=high)</td><td>LP_LPI_INFR_XQ</td></tr>
+<tr><td>Long-term unemployment (% of total unemployment)</td><td>SL_UEM_LTRM_ZS</td></tr>
+<tr><td>Long-term unemployment, female (% of female unemployment)</td><td>SL_UEM_LTRM_FE_ZS</td></tr>
+<tr><td>Long-term unemployment, male (% of male unemployment)</td><td>SL_UEM_LTRM_MA_ZS</td></tr>
+<tr><td>Losses due to theft, robbery, vandalism, and arson (% sales)</td><td>IC_FRM_CRIM_ZS</td></tr>
+<tr><td>Low-birthweight babies (% of births)</td><td>SH_STA_BRTW_ZS</td></tr>
+<tr><td>Machinery and transport equipment (% of value added in manufacturing)</td><td>NV_MNF_MTRN_ZS_UN</td></tr>
+<tr><td>Malnutrition prevalence, height for age (% of children under 5)</td><td>SH_STA_STNT_ZS</td></tr>
+<tr><td>Malnutrition prevalence, weight for age (% of children under 5)</td><td>SH_STA_MALN_ZS</td></tr>
+<tr><td>Mammal species, threatened</td><td>EN_MAM_THRD_NO</td></tr>
+<tr><td>Management time dealing with officials (% of management time)</td><td>IC_GOV_DURS_ZS</td></tr>
+<tr><td>Manufactures exports (% of merchandise exports)</td><td>TX_VAL_MANF_ZS_UN</td></tr>
+<tr><td>Manufactures imports (% of merchandise imports)</td><td>TM_VAL_MANF_ZS_UN</td></tr>
+<tr><td>Manufacturing, value added (% of GDP)</td><td>NV_IND_MANF_ZS</td></tr>
+<tr><td>Manufacturing, value added (annual % growth)</td><td>NV_IND_MANF_KD_ZG</td></tr>
+<tr><td>Manufacturing, value added (constant 2000 US$)</td><td>NV_IND_MANF_KD</td></tr>
+<tr><td>Manufacturing, value added (constant LCU)</td><td>NV_IND_MANF_KN</td></tr>
+<tr><td>Manufacturing, value added (current LCU)</td><td>NV_IND_MANF_CN</td></tr>
+<tr><td>Manufacturing, value added (current US$)</td><td>NV_IND_MANF_CD</td></tr>
+<tr><td>Marine protected areas (% of territorial waters)</td><td>ER_MRN_PTMR_ZS</td></tr>
+<tr><td>Market capitalization of listed companies (% of GDP)</td><td>CM_MKT_LCAP_GD_ZS</td></tr>
+<tr><td>Market capitalization of listed companies (current US$)</td><td>CM_MKT_LCAP_CD</td></tr>
+<tr><td>Maternal mortality ratio (modeled estimate, per 100,000 live births)</td><td>SH_STA_MMRT</td></tr>
+<tr><td>Maternal mortality ratio (national estimate, per 100,000 live births)</td><td>SH_STA_MMRT_NE</td></tr>
+<tr><td>Merchandise exports (current US$)</td><td>TX_VAL_MRCH_CD_WT</td></tr>
+<tr><td>Merchandise exports by the reporting economy (current US$)</td><td>TX_VAL_MRCH_WL_CD</td></tr>
+<tr><td>Merchandise exports by the reporting economy, residual (% of total merchandise exports)</td><td>TX_VAL_MRCH_RS_ZS</td></tr>
+<tr><td>Merchandise exports to developing economies in East Asia &amp; Pacific (% of total merchandise exports)</td><td>TX_VAL_MRCH_R1_ZS</td></tr>
+<tr><td>Merchandise exports to developing economies in Europe &amp; Central Asia (% of total merchandise exports)</td><td>TX_VAL_MRCH_R2_ZS</td></tr>
+<tr><td>Merchandise exports to developing economies in Latin America &amp; the Caribbean (% of total merchandise exports)</td><td>TX_VAL_MRCH_R3_ZS</td></tr>
+<tr><td>Merchandise exports to developing economies in Middle East &amp; North Africa (% of total merchandise exports)</td><td>TX_VAL_MRCH_R4_ZS</td></tr>
+<tr><td>Merchandise exports to developing economies in South Asia (% of total merchandise exports)</td><td>TX_VAL_MRCH_R5_ZS</td></tr>
+<tr><td>Merchandise exports to developing economies in Sub-Saharan Africa (% of total merchandise exports)</td><td>TX_VAL_MRCH_R6_ZS</td></tr>
+<tr><td>Merchandise exports to developing economies outside region (% of total merchandise exports)</td><td>TX_VAL_MRCH_OR_ZS</td></tr>
+<tr><td>Merchandise exports to developing economies within region (% of total merchandise exports)</td><td>TX_VAL_MRCH_WR_ZS</td></tr>
+<tr><td>Merchandise exports to economies in the Arab World (% of total merchandise exports)</td><td>TX_VAL_MRCH_AL_ZS</td></tr>
+<tr><td>Merchandise exports to high-income economies (% of total merchandise exports)</td><td>TX_VAL_MRCH_HI_ZS</td></tr>
+<tr><td>Merchandise imports (current US$)</td><td>TM_VAL_MRCH_CD_WT</td></tr>
+<tr><td>Merchandise imports by the reporting economy (current US$)</td><td>TM_VAL_MRCH_WL_CD</td></tr>
+<tr><td>Merchandise imports by the reporting economy, residual (% of total merchandise imports)</td><td>TM_VAL_MRCH_RS_ZS</td></tr>
+<tr><td>Merchandise imports from developing economies in East Asia &amp; Pacific (% of total merchandise imports)</td><td>TM_VAL_MRCH_R1_ZS</td></tr>
+<tr><td>Merchandise imports from developing economies in Europe &amp; Central Asia (% of total merchandise imports)</td><td>TM_VAL_MRCH_R2_ZS</td></tr>
+<tr><td>Merchandise imports from developing economies in Latin America &amp; the Caribbean (% of total merchandise imports)</td><td>TM_VAL_MRCH_R3_ZS</td></tr>
+<tr><td>Merchandise imports from developing economies in Middle East &amp; North Africa (% of total merchandise imports)</td><td>TM_VAL_MRCH_R4_ZS</td></tr>
+<tr><td>Merchandise imports from developing economies in South Asia (% of total merchandise imports)</td><td>TM_VAL_MRCH_R5_ZS</td></tr>
+<tr><td>Merchandise imports from developing economies in Sub-Saharan Africa (% of total merchandise imports)</td><td>TM_VAL_MRCH_R6_ZS</td></tr>
+<tr><td>Merchandise imports from developing economies outside region (% of total merchandise imports)</td><td>TM_VAL_MRCH_OR_ZS</td></tr>
+<tr><td>Merchandise imports from developing economies within region (% of total merchandise imports)</td><td>TM_VAL_MRCH_WR_ZS</td></tr>
+<tr><td>Merchandise imports from economies in the Arab World (% of total merchandise imports)</td><td>TM_VAL_MRCH_AL_ZS</td></tr>
+<tr><td>Merchandise imports from high-income economies (% of total merchandise imports)</td><td>TM_VAL_MRCH_HI_ZS</td></tr>
+<tr><td>Merchandise trade (% of GDP)</td><td>TG_VAL_TOTL_GD_ZS</td></tr>
+<tr><td>Methane emissions (kt of CO2 equivalent)</td><td>EN_ATM_METH_KT_CE</td></tr>
+<tr><td>Methane emissions in energy sector (thousand metric tons of CO2 equivalent)</td><td>EN_ATM_METH_EG_KT_CE</td></tr>
+<tr><td>Military expenditure (% of central government expenditure)</td><td>MS_MIL_XPND_ZS</td></tr>
+<tr><td>Military expenditure (% of GDP)</td><td>MS_MIL_XPND_GD_ZS</td></tr>
+<tr><td>Military expenditure (current LCU)</td><td>MS_MIL_XPND_CN</td></tr>
+<tr><td>Mineral rents (% of GDP)</td><td>NY_GDP_MINR_RT_ZS</td></tr>
+<tr><td>Mobile cellular subscriptions</td><td>IT_CEL_SETS</td></tr>
+<tr><td>Mobile cellular subscriptions (per 100 people)</td><td>IT_CEL_SETS_P2</td></tr>
+<tr><td>Money (current LCU)</td><td>FM_LBL_MONY_CN</td></tr>
+<tr><td>Money and quasi money (M2) (current LCU)</td><td>FM_LBL_MQMY_CN</td></tr>
+<tr><td>Money and quasi money (M2) as % of GDP</td><td>FM_LBL_MQMY_GD_ZS</td></tr>
+<tr><td>Money and quasi money (M2) to total reserves ratio</td><td>FM_LBL_MQMY_IR_ZS</td></tr>
+<tr><td>Money and quasi money growth (annual %)</td><td>FM_LBL_MQMY_ZG</td></tr>
+<tr><td>Mortality rate, adult, female (per 1,000 female adults)</td><td>SP_DYN_AMRT_FE</td></tr>
+<tr><td>Mortality rate, adult, male (per 1,000 male adults)</td><td>SP_DYN_AMRT_MA</td></tr>
+<tr><td>Mortality rate, female child (per 1,000 female children age one)</td><td>SH_DYN_CHLD_FE</td></tr>
+<tr><td>Mortality rate, infant (per 1,000 live births)</td><td>SP_DYN_IMRT_IN</td></tr>
+<tr><td>Mortality rate, male child (per 1,000 male children age one)</td><td>SH_DYN_CHLD_MA</td></tr>
+<tr><td>Mortality rate, neonatal (per 1,000 live births)</td><td>SH_DYN_NMRT</td></tr>
+<tr><td>Mortality rate, under-5 (per 1,000 live births)</td><td>SH_DYN_MORT</td></tr>
+<tr><td>Motor vehicles (per 1,000 people)</td><td>IS_VEH_NVEH_P3</td></tr>
+<tr><td>Multilateral debt service (% of public and publicly guaranteed debt service)</td><td>DT_TDS_MLAT_PG_ZS</td></tr>
+<tr><td>Multilateral debt service (TDS, current US$)</td><td>DT_TDS_MLAT_CD</td></tr>
+<tr><td>Natural gas rents (% of GDP)</td><td>NY_GDP_NGAS_RT_ZS</td></tr>
+<tr><td>Net barter terms of trade index (2000 = 100)</td><td>TT_PRI_MRCH_XD_WD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, Australia (current US$)</td><td>DC_DAC_AUSL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, Austria (current US$)</td><td>DC_DAC_AUTL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, Belgium (current US$)</td><td>DC_DAC_BELL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, Canada (current US$)</td><td>DC_DAC_CANL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, Denmark (current US$)</td><td>DC_DAC_DNKL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, European Union institutions (current US$)</td><td>DC_DAC_CECL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, Finland (current US$)</td><td>DC_DAC_FINL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, France (current US$)</td><td>DC_DAC_FRAL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, Germany (current US$)</td><td>DC_DAC_DEUL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, Greece (current US$)</td><td>DC_DAC_GRCL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, Ireland (current US$)</td><td>DC_DAC_IRLL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, Italy (current US$)</td><td>DC_DAC_ITAL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, Japan (current US$)</td><td>DC_DAC_JPNL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, Korea, Rep. (current US$)</td><td>DC_DAC_KORL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, Luxembourg (current US$)</td><td>DC_DAC_LUXL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, Netherlands (current US$)</td><td>DC_DAC_NLDL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, New Zealand (current US$)</td><td>DC_DAC_NZLL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, Norway (current US$)</td><td>DC_DAC_NORL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, Portugal (current US$)</td><td>DC_DAC_PRTL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, Spain (current US$)</td><td>DC_DAC_ESPL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, Sweden (current US$)</td><td>DC_DAC_SWEL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, Switzerland (current US$)</td><td>DC_DAC_CHEL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, Total (current US$)</td><td>DC_DAC_TOTL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, United Kingdom (current US$)</td><td>DC_DAC_GBRL_CD</td></tr>
+<tr><td>Net bilateral aid flows from DAC donors, United States (current US$)</td><td>DC_DAC_USAL_CD</td></tr>
+<tr><td>Net capital account (BoP, current US$)</td><td>BN_TRF_KOGT_CD</td></tr>
+<tr><td>Net current transfers (BoP, current US$)</td><td>BN_TRF_CURR_CD</td></tr>
+<tr><td>Net current transfers from abroad (constant LCU)</td><td>NY_TRF_NCTR_KN</td></tr>
+<tr><td>Net current transfers from abroad (current LCU)</td><td>NY_TRF_NCTR_CN</td></tr>
+<tr><td>Net current transfers from abroad (current US$)</td><td>NY_TRF_NCTR_CD</td></tr>
+<tr><td>Net domestic credit (current LCU)</td><td>FM_AST_DOMS_CN</td></tr>
+<tr><td>Net errors and omissions, adjusted (BoP, current US$)</td><td>BN_KAC_EOMS_CD</td></tr>
+<tr><td>Net financial flows, bilateral (NFL, current US$)</td><td>DT_NFL_BLAT_CD</td></tr>
+<tr><td>Net financial flows, IBRD (NFL, current US$)</td><td>DT_NFL_MIBR_CD</td></tr>
+<tr><td>Net financial flows, IDA (NFL, current US$)</td><td>DT_NFL_MIDA_CD</td></tr>
+<tr><td>Net financial flows, IMF concessional (NFL, current US$)</td><td>DT_NFL_IMFC_CD</td></tr>
+<tr><td>Net financial flows, IMF nonconcessional (NFL, current US$)</td><td>DT_NFL_IMFN_CD</td></tr>
+<tr><td>Net financial flows, multilateral (NFL, current US$)</td><td>DT_NFL_MLAT_CD</td></tr>
+<tr><td>Net financial flows, others (NFL, current US$)</td><td>DT_NFL_MOTH_CD</td></tr>
+<tr><td>Net financial flows, RDB concessional (NFL, current US$)</td><td>DT_NFL_RDBC_CD</td></tr>
+<tr><td>Net financial flows, RDB nonconcessional (NFL, current US$)</td><td>DT_NFL_RDBN_CD</td></tr>
+<tr><td>Net foreign assets (current LCU)</td><td>FM_AST_NFRG_CN</td></tr>
+<tr><td>Net income (BoP, current US$)</td><td>BN_GSR_FCTY_CD</td></tr>
+<tr><td>Net income from abroad (constant LCU)</td><td>NY_GSR_NFCY_KN</td></tr>
+<tr><td>Net income from abroad (current LCU)</td><td>NY_GSR_NFCY_CN</td></tr>
+<tr><td>Net income from abroad (current US$)</td><td>NY_GSR_NFCY_CD</td></tr>
+<tr><td>Net incurrence of liabilities, domestic (% of GDP)</td><td>GC_FIN_DOMS_GD_ZS</td></tr>
+<tr><td>Net incurrence of liabilities, domestic (current LCU)</td><td>GC_FIN_DOMS_CN</td></tr>
+<tr><td>Net incurrence of liabilities, foreign (% of GDP)</td><td>GC_FIN_FRGN_GD_ZS</td></tr>
+<tr><td>Net incurrence of liabilities, foreign (current LCU)</td><td>GC_FIN_FRGN_CN</td></tr>
+<tr><td>Net intake rate in grade 1 (% of official school-age population)</td><td>SE_PRM_NINT_ZS</td></tr>
+<tr><td>Net intake rate in grade 1, female (% of official school-age population)</td><td>SE_PRM_NINT_FE_ZS</td></tr>
+<tr><td>Net intake rate in grade 1, male (% of official school-age population)</td><td>SE_PRM_NINT_MA_ZS</td></tr>
+<tr><td>Net migration</td><td>SM_POP_NETM</td></tr>
+<tr><td>Net ODA received (% of central government expense)</td><td>DT_ODA_ODAT_XP_ZS</td></tr>
+<tr><td>Net ODA received (% of GNI)</td><td>DT_ODA_ODAT_GN_ZS</td></tr>
+<tr><td>Net ODA received (% of gross capital formation)</td><td>DT_ODA_ODAT_GI_ZS</td></tr>
+<tr><td>Net ODA received (% of imports of goods and services)</td><td>DT_ODA_ODAT_MP_ZS</td></tr>
+<tr><td>Net ODA received per capita (current US$)</td><td>DT_ODA_ODAT_PC_ZS</td></tr>
+<tr><td>Net official aid received (constant 2010 US$)</td><td>DT_ODA_OATL_KD</td></tr>
+<tr><td>Net official aid received (current US$)</td><td>DT_ODA_OATL_CD</td></tr>
+<tr><td>Net official development assistance and official aid received (constant 2010 US$)</td><td>DT_ODA_ALLD_KD</td></tr>
+<tr><td>Net official development assistance and official aid received (current US$)</td><td>DT_ODA_ALLD_CD</td></tr>
+<tr><td>Net official development assistance received (constant 2010 US$)</td><td>DT_ODA_ODAT_KD</td></tr>
+<tr><td>Net official development assistance received (current US$)</td><td>DT_ODA_ODAT_CD</td></tr>
+<tr><td>Net official flows from UN agencies, IAEA (current US$)</td><td>DT_NFL_IAEA_CD</td></tr>
+<tr><td>Net official flows from UN agencies, IFAD (current US$)</td><td>DT_NFL_IFAD_CD</td></tr>
+<tr><td>Net official flows from UN agencies, UNAIDS (current US$)</td><td>DT_NFL_UNAI_CD</td></tr>
+<tr><td>Net official flows from UN agencies, UNDP (current US$)</td><td>DT_NFL_UNDP_CD</td></tr>
+<tr><td>Net official flows from UN agencies, UNECE (current US$)</td><td>DT_NFL_UNEC_CD</td></tr>
+<tr><td>Net official flows from UN agencies, UNFPA (current US$)</td><td>DT_NFL_UNFP_CD</td></tr>
+<tr><td>Net official flows from UN agencies, UNHCR (current US$)</td><td>DT_NFL_UNCR_CD</td></tr>
+<tr><td>Net official flows from UN agencies, UNICEF (current US$)</td><td>DT_NFL_UNCF_CD</td></tr>
+<tr><td>Net official flows from UN agencies, UNPBF (current US$)</td><td>DT_NFL_UNPB_CD</td></tr>
+<tr><td>Net official flows from UN agencies, UNRWA (current US$)</td><td>DT_NFL_UNRW_CD</td></tr>
+<tr><td>Net official flows from UN agencies, UNTA (current US$)</td><td>DT_NFL_UNTA_CD</td></tr>
+<tr><td>Net official flows from UN agencies, WFP (current US$)</td><td>DT_NFL_WFPG_CD</td></tr>
+<tr><td>Net official flows from UN agencies, WHO (current US$)</td><td>DT_NFL_WHOL_CD</td></tr>
+<tr><td>Net taxes on products (constant LCU)</td><td>NY_TAX_NIND_KN</td></tr>
+<tr><td>Net taxes on products (current LCU)</td><td>NY_TAX_NIND_CN</td></tr>
+<tr><td>Net taxes on products (current US$)</td><td>NY_TAX_NIND_CD</td></tr>
+<tr><td>Net trade in goods (BoP, current US$)</td><td>BN_GSR_MRCH_CD</td></tr>
+<tr><td>Net trade in goods and services (BoP, current US$)</td><td>BN_GSR_GNFS_CD</td></tr>
+<tr><td>New business density (new registrations per 1,000 people ages 15-64)</td><td>IC_BUS_NDNS_ZS</td></tr>
+<tr><td>New businesses registered (number)</td><td>IC_BUS_NREG</td></tr>
+<tr><td>Newborns protected against tetanus (%)</td><td>SH_VAC_TTNS_ZS</td></tr>
+<tr><td>Nitrous oxide emissions (thousand metric tons of CO2 equivalent)</td><td>EN_ATM_NOXE_KT_CE</td></tr>
+<tr><td>Nitrous oxide emissions in energy sector (thousand metric tons of CO2 equivalent)</td><td>EN_ATM_NOXE_EG_KT_CE</td></tr>
+<tr><td>Nitrous oxide emissions in industrial and energy processes (% of total nitrous oxide emissions)</td><td>EN_ATM_NOXE_EI_ZS</td></tr>
+<tr><td>Notified cases of malaria (per 100,000 people)</td><td>SH_MLR_INCD</td></tr>
+<tr><td>Number of maternal deaths</td><td>SH_MMR_DTHS</td></tr>
+<tr><td>Nurses and midwives (per 1,000 people)</td><td>SH_MED_NUMW_P3</td></tr>
+<tr><td>Official exchange rate (LCU per US$, period average)</td><td>PA_NUS_FCRF</td></tr>
+<tr><td>Oil rents (% of GDP)</td><td>NY_GDP_PETR_RT_ZS</td></tr>
+<tr><td>Ores and metals exports (% of merchandise exports)</td><td>TX_VAL_MMTL_ZS_UN</td></tr>
+<tr><td>Ores and metals imports (% of merchandise imports)</td><td>TM_VAL_MMTL_ZS_UN</td></tr>
+<tr><td>Organic water pollutant (BOD) emissions (kg per day per worker)</td><td>EE_BOD_WRKR_KG</td></tr>
+<tr><td>Organic water pollutant (BOD) emissions (kg per day)</td><td>EE_BOD_TOTL_KG</td></tr>
+<tr><td>Other expense (% of expense)</td><td>GC_XPN_OTHR_ZS</td></tr>
+<tr><td>Other expense (current LCU)</td><td>GC_XPN_OTHR_CN</td></tr>
+<tr><td>Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent)</td><td>EN_ATM_GHGO_KT_CE</td></tr>
+<tr><td>Other manufacturing (% of value added in manufacturing)</td><td>NV_MNF_OTHR_ZS_UN</td></tr>
+<tr><td>Other taxes (% of revenue)</td><td>GC_TAX_OTHR_RV_ZS</td></tr>
+<tr><td>Other taxes (current LCU)</td><td>GC_TAX_OTHR_CN</td></tr>
+<tr><td>Other taxes payable by businesses (% of commercial profits)</td><td>IC_TAX_OTHR_CP_ZS</td></tr>
+<tr><td>Out-of-pocket health expenditure (% of private expenditure on health)</td><td>SH_XPD_OOPC_ZS</td></tr>
+<tr><td>Out-of-pocket health expenditure (% of total expenditure on health)</td><td>SH_XPD_OOPC_TO_ZS</td></tr>
+<tr><td>Outpatient visits per capita</td><td>SH_VST_OUTP</td></tr>
+<tr><td>Part time employment, female (% of total female employment)</td><td>SL_TLF_PART_FE_ZS</td></tr>
+<tr><td>Part time employment, female (% of total part time employment)</td><td>SL_TLF_PART_TL_FE_ZS</td></tr>
+<tr><td>Part time employment, male (% of total male employment)</td><td>SL_TLF_PART_MA_ZS</td></tr>
+<tr><td>Part time employment, total (% of total employment)</td><td>SL_TLF_PART_ZS</td></tr>
+<tr><td>Passenger cars (per 1,000 people)</td><td>IS_VEH_PCAR_P3</td></tr>
+<tr><td>Patent applications, nonresidents</td><td>IP_PAT_NRES</td></tr>
+<tr><td>Patent applications, residents</td><td>IP_PAT_RESD</td></tr>
+<tr><td>Permanent cropland (% of land area)</td><td>AG_LND_CROP_ZS</td></tr>
+<tr><td>Persistence to grade 5, female (% of cohort)</td><td>SE_PRM_PRS5_FE_ZS</td></tr>
+<tr><td>Persistence to grade 5, male (% of cohort)</td><td>SE_PRM_PRS5_MA_ZS</td></tr>
+<tr><td>Persistence to grade 5, total (% of cohort)</td><td>SE_PRM_PRS5_ZS</td></tr>
+<tr><td>Persistence to last grade of primary, female (% of cohort)</td><td>SE_PRM_PRSL_FE_ZS</td></tr>
+<tr><td>Persistence to last grade of primary, male (% of cohort)</td><td>SE_PRM_PRSL_MA_ZS</td></tr>
+<tr><td>Persistence to last grade of primary, total (% of cohort)</td><td>SE_PRM_PRSL_ZS</td></tr>
+<tr><td>PFC gas emissions (thousand metric tons of CO2 equivalent)</td><td>EN_ATM_PFCG_KT_CE</td></tr>
+<tr><td>Physicians (per 1,000 people)</td><td>SH_MED_PHYS_ZS</td></tr>
+<tr><td>Plant species (higher), threatened</td><td>EN_HPT_THRD_NO</td></tr>
+<tr><td>PM10, country level (micrograms per cubic meter)</td><td>EN_ATM_PM10_MC_M3</td></tr>
+<tr><td>Point-of-sale terminals (per 100,000 adults)</td><td>FB_POS_TOTL_P5</td></tr>
+<tr><td>Population ages 0-14 (% of total)</td><td>SP_POP_0014_TO_ZS</td></tr>
+<tr><td>Population ages 15-64 (% of total)</td><td>SP_POP_1564_TO_ZS</td></tr>
+<tr><td>Population ages 65 and above (% of total)</td><td>SP_POP_65UP_TO_ZS</td></tr>
+<tr><td>Population density (people per sq. km of land area)</td><td>EN_POP_DNST</td></tr>
+<tr><td>Population growth (annual %)</td><td>SP_POP_GROW</td></tr>
+<tr><td>Population in largest city</td><td>EN_URB_LCTY</td></tr>
+<tr><td>Population in the largest city (% of urban population)</td><td>EN_URB_LCTY_UR_ZS</td></tr>
+<tr><td>Population in urban agglomerations of more than 1 million</td><td>EN_URB_MCTY</td></tr>
+<tr><td>Population in urban agglomerations of more than 1 million (% of total population)</td><td>EN_URB_MCTY_TL_ZS</td></tr>
+<tr><td>Population living in areas where elevation is below 5 meters (% of total population)</td><td>EN_POP_EL5M_ZS</td></tr>
+<tr><td>Population, female (% of total)</td><td>SP_POP_TOTL_FE_ZS</td></tr>
+<tr><td>Population, total</td><td>SP_POP_TOTL</td></tr>
+<tr><td>Portfolio equity, net inflows (BoP, current US$)</td><td>BX_PEF_TOTL_CD_WD</td></tr>
+<tr><td>Portfolio investment, bonds (PPG + PNG) (NFL, current US$)</td><td>DT_NFL_BOND_CD</td></tr>
+<tr><td>Portfolio investment, excluding LCFAR (BoP, current US$)</td><td>BN_KLT_PTXL_CD</td></tr>
+<tr><td>Poverty gap at $1.25 a day (PPP) (%)</td><td>SI_POV_GAPS</td></tr>
+<tr><td>Poverty gap at $2 a day (PPP) (%)</td><td>SI_POV_GAP2</td></tr>
+<tr><td>Poverty gap at national poverty line (%)</td><td>SI_POV_NAGP</td></tr>
+<tr><td>Poverty gap at rural poverty line (%)</td><td>SI_POV_RUGP</td></tr>
+<tr><td>Poverty gap at urban poverty line (%)</td><td>SI_POV_URGP</td></tr>
+<tr><td>Poverty headcount ratio at $1.25 a day (PPP) (% of population)</td><td>SI_POV_DDAY</td></tr>
+<tr><td>Poverty headcount ratio at $2 a day (PPP) (% of population)</td><td>SI_POV_2DAY</td></tr>
+<tr><td>Poverty headcount ratio at national poverty line (% of population)</td><td>SI_POV_NAHC</td></tr>
+<tr><td>Poverty headcount ratio at rural poverty line (% of rural population)</td><td>SI_POV_RUHC</td></tr>
+<tr><td>Poverty headcount ratio at urban poverty line (% of urban population)</td><td>SI_POV_URHC</td></tr>
+<tr><td>Power outages in firms in a typical month (number)</td><td>IC_ELC_OUTG</td></tr>
+<tr><td>PPP conversion factor (GDP) to market exchange rate ratio</td><td>PA_NUS_PPPC_RF</td></tr>
+<tr><td>PPP conversion factor, GDP (LCU per international $)</td><td>PA_NUS_PPP</td></tr>
+<tr><td>PPP conversion factor, private consumption (LCU per international $)</td><td>PA_NUS_PRVT_PP</td></tr>
+<tr><td>Pregnant women receiving prenatal care (%)</td><td>SH_STA_ANVC_ZS</td></tr>
+<tr><td>Presence of peace keepers (number of troops, police, and military observers in mandate)</td><td>VC_PKP_TOTL_UN</td></tr>
+<tr><td>Present value of external debt (% of exports of goods, services and income)</td><td>DT_DOD_PVLX_EX_ZS</td></tr>
+<tr><td>Present value of external debt (% of GNI)</td><td>DT_DOD_PVLX_GN_ZS</td></tr>
+<tr><td>Present value of external debt (current US$)</td><td>DT_DOD_PVLX_CD</td></tr>
+<tr><td>Prevalence of anemia among pregnant women (%)</td><td>SH_PRG_ANEM</td></tr>
+<tr><td>Prevalence of HIV, female (% ages 15-24)</td><td>SH_HIV_1524_FE_ZS</td></tr>
+<tr><td>Prevalence of HIV, male (% ages 15-24)</td><td>SH_HIV_1524_MA_ZS</td></tr>
+<tr><td>Prevalence of HIV, total (% of population ages 15-49)</td><td>SH_DYN_AIDS_ZS</td></tr>
+<tr><td>Prevalence of overweight (% of children under 5)</td><td>SH_STA_OWGH_ZS</td></tr>
+<tr><td>Prevalence of undernourishment (% of population)</td><td>SN_ITK_DEFC_ZS</td></tr>
+<tr><td>Prevalence of wasting (% of children under 5)</td><td>SH_STA_WAST_ZS</td></tr>
+<tr><td>Primary completion rate, female (% of relevant age group)</td><td>SE_PRM_CMPT_FE_ZS</td></tr>
+<tr><td>Primary completion rate, male (% of relevant age group)</td><td>SE_PRM_CMPT_MA_ZS</td></tr>
+<tr><td>Primary completion rate, total (% of relevant age group)</td><td>SE_PRM_CMPT_ZS</td></tr>
+<tr><td>Primary education, duration (years)</td><td>SE_PRM_DURS</td></tr>
+<tr><td>Primary education, pupils</td><td>SE_PRM_ENRL</td></tr>
+<tr><td>Primary education, pupils (% female)</td><td>SE_PRM_ENRL_FE_ZS</td></tr>
+<tr><td>Primary education, teachers</td><td>SE_PRM_TCHR</td></tr>
+<tr><td>Primary education, teachers (% female)</td><td>SE_PRM_TCHR_FE_ZS</td></tr>
+<tr><td>Primary school starting age (years)</td><td>SE_PRM_AGES</td></tr>
+<tr><td>Private capital flows, total (% of GDP)</td><td>BN_KLT_PRVT_GD_ZS</td></tr>
+<tr><td>Private capital flows, total (BoP, current US$)</td><td>BN_KLT_PRVT_CD</td></tr>
+<tr><td>Private credit bureau coverage (% of adults)</td><td>IC_CRD_PRVT_ZS</td></tr>
+<tr><td>Private current transfers, payments (BoP, current US$)</td><td>BM_TRF_PRVT_CD</td></tr>
+<tr><td>Procedures to build a warehouse (number)</td><td>IC_WRH_PROC</td></tr>
+<tr><td>Procedures to enforce a contract (number)</td><td>IC_LGL_PROC</td></tr>
+<tr><td>Procedures to register property (number)</td><td>IC_PRP_PROC</td></tr>
+<tr><td>Profit tax (% of commercial profits)</td><td>IC_TAX_PRFT_CP_ZS</td></tr>
+<tr><td>Progression to secondary school (%)</td><td>SE_SEC_PROG_ZS</td></tr>
+<tr><td>Progression to secondary school, female (%)</td><td>SE_SEC_PROG_FE_ZS</td></tr>
+<tr><td>Progression to secondary school, male (%)</td><td>SE_SEC_PROG_MA_ZS</td></tr>
+<tr><td>Proportion of seats held by women in national parliaments (%)</td><td>SG_GEN_PARL_ZS</td></tr>
+<tr><td>Public and publicly guaranteed debt service (% of exports, excluding workers' remittances)</td><td>DT_TDS_DPPG_XP_ZS</td></tr>
+<tr><td>Public and publicly guaranteed debt service (% of GNI)</td><td>DT_TDS_DPPG_GN_ZS</td></tr>
+<tr><td>Public credit registry coverage (% of adults)</td><td>IC_CRD_PUBL_ZS</td></tr>
+<tr><td>Public spending on education, total (% of GDP)</td><td>SE_XPD_TOTL_GD_ZS</td></tr>
+<tr><td>Public spending on education, total (% of government expenditure)</td><td>SE_XPD_TOTL_GB_ZS</td></tr>
+<tr><td>Pump price for diesel fuel (US$ per liter)</td><td>EP_PMP_DESL_CD</td></tr>
+<tr><td>Pump price for gasoline (US$ per liter)</td><td>EP_PMP_SGAS_CD</td></tr>
+<tr><td>Pupil-teacher ratio, primary</td><td>SE_PRM_ENRL_TC_ZS</td></tr>
+<tr><td>Pupil-teacher ratio, secondary</td><td>SE_SEC_ENRL_TC_ZS</td></tr>
+<tr><td>Quality of port infrastructure, WEF (1=extremely underdeveloped to 7=well developed and efficient by international standards)</td><td>IQ_WEF_PORT_XQ</td></tr>
+<tr><td>Quasi money (current LCU)</td><td>FM_LBL_QMNY_CN</td></tr>
+<tr><td>Quasi-liquid liabilities (% of GDP)</td><td>FS_LBL_QLIQ_GD_ZS</td></tr>
+<tr><td>Rail lines (total route-km)</td><td>IS_RRS_TOTL_KM</td></tr>
+<tr><td>Railways, goods transported (million ton-km)</td><td>IS_RRS_GOOD_MT_K6</td></tr>
+<tr><td>Railways, passengers carried (million passenger-km)</td><td>IS_RRS_PASG_KM</td></tr>
+<tr><td>Ratio of female to male labor force participation rate (%)</td><td>SL_TLF_CACT_FM_ZS</td></tr>
+<tr><td>Ratio of female to male primary enrollment (%)</td><td>SE_ENR_PRIM_FM_ZS</td></tr>
+<tr><td>Ratio of female to male secondary enrollment (%)</td><td>SE_ENR_SECO_FM_ZS</td></tr>
+<tr><td>Ratio of female to male tertiary enrollment (%)</td><td>SE_ENR_TERT_FM_ZS</td></tr>
+<tr><td>Ratio of girls to boys in primary and secondary education (%)</td><td>SE_ENR_PRSC_FM_ZS</td></tr>
+<tr><td>Ratio of young literate females to males (% ages 15-24)</td><td>SE_ADT_1524_LT_FM_ZS</td></tr>
+<tr><td>Real effective exchange rate index (2005 = 100)</td><td>PX_REX_REER</td></tr>
+<tr><td>Real interest rate (%)</td><td>FR_INR_RINR</td></tr>
+<tr><td>Refugee population by country or territory of asylum</td><td>SM_POP_REFG</td></tr>
+<tr><td>Refugee population by country or territory of origin</td><td>SM_POP_REFG_OR</td></tr>
+<tr><td>Renewable internal freshwater resources per capita (cubic meters)</td><td>ER_H2O_INTR_PC</td></tr>
+<tr><td>Renewable internal freshwater resources, total (billion cubic meters)</td><td>ER_H2O_INTR_K3</td></tr>
+<tr><td>Repeaters, primary, female (% of female enrollment)</td><td>SE_PRM_REPT_FE_ZS</td></tr>
+<tr><td>Repeaters, primary, male (% of male enrollment)</td><td>SE_PRM_REPT_MA_ZS</td></tr>
+<tr><td>Repeaters, primary, total (% of total enrollment)</td><td>SE_PRM_REPT_ZS</td></tr>
+<tr><td>Repeaters, secondary, female (% of female enrollment)</td><td>SE_SEC_REPT_FE_ZS</td></tr>
+<tr><td>Repeaters, secondary, male (% of male enrollment)</td><td>SE_SEC_REPT_MA_ZS</td></tr>
+<tr><td>Repeaters, secondary, total (% of total enrollment)</td><td>SE_SEC_REPT_ZS</td></tr>
+<tr><td>Research and development expenditure (% of GDP)</td><td>GB_XPD_RSDV_GD_ZS</td></tr>
+<tr><td>Researchers in R&amp;D (per million people)</td><td>SP_POP_SCIE_RD_P6</td></tr>
+<tr><td>Revenue, excluding grants (% of GDP)</td><td>GC_REV_XGRT_GD_ZS</td></tr>
+<tr><td>Revenue, excluding grants (current LCU)</td><td>GC_REV_XGRT_CN</td></tr>
+<tr><td>Risk premium on lending (prime rate minus treasury bill rate, %)</td><td>FR_INR_RISK</td></tr>
+<tr><td>Road density (km of road per 100 sq. km of land area)</td><td>IS_ROD_DNST_K2</td></tr>
+<tr><td>Road sector diesel fuel consumption (kt of oil equivalent)</td><td>IS_ROD_DESL_KT</td></tr>
+<tr><td>Road sector diesel fuel consumption per capita (kg of oil equivalent)</td><td>IS_ROD_DESL_PC</td></tr>
+<tr><td>Road sector energy consumption (% of total energy consumption)</td><td>IS_ROD_ENGY_ZS</td></tr>
+<tr><td>Road sector energy consumption (kt of oil equivalent)</td><td>IS_ROD_ENGY_KT</td></tr>
+<tr><td>Road sector energy consumption per capita (kg of oil equivalent)</td><td>IS_ROD_ENGY_PC</td></tr>
+<tr><td>Road sector gasoline fuel consumption (kt of oil equivalent)</td><td>IS_ROD_SGAS_KT</td></tr>
+<tr><td>Road sector gasoline fuel consumption per capita (kg of oil equivalent)</td><td>IS_ROD_SGAS_PC</td></tr>
+<tr><td>Roads, goods transported (million ton-km)</td><td>IS_ROD_GOOD_MT_K6</td></tr>
+<tr><td>Roads, passengers carried (million passenger-km)</td><td>IS_ROD_PSGR_K6</td></tr>
+<tr><td>Roads, paved (% of total roads)</td><td>IS_ROD_PAVE_ZS</td></tr>
+<tr><td>Roads, total network (km)</td><td>IS_ROD_TOTL_KM</td></tr>
+<tr><td>Royalty and license fees, payments (BoP, current US$)</td><td>BM_GSR_ROYL_CD</td></tr>
+<tr><td>Royalty and license fees, receipts (BoP, current US$)</td><td>BX_GSR_ROYL_CD</td></tr>
+<tr><td>Rural population</td><td>SP_RUR_TOTL</td></tr>
+<tr><td>Rural population (% of total population)</td><td>SP_RUR_TOTL_ZS</td></tr>
+<tr><td>Rural population growth (annual %)</td><td>SP_RUR_TOTL_ZG</td></tr>
+<tr><td>S&amp;P Global Equity Indices (annual % change)</td><td>CM_MKT_INDX_ZG</td></tr>
+<tr><td>School enrollment, preprimary (% gross)</td><td>SE_PRE_ENRR</td></tr>
+<tr><td>School enrollment, preprimary, female (% gross)</td><td>SE_PRE_ENRR_FE</td></tr>
+<tr><td>School enrollment, preprimary, male (% gross)</td><td>SE_PRE_ENRR_MA</td></tr>
+<tr><td>School enrollment, primary (% gross)</td><td>SE_PRM_ENRR</td></tr>
+<tr><td>School enrollment, primary (% net)</td><td>SE_PRM_NENR</td></tr>
+<tr><td>School enrollment, primary, female (% gross)</td><td>SE_PRM_ENRR_FE</td></tr>
+<tr><td>School enrollment, primary, female (% net)</td><td>SE_PRM_NENR_FE</td></tr>
+<tr><td>School enrollment, primary, male (% gross)</td><td>SE_PRM_ENRR_MA</td></tr>
+<tr><td>School enrollment, primary, male (% net)</td><td>SE_PRM_NENR_MA</td></tr>
+<tr><td>School enrollment, primary, private (% of total primary)</td><td>SE_PRM_PRIV_ZS</td></tr>
+<tr><td>School enrollment, secondary (% gross)</td><td>SE_SEC_ENRR</td></tr>
+<tr><td>School enrollment, secondary (% net)</td><td>SE_SEC_NENR</td></tr>
+<tr><td>School enrollment, secondary, female (% gross)</td><td>SE_SEC_ENRR_FE</td></tr>
+<tr><td>School enrollment, secondary, female (% net)</td><td>SE_SEC_NENR_FE</td></tr>
+<tr><td>School enrollment, secondary, male (% gross)</td><td>SE_SEC_ENRR_MA</td></tr>
+<tr><td>School enrollment, secondary, male (% net)</td><td>SE_SEC_NENR_MA</td></tr>
+<tr><td>School enrollment, secondary, private (% of total secondary)</td><td>SE_SEC_PRIV_ZS</td></tr>
+<tr><td>School enrollment, tertiary (% gross)</td><td>SE_TER_ENRR</td></tr>
+<tr><td>School enrollment, tertiary, female (% gross)</td><td>SE_TER_ENRR_FE</td></tr>
+<tr><td>School enrollment, tertiary, male (% gross)</td><td>SE_TER_ENRR_MA</td></tr>
+<tr><td>Scientific and technical journal articles</td><td>IP_JRN_ARTC_SC</td></tr>
+<tr><td>Secondary education, duration (years)</td><td>SE_SEC_DURS</td></tr>
+<tr><td>Secondary education, general pupils</td><td>SE_SEC_ENRL_GC</td></tr>
+<tr><td>Secondary education, general pupils (% female)</td><td>SE_SEC_ENRL_GC_FE_ZS</td></tr>
+<tr><td>Secondary education, pupils</td><td>SE_SEC_ENRL</td></tr>
+<tr><td>Secondary education, pupils (% female)</td><td>SE_SEC_ENRL_FE_ZS</td></tr>
+<tr><td>Secondary education, teachers</td><td>SE_SEC_TCHR</td></tr>
+<tr><td>Secondary education, teachers (% female)</td><td>SE_SEC_TCHR_FE_ZS</td></tr>
+<tr><td>Secondary education, teachers, female</td><td>SE_SEC_TCHR_FE</td></tr>
+<tr><td>Secondary education, vocational pupils</td><td>SE_SEC_ENRL_VO</td></tr>
+<tr><td>Secondary education, vocational pupils (% female)</td><td>SE_SEC_ENRL_VO_FE_ZS</td></tr>
+<tr><td>Secondary school starting age (years)</td><td>SE_SEC_AGES</td></tr>
+<tr><td>Secure Internet servers</td><td>IT_NET_SECR</td></tr>
+<tr><td>Secure Internet servers (per 1 million people)</td><td>IT_NET_SECR_P6</td></tr>
+<tr><td>Self-employed, female (% of females employed)</td><td>SL_EMP_SELF_FE_ZS</td></tr>
+<tr><td>Self-employed, male (% of males employed)</td><td>SL_EMP_SELF_MA_ZS</td></tr>
+<tr><td>Self-employed, total (% of total employed)</td><td>SL_EMP_SELF_ZS</td></tr>
+<tr><td>Service exports (BoP, current US$)</td><td>BX_GSR_NFSV_CD</td></tr>
+<tr><td>Service imports (BoP, current US$)</td><td>BM_GSR_NFSV_CD</td></tr>
+<tr><td>Services, etc., value added (% of GDP)</td><td>NV_SRV_TETC_ZS</td></tr>
+<tr><td>Services, etc., value added (annual % growth)</td><td>NV_SRV_TETC_KD_ZG</td></tr>
+<tr><td>Services, etc., value added (constant 2000 US$)</td><td>NV_SRV_TETC_KD</td></tr>
+<tr><td>Services, etc., value added (constant LCU)</td><td>NV_SRV_TETC_KN</td></tr>
+<tr><td>Services, etc., value added (current LCU)</td><td>NV_SRV_TETC_CN</td></tr>
+<tr><td>Services, etc., value added (current US$)</td><td>NV_SRV_TETC_CD</td></tr>
+<tr><td>SF6 gas emissions (thousand metric tons of CO2 equivalent)</td><td>EN_ATM_SF6G_KT_CE</td></tr>
+<tr><td>Share of tariff lines with international peaks, all products (%)</td><td>TM_TAX_MRCH_IP_ZS</td></tr>
+<tr><td>Share of tariff lines with international peaks, manufactured products (%)</td><td>TM_TAX_MANF_IP_ZS</td></tr>
+<tr><td>Share of tariff lines with international peaks, primary products (%)</td><td>TM_TAX_TCOM_IP_ZS</td></tr>
+<tr><td>Share of tariff lines with specific rates, all products (%)</td><td>TM_TAX_MRCH_SR_ZS</td></tr>
+<tr><td>Share of tariff lines with specific rates, manufactured products (%)</td><td>TM_TAX_MANF_SR_ZS</td></tr>
+<tr><td>Share of tariff lines with specific rates, primary products (%)</td><td>TM_TAX_TCOM_SR_ZS</td></tr>
+<tr><td>Share of women employed in the nonagricultural sector (% of total nonagricultural employment)</td><td>SL_EMP_INSV_FE_ZS</td></tr>
+<tr><td>Short-term debt (% of exports of goods, services and income)</td><td>DT_DOD_DSTC_XP_ZS</td></tr>
+<tr><td>Short-term debt (% of total external debt)</td><td>DT_DOD_DSTC_ZS</td></tr>
+<tr><td>Short-term debt (% of total reserves)</td><td>DT_DOD_DSTC_IR_ZS</td></tr>
+<tr><td>Smoking prevalence, females (% of adults)</td><td>SH_PRV_SMOK_FE</td></tr>
+<tr><td>Smoking prevalence, males (% of adults)</td><td>SH_PRV_SMOK_MA</td></tr>
+<tr><td>Social contributions (% of revenue)</td><td>GC_REV_SOCL_ZS</td></tr>
+<tr><td>Social contributions (current LCU)</td><td>GC_REV_SOCL_CN</td></tr>
+<tr><td>Start-up procedures to register a business (number)</td><td>IC_REG_PROC</td></tr>
+<tr><td>Stocks traded, total value (% of GDP)</td><td>CM_MKT_TRAD_GD_ZS</td></tr>
+<tr><td>Stocks traded, total value (current US$)</td><td>CM_MKT_TRAD_CD</td></tr>
+<tr><td>Stocks traded, turnover ratio (%)</td><td>CM_MKT_TRNR</td></tr>
+<tr><td>Strength of legal rights index (0=weak to 10=strong)</td><td>IC_LGL_CRED_XQ</td></tr>
+<tr><td>Subsidies and other transfers (% of expense)</td><td>GC_XPN_TRFT_ZS</td></tr>
+<tr><td>Subsidies and other transfers (current LCU)</td><td>GC_XPN_TRFT_CN</td></tr>
+<tr><td>Surface area (sq. km)</td><td>AG_SRF_TOTL_K2</td></tr>
+<tr><td>Survival to age 65, female (% of cohort)</td><td>SP_DYN_TO65_FE_ZS</td></tr>
+<tr><td>Survival to age 65, male (% of cohort)</td><td>SP_DYN_TO65_MA_ZS</td></tr>
+<tr><td>Tariff rate, applied, simple mean, all products (%)</td><td>TM_TAX_MRCH_SM_AR_ZS</td></tr>
+<tr><td>Tariff rate, applied, simple mean, manufactured products (%)</td><td>TM_TAX_MANF_SM_AR_ZS</td></tr>
+<tr><td>Tariff rate, applied, simple mean, primary products (%)</td><td>TM_TAX_TCOM_SM_AR_ZS</td></tr>
+<tr><td>Tariff rate, applied, weighted mean, all products (%)</td><td>TM_TAX_MRCH_WM_AR_ZS</td></tr>
+<tr><td>Tariff rate, applied, weighted mean, manufactured products (%)</td><td>TM_TAX_MANF_WM_AR_ZS</td></tr>
+<tr><td>Tariff rate, applied, weighted mean, primary products (%)</td><td>TM_TAX_TCOM_WM_AR_ZS</td></tr>
+<tr><td>Tariff rate, most favored nation, simple mean, all products (%)</td><td>TM_TAX_MRCH_SM_FN_ZS</td></tr>
+<tr><td>Tariff rate, most favored nation, simple mean, manufactured products (%)</td><td>TM_TAX_MANF_SM_FN_ZS</td></tr>
+<tr><td>Tariff rate, most favored nation, simple mean, primary products (%)</td><td>TM_TAX_TCOM_SM_FN_ZS</td></tr>
+<tr><td>Tariff rate, most favored nation, weighted mean, all products (%)</td><td>TM_TAX_MRCH_WM_FN_ZS</td></tr>
+<tr><td>Tariff rate, most favored nation, weighted mean, manufactured products (%)</td><td>TM_TAX_MANF_WM_FN_ZS</td></tr>
+<tr><td>Tariff rate, most favored nation, weighted mean, primary products (%)</td><td>TM_TAX_TCOM_WM_FN_ZS</td></tr>
+<tr><td>Tax payments (number)</td><td>IC_TAX_PAYM</td></tr>
+<tr><td>Tax revenue (% of GDP)</td><td>GC_TAX_TOTL_GD_ZS</td></tr>
+<tr><td>Tax revenue (current LCU)</td><td>GC_TAX_TOTL_CN</td></tr>
+<tr><td>Taxes on exports (% of tax revenue)</td><td>GC_TAX_EXPT_ZS</td></tr>
+<tr><td>Taxes on exports (current LCU)</td><td>GC_TAX_EXPT_CN</td></tr>
+<tr><td>Taxes on goods and services (% of revenue)</td><td>GC_TAX_GSRV_RV_ZS</td></tr>
+<tr><td>Taxes on goods and services (% value added of industry and services)</td><td>GC_TAX_GSRV_VA_ZS</td></tr>
+<tr><td>Taxes on goods and services (current LCU)</td><td>GC_TAX_GSRV_CN</td></tr>
+<tr><td>Taxes on income, profits and capital gains (% of revenue)</td><td>GC_TAX_YPKG_RV_ZS</td></tr>
+<tr><td>Taxes on income, profits and capital gains (% of total taxes)</td><td>GC_TAX_YPKG_ZS</td></tr>
+<tr><td>Taxes on income, profits and capital gains (current LCU)</td><td>GC_TAX_YPKG_CN</td></tr>
+<tr><td>Taxes on international trade (% of revenue)</td><td>GC_TAX_INTT_RV_ZS</td></tr>
+<tr><td>Taxes on international trade (current LCU)</td><td>GC_TAX_INTT_CN</td></tr>
+<tr><td>Technical cooperation grants (BoP, current US$)</td><td>BX_GRT_TECH_CD_WD</td></tr>
+<tr><td>Technicians in R&amp;D (per million people)</td><td>SP_POP_TECH_RD_P6</td></tr>
+<tr><td>Teenage mothers (% of women ages 15-19 who have had children or are currently pregnant)</td><td>SP_MTR_1519_ZS</td></tr>
+<tr><td>Telephone lines</td><td>IT_MLT_MAIN</td></tr>
+<tr><td>Telephone lines (per 100 people)</td><td>IT_MLT_MAIN_P2</td></tr>
+<tr><td>Terms of trade adjustment (constant LCU)</td><td>NY_TTF_GNFS_KN</td></tr>
+<tr><td>Terrestrial and marine protected areas (% of total territorial area)</td><td>ER_PTD_TOTL_ZS</td></tr>
+<tr><td>Terrestrial protected areas (% of total land area)</td><td>ER_LND_PTLD_ZS</td></tr>
+<tr><td>Tertiary education, teachers (% female)</td><td>SE_TER_TCHR_FE_ZS</td></tr>
+<tr><td>Textiles and clothing (% of value added in manufacturing)</td><td>NV_MNF_TXTL_ZS_UN</td></tr>
+<tr><td>Time required to build a warehouse (days)</td><td>IC_WRH_DURS</td></tr>
+<tr><td>Time required to enforce a contract (days)</td><td>IC_LGL_DURS</td></tr>
+<tr><td>Time required to get electricity (days)</td><td>IC_ELC_TIME</td></tr>
+<tr><td>Time required to obtain an operating license (days)</td><td>IC_FRM_DURS</td></tr>
+<tr><td>Time required to register property (days)</td><td>IC_PRP_DURS</td></tr>
+<tr><td>Time required to start a business (days)</td><td>IC_REG_DURS</td></tr>
+<tr><td>Time to export (days)</td><td>IC_EXP_DURS</td></tr>
+<tr><td>Time to import (days)</td><td>IC_IMP_DURS</td></tr>
+<tr><td>Time to prepare and pay taxes (hours)</td><td>IC_TAX_DURS</td></tr>
+<tr><td>Time to resolve insolvency (years)</td><td>IC_ISV_DURS</td></tr>
+<tr><td>Total debt service (% of exports of goods, services and income)</td><td>DT_TDS_DECT_EX_ZS</td></tr>
+<tr><td>Total debt service (% of GNI)</td><td>DT_TDS_DECT_GN_ZS</td></tr>
+<tr><td>Total enrollment, primary (% net)</td><td>SE_PRM_TENR</td></tr>
+<tr><td>Total enrollment, primary, female (% net)</td><td>SE_PRM_TENR_FE</td></tr>
+<tr><td>Total enrollment, primary, male (% net)</td><td>SE_PRM_TENR_MA</td></tr>
+<tr><td>Total natural resources rents (% of GDP)</td><td>NY_GDP_TOTL_RT_ZS</td></tr>
+<tr><td>Total reserves (% of total external debt)</td><td>FI_RES_TOTL_DT_ZS</td></tr>
+<tr><td>Total reserves (includes gold, current US$)</td><td>FI_RES_TOTL_CD</td></tr>
+<tr><td>Total reserves in months of imports</td><td>FI_RES_TOTL_MO</td></tr>
+<tr><td>Total reserves minus gold (current US$)</td><td>FI_RES_XGLD_CD</td></tr>
+<tr><td>Total tax rate (% of commercial profits)</td><td>IC_TAX_TOTL_CP_ZS</td></tr>
+<tr><td>Trade (% of GDP)</td><td>NE_TRD_GNFS_ZS</td></tr>
+<tr><td>Trade in services (% of GDP)</td><td>BG_GSR_NFSV_GD_ZS</td></tr>
+<tr><td>Trademark applications, aggregate direct</td><td>IP_TMK_AGGD</td></tr>
+<tr><td>Trademark applications, direct nonresident</td><td>IP_TMK_NRES</td></tr>
+<tr><td>Trademark applications, direct resident</td><td>IP_TMK_RESD</td></tr>
+<tr><td>Trademark applications, Madrid</td><td>IP_TMK_MDRD</td></tr>
+<tr><td>Trademark applications, total</td><td>IP_TMK_TOTL</td></tr>
+<tr><td>Trained teachers in primary education (% of total teachers)</td><td>SE_PRM_TCAQ_ZS</td></tr>
+<tr><td>Trained teachers in primary education, female (% of female teachers)</td><td>SE_PRM_TCAQ_FE_ZS</td></tr>
+<tr><td>Trained teachers in primary education, male (% of male teachers)</td><td>SE_PRM_TCAQ_MA_ZS</td></tr>
+<tr><td>Transport services (% of commercial service exports)</td><td>TX_VAL_TRAN_ZS_WT</td></tr>
+<tr><td>Transport services (% of commercial service imports)</td><td>TM_VAL_TRAN_ZS_WT</td></tr>
+<tr><td>Transport services (% of service exports, BoP)</td><td>BX_GSR_TRAN_ZS</td></tr>
+<tr><td>Transport services (% of service imports, BoP)</td><td>BM_GSR_TRAN_ZS</td></tr>
+<tr><td>Travel services (% of commercial service exports)</td><td>TX_VAL_TRVL_ZS_WT</td></tr>
+<tr><td>Travel services (% of commercial service imports)</td><td>TM_VAL_TRVL_ZS_WT</td></tr>
+<tr><td>Travel services (% of service exports, BoP)</td><td>BX_GSR_TRVL_ZS</td></tr>
+<tr><td>Travel services (% of service imports, BoP)</td><td>BM_GSR_TRVL_ZS</td></tr>
+<tr><td>Tuberculosis case detection rate (%, all forms)</td><td>SH_TBS_DTEC_ZS</td></tr>
+<tr><td>Tuberculosis treatment success rate (% of registered cases)</td><td>SH_TBS_CURE_ZS</td></tr>
+<tr><td>Unemployment with primary education (% of total unemployment)</td><td>SL_UEM_PRIM_ZS</td></tr>
+<tr><td>Unemployment with primary education, female (% of female unemployment)</td><td>SL_UEM_PRIM_FE_ZS</td></tr>
+<tr><td>Unemployment with primary education, male (% of male unemployment)</td><td>SL_UEM_PRIM_MA_ZS</td></tr>
+<tr><td>Unemployment with secondary education (% of total unemployment)</td><td>SL_UEM_SECO_ZS</td></tr>
+<tr><td>Unemployment with secondary education, female (% of female unemployment)</td><td>SL_UEM_SECO_FE_ZS</td></tr>
+<tr><td>Unemployment with secondary education, male (% of male unemployment)</td><td>SL_UEM_SECO_MA_ZS</td></tr>
+<tr><td>Unemployment with tertiary education (% of total unemployment)</td><td>SL_UEM_TERT_ZS</td></tr>
+<tr><td>Unemployment with tertiary education, female (% of female unemployment)</td><td>SL_UEM_TERT_FE_ZS</td></tr>
+<tr><td>Unemployment with tertiary education, male (% of male unemployment)</td><td>SL_UEM_TERT_MA_ZS</td></tr>
+<tr><td>Unemployment, female (% of female labor force)</td><td>SL_UEM_TOTL_FE_ZS</td></tr>
+<tr><td>Unemployment, male (% of male labor force)</td><td>SL_UEM_TOTL_MA_ZS</td></tr>
+<tr><td>Unemployment, total (% of total labor force)</td><td>SL_UEM_TOTL_ZS</td></tr>
+<tr><td>Unemployment, youth female (% of female labor force ages 15-24)</td><td>SL_UEM_1524_FE_ZS</td></tr>
+<tr><td>Unemployment, youth male (% of male labor force ages 15-24)</td><td>SL_UEM_1524_MA_ZS</td></tr>
+<tr><td>Unemployment, youth total (% of total labor force ages 15-24)</td><td>SL_UEM_1524_ZS</td></tr>
+<tr><td>Unmet need for contraception (% of married women ages 15-49)</td><td>SP_UWT_TFRT</td></tr>
+<tr><td>Urban population</td><td>SP_URB_TOTL</td></tr>
+<tr><td>Urban population (% of total)</td><td>SP_URB_TOTL_IN_ZS</td></tr>
+<tr><td>Urban population growth (annual %)</td><td>SP_URB_GROW</td></tr>
+<tr><td>Use of IMF credit (DOD, current US$)</td><td>DT_DOD_DIMF_CD</td></tr>
+<tr><td>Use of insecticide-treated bed nets (% of under-5 population)</td><td>SH_MLR_NETS_ZS</td></tr>
+<tr><td>Value lost due to electrical outages (% of sales)</td><td>IC_FRM_OUTG_ZS</td></tr>
+<tr><td>Vehicles (per km of road)</td><td>IS_VEH_ROAD_K1</td></tr>
+<tr><td>Vitamin A supplementation coverage rate (% of children ages 6-59 months)</td><td>SN_ITK_VITA_ZS</td></tr>
+<tr><td>Vulnerable employment, female (% of female employment)</td><td>SL_EMP_VULN_FE_ZS</td></tr>
+<tr><td>Vulnerable employment, male (% of male employment)</td><td>SL_EMP_VULN_MA_ZS</td></tr>
+<tr><td>Vulnerable employment, total (% of total employment)</td><td>SL_EMP_VULN_ZS</td></tr>
+<tr><td>Wage and salaried workers, female (% of females employed)</td><td>SL_EMP_WORK_FE_ZS</td></tr>
+<tr><td>Wage and salaried workers, total (% of total employed)</td><td>SL_EMP_WORK_ZS</td></tr>
+<tr><td>Wage and salary workers, male (% of males employed)</td><td>SL_EMP_WORK_MA_ZS</td></tr>
+<tr><td>Wanted fertility rate (births per woman)</td><td>SP_DYN_WFRT</td></tr>
+<tr><td>Water pollution, chemical industry (% of total BOD emissions)</td><td>EE_BOD_CHEM_ZS</td></tr>
+<tr><td>Water pollution, clay and glass industry (% of total BOD emissions)</td><td>EE_BOD_CGLS_ZS</td></tr>
+<tr><td>Water pollution, food industry (% of total BOD emissions)</td><td>EE_BOD_FOOD_ZS</td></tr>
+<tr><td>Water pollution, metal industry (% of total BOD emissions)</td><td>EE_BOD_MTAL_ZS</td></tr>
+<tr><td>Water pollution, other industry (% of total BOD emissions)</td><td>EE_BOD_OTHR_ZS</td></tr>
+<tr><td>Water pollution, paper and pulp industry (% of total BOD emissions)</td><td>EE_BOD_PAPR_ZS</td></tr>
+<tr><td>Water pollution, textile industry (% of total BOD emissions)</td><td>EE_BOD_TXTL_ZS</td></tr>
+<tr><td>Water pollution, wood industry (% of total BOD emissions)</td><td>EE_BOD_WOOD_ZS</td></tr>
+<tr><td>Water productivity, total (constant 2000 US$ GDP per cubic meter of total freshwater withdrawal)</td><td>ER_GDP_FWTL_M3_KD</td></tr>
+<tr><td>Wholesale price index (2005 = 100)</td><td>FP_WPI_TOTL</td></tr>
+<tr><td>Women's share of population ages 15+ living with HIV (%)</td><td>SH_DYN_AIDS_FE_ZS</td></tr>
+<tr><td>Workers' remittances and compensation of employees, paid (current US$)</td><td>BM_TRF_PWKR_CD_DT</td></tr>
+<tr><td>Workers' remittances and compensation of employees, received (% of GDP)</td><td>BX_TRF_PWKR_DT_GD_ZS</td></tr>
+<tr><td>Workers' remittances and compensation of employees, received (current US$)</td><td>BX_TRF_PWKR_CD_DT</td></tr>
+<tr><td>Workers' remittances, receipts (BoP, current US$)</td><td>BX_TRF_PWKR_CD</td></tr>
+</tbody>
+</table>
+
+
+</div>
+
+  </div>
+</div>
+
+        </div>
+
+<!---->
+      <floating-help-icon id="ember1678" class="__07a4f ember-view"><div class="floating-help-icon">
+  <balloon-tooltip id="ember1683" class="__44b9d ember-view"><div data-test-container="help-balloon" class="balloon-tooltip " style="width: 300px; top: -124px;">
+  <div id="ember1688" class="ember-view"><div class="u-vertically-spaced u-main-axis-center-aligned">
+<!---->  <div data-test-link="help-center" class="floating-help-link">
+    <identity-button id="ember1693" class="identity-button ember-view"><!---->
+  <a target="_blank" href="http://help.quandl.com/" class="u-uppercase identity-button__link">
+    <span>visit the help center</span>
+<!---->
+  </a>
+
+<!----></identity-button>
+  </div>
+  <div data-test-link="support-request" class="floating-help-link" data-ember-action="" data-ember-action-1694="1694">
+    <identity-button id="ember1695" class="identity-button ember-view">  <a class="u-uppercase identity-button__link" data-ember-action="" data-ember-action-1696="1696">
+    <span>submit a support request</span>
+<!---->
+  </a>
+
+<!---->
+<!----></identity-button>
+  </div>
+</div>
+</div>
+</div>
+<a data-test-floating-icon="help" class="f-color-white f-relative-size__h1 b-icon b-icon--help question-mark-icon" data-ember-action="" data-ember-action-1697="1697">?</a>
+</balloon-tooltip>
+</div>
+
+
+</floating-help-icon>
+    </main>
+  </div>
+
+    <div class="data-product__sidebar">
+      <div id="ember1704" class="__541cf ember-view"><div class="__541cf__section">
+  <div data-test-product-sidebar="availability" class="product-data-avail product-data-avail--blue">
+    Free Data
+  </div>
+
+  <div class="product-overview">
+    <h2 class="small-header small-header--subtle">Description</h2>
+<!---->    <p data-test-product-sidebar="description" class="product-overview__description paragraph">Most current and accurate development indicators, compiled from officially-recognized international sources.</p>
+  </div>
+
+  <dl class="product-facts">
+      <div data-test-product-sidebar="fact" class="product-facts__fact">
+        <dt class="product-facts__label">Delivery Frequency</dt>
+        <dd class="product-facts__data">-</dd>
+      </div>
+      <div data-test-product-sidebar="fact" class="product-facts__fact">
+        <dt class="product-facts__label">Data Frequency</dt>
+        <dd class="product-facts__data">-</dd>
+      </div>
+      <div data-test-product-sidebar="fact" class="product-facts__fact">
+        <dt class="product-facts__label">Reporting Lag</dt>
+        <dd class="product-facts__data">-</dd>
+      </div>
+      <div data-test-product-sidebar="fact" class="product-facts__fact">
+        <dt class="product-facts__label">History</dt>
+        <dd class="product-facts__data">-</dd>
+      </div>
+      <div data-test-product-sidebar="fact" class="product-facts__fact">
+        <dt class="product-facts__label">Coverage</dt>
+        <dd class="product-facts__data">-</dd>
+      </div>
+      <div data-test-product-sidebar="fact" class="product-facts__fact">
+        <dt class="product-facts__label">License</dt>
+        <dd class="product-facts__data">Free</dd>
+      </div>
+  </dl>
+
+  <div data-test-product-sidebar="api" class="product-category">
+      <img src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/timeseries-icon-b43c0381c48032ad3051755a64354098.svg" class="product-category__icon">
+    <span class="product-category__label">Time-series API</span>
+  </div>
+
+  <bookmark-feed-button id="ember1717" class="__27aa4 is-not-tagged ember-view"><span>this feed</span>
+<i aria-hidden="true" id="ember1718" class="fa fa-bookmark-o ember-view"></i>
+</bookmark-feed-button>
+</div>
+
+<div class="__541cf__section">
+  <div id="ember1721" class="__c6e95 ember-view"><header data-test-sample-info="header" class="__c6e95__header ">
+  <h4 class="small-header header--subtle">You're subscribed</h4>
+    <img src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/sample-available-df2b59143e4dde7cf2272182b4a6f14c.svg">
+</header>
+
+<p data-test-sample-info="action" class="__c6e95__description paragraph paragraph--subtle ">Thank you for purchasing a license to this data. Please <a href="mailto:connect@quandl.com">contact us</a> if you would like to change your license.</p>
+
+<!----></div>
+</div>
+
+<div class="__541cf__section">
+  <ul class="__541cf__button-list">
+<!----><!---->  </ul>
+</div>
+</div>
+    </div>
+</div>
+
+<footer id="ember1737" class="__0dd76 ember-view"><div class="__0dd76__body">
+  <div class="grid grid--very-wide">
+    <div class="grid__column grid__column--1-of-3 __0dd76__widget __0dd76__widget--subscribe">
+      <email-updates id="ember1738" class="u-margin-bottom-20 __740cb ember-view"><form data-test-form="email-sub" class="qa-subscribe-to-email-updates" data-ember-action="" data-ember-action-1739="1739">
+  <h4 class="subscribe-to-newsletter__title email-updates__title">Subscribe to weekly updates for the latest news in alternative data.</h4>
+  <div class="subscribe-to-newsletter__form email-updates__form">
+<label id="ember1740" class="qa-subscriber-email b-input b-input--full-width b-input--large b-input--with-animated-placeholder ember-view">  <div class="b-input__error qa-error-message">
+    
+  </div>
+
+<div class="b-input__field ">
+        <input data-test-form="email" autocomplete="email" id="ember1741" class="ember-text-field valid-input ember-view" type="text">
+
+    <div class="b-input__animated-placeholder">
+      Email Address
+    </div>
+</div>
+
+<!----></label>    <button data-test-form="submit" type="submit" id="ember1742" class="b-button email-updates__button qa-subscribe-to-email-updates-submit b-button ember-view">Subscribe
+</button>
+  </div>
+</form>
+</email-updates>
+    </div>
+
+    <div class="grid__column grid__column--2-of-3">
+      <div class="grid">
+        <div class="__0dd76__widget __0dd76__widget--menu grid__column--1-of-4">
+          <h5 class="__0dd76__title">Data</h5>
+          <ul>
+            <li><a href="https://www.quandl.com/alternative-data" id="ember1743" class="ember-view">Alternative Data</a></li>
+            <li><a href="https://www.quandl.com/search?query=world%20development" id="ember1744" class="ember-view">Core Financial Data</a></li>
+            <li><a href="https://www.quandl.com/publishers" id="ember1745" class="ember-view">Publishers</a></li>
+            <li><a href="https://www.quandl.com/monetize-alternative-data" id="ember1746" class="ember-view">Sell Your Data</a></li>
+            <li><a href="https://www.quandl.com/institutions" id="ember1747" class="ember-view">Institutions</a></li>
+          </ul>
+        </div>
+
+        <div class="__0dd76__widget __0dd76__widget--menu grid__column--1-of-4">
+          <h5 class="__0dd76__title">Analysis Tools</h5>
+          <ul>
+            <li><a href="https://www.quandl.com/tools/full-list" id="ember1748" class="qa-footer-all-libs ember-view">All Tools</a></li>
+            <li><a href="https://www.quandl.com/tools/api" id="ember1749" class="qa-footer-api ember-view">API</a></li>
+            <li><a href="https://www.quandl.com/tools/python" id="ember1750" class="qa-footer-python ember-view">Python</a></li>
+            <li><a href="https://www.quandl.com/tools/r" id="ember1751" class="qa-footer-r ember-view">R</a></li>
+            <li><a href="https://www.quandl.com/tools/excel" id="ember1752" class="qa-footer-excel ember-view">Excel</a></li>
+            <li><a href="https://github.com/quandl/quandl-ruby" class="qa-footer-ruby">Ruby</a></li>
+          </ul>
+        </div>
+
+        <div class="__0dd76__widget __0dd76__widget--menu grid__column--1-of-4">
+          <h5 class="__0dd76__title">Resources</h5>
+          <ul>
+            <li><a href="https://www.quandl.com/docs/api" target="_blank">Full API Reference</a></li>
+            <li><a href="http://help.quandl.com/" target="_blank" class="qa-footer-help-centre">Help Center</a></li>
+            <li><a href="https://blog.quandl.com/">Blog</a></li>
+            <li><a href="http://status.quandl.com/" class="qa-footer-status">Status</a></li>
+            <li><a href="https://www.quandl.com/brand-guidelines" class="qa-footer-brand-guidelines">Brand Guidelines</a></li>
+            <li><a href="https://www.quandl.com/alternative-data-conference" id="ember1753" class="ember-view">Alternative Data Conference</a></li>
+          </ul>
+        </div>
+
+        <div class="__0dd76__widget __0dd76__widget--menu grid__column--1-of-4">
+          <h5 class="__0dd76__title">Quandl</h5>
+          <ul>
+            <li><a href="https://www.quandl.com/about" id="ember1754" class="qa-footer-about ember-view">About</a></li>
+            <li><a href="https://www.quandl.com/careers" id="ember1755" class="qa-footer-jobs ember-view">Careers</a></li>
+            <li><a href="https://www.quandl.com/press" id="ember1756" class="qa-footer-press ember-view">Press</a></li>
+            <li class="u-margin-bottom-10"><a href="https://www.quandl.com/contact" id="ember1757" class="ember-view">Contact</a></li>
+          </ul>
+
+          <h5 class="__0dd76__title">Follow</h5>
+          <ul class="grid grid--with-no-padding __0dd76__social">
+            <li>
+              <a href="https://twitter.com/quandl" class="qa-footer-twitter">
+                <img src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/twitter-footer-d83510403e9057dfa3d4b2b3be569f4a.svg">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/2459204?trk=tyah&amp;trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A2459204%2Cidx%3A2-1-2%2CtarId%3A1479320490204%2Ctas%3Aquandl" class="linkedin qa-footer-linkedin">
+                <img src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/linkedin-footer-67fe2f95269cce0dd35a7a1ead664c14.svg">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="grid grid--very-wide grid--with-no-padding __0dd76__widget __0dd76__widget--menu">
+  <ul class="__0dd76__small-print">
+    <li>© Quandl Inc. 2018</li>
+    <li><a href="https://www.quandl.com/terms" id="ember1758" class="qa-footer-terms-of-use ember-view">Terms of Use</a></li>
+    <li><a href="https://www.quandl.com/dmca" id="ember1759" class="qa-footer-dmca ember-view">DMCA</a></li>
+  </ul>
+</div>
+</footer>
+
+
+  </div>
+
+  <!---->
+</div>
+<div id="ember1181" class="ember-view"><!----></div>
+</div><script src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/a.js" type="text/javascript"></script><div id="LoAvailableBtn" style="padding: 10px; height: auto; position: fixed; bottom: 0px; right: 20px; z-index: 9999; background-color: rgba(0, 0, 0, 0.97); color: rgb(255, 255, 255); direction: ltr; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 140%; box-shadow: rgb(0, 0, 0) 0px 0px 5px; border-color: rgb(255, 255, 255) rgb(255, 255, 255) currentcolor; border-style: solid solid none; border-width: 2px 2px medium; border-image: none 100% / 1 / 0 stretch; border-top-left-radius: 10px; border-top-right-radius: 10px; cursor: pointer; display: none; margin-bottom: 0px; opacity: 0;">Live Help is Online.&nbsp; <img id="lo_green_blinker" style="width:16px; height:16px; border:none; padding:0; margin:0; margin-left:3px;" src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/blink_green.png" alt="" width="16" height="16" align="right"></div><div id="LoChatMinimizedButton" style="padding:10px; height:auto; position:fixed;bottom:0px; right:20px;  z-index:9999; background-color: rgba(0,0,0,0.97); color: #ffffff; direction: ltr; font-weight:bold; font-family: Arial, Helvetica, sans-serif; font-size:12px; line-height:140%;;  -box-shadow: 0px 0px 5px #000; box-shadow: 0px 0px 5px #000; -webkit-box-shadow: 0px 0px 5px #000; border:2px solid #fff;  border-bottom:none; -webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; -moz-border-radius-topleft: 10px; -moz-border-radius-topright: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom:none; ;cursor: pointer; ;max-width: 250; display: none;;margin-bottom:0px">Chatting<div style="display: none; background-color: red; border-radius: 50%; box-shadow: black 0px 0px 5px; color: white; height: 25px; line-height: 25px; position: absolute; text-align: center; width: 25px; right: 57px; bottom: 23px;" class="lo-badge">0</div></div><audio id="__lo_sound_pop" src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/pop.mp3" preload="none"></audio><div id="lo_chat_box" style="transition: cubic-bezier(0, 1, 0.5, 1) .35s; border:2px solid white; width:350px; max-width:350px; border-bottom:none; display:none; bottom:-1000px; opacity:0;  position:fixed; bottom:-1000px; ; margin-bottom: 0px ;right:20px;  z-index:999999;   background-color: #000000; background-color: rgba(49,49,49,0.97); color: #ffffff; direction: ltr; font-family: Arial, Helvetica, sans-serif; font-size:13px; line-height:130%; color: #ffffff; -box-shadow: 0px 0px 5px rgba(0,0,0,0.5); box-shadow: 0px 0px 5px  rgba(0,0,0,0.5); -webkit-box-shadow: 0px 0px 5px  rgba(0,0,0,0.5);;-webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; -moz-border-radius-topleft: 10px; -moz-border-radius-topright: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px; "><div onclick="LO.min_chat();" id="lo_chat_top" style="color:#ffffff; background-color: #6d6d6d; background-color: rgba(64,64,64,0.97); cursor:pointer; font-weight:bold; font-family: Arial, Helvetica, sans-serif; font-size:13px; line-height:13px; -webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; -moz-border-radius-topleft: 10px; -moz-border-radius-topright: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px; "><div style="float:right; margin-top:10px; margin-right:10px; position:absolute; right:0;" id="lo_chat_min_box"><div style="cursor: pointer; float:right; margin-left:10px; opacity:0.6; font-size:1empx; font-weight:bold;" onclick="LO.end_chat();" id="lo_chat_end">×</div><div style="cursor: pointer; float:right; opacity:0.6; font-size:1empx; font-weight:bold;" id="lo_chat_min">–</div><div style="clear:both"></div></div><div id="lo_operator">undefined</div><div style="clear:both"></div><div style="height:0px; width:100%; border-top:1px solid #000000;border-bottom:1px solid #4f4f4f"></div></div><div id="lo_chat_log" style="height:225px; max-height: 30vh; font-size:13px; margin-top:10px; line-height: 120%; padding:10px; overflow-y:auto; margin-bottom:10px;font-family:inherit;font-size:inherit;"></div><form action="" onsubmit="LO.submit_chat(); return false;"><div id="lo_chat_input" style="position:relative; width: 100%; "><div style="height:0px; margin-bottom:0px; margin-top:0px; width:100%; border-top:1px solid #000000;border-bottom:1px solid #4f4f4f"></div><div style="padding:10px;"><label for="lo_chat_textarea" style="display:none">Chat Input Box</label><textarea id="lo_chat_textarea" disabled="disabled" rows="2" style="color: black; background-color: rgb(255, 255, 255); border-radius: 5px; padding: 7px; height: auto; width: 100%; font-family: sans-serif; text-transform: none; resize: none;" dir="null" data-last-scroll-height="0"></textarea></div><div id="lo_chat_sound_holder" style="position:absolute; right:0px; top:-25px; width:100%;"><div style="cursor: pointer; float:right; opacity:0.6; padding-right:10px; height:16px;" id="lo_chat_sound"><img alt="Click to mute chat sounds" src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/sound-on-white.png"></div><div id="lo_chat_status" style="padding-left:10px; font-size:11px; color:#6d6d6d"></div><div style="clear:both;"></div></div></div></form><div id="lo_chat_submit_btn" style="display:none; padding:10px; padding-top:0px;"><button onclick="LO.submit_chat();" type="button" style="width:100%;  font-size: 12px;  letter-spacing:initial; text-transform:none; line-height: 1.3333333;  color: #fff;  background-color: #FFFFFF;  display: inline-block;  padding: 6px 12px;   font-weight: bold;  line-height: 1.42857143;  text-align: center;  white-space: nowrap;  vertical-align: middle;  -ms-touch-action:manipulation;  touch-action: manipulation;  cursor: pointer; outline:none; -webkit-user-select: none;  -moz-user-select: none;  -ms-user-select: none; user-select: none;  background-image: none;  background: #FFFFFF;  background-image: -webkit-linear-gradient(top, #FFFFFF, #AAAAAA);  background-image: -moz-linear-gradient(top, #FFFFFF, #AAAAAA);  background-image: -ms-linear-gradient(top, #FFFFFF, #AAAAAA);  background-image: -o-linear-gradient(top, #FFFFFF, #AAAAAA);  background-image: linear-gradient(to bottom, #FFFFFF, #AAAAAA); -webkit-border-radius: 5;  -moz-border-radius: 5;  border-color: #868686; border-radius: 5px;  font-family: Arial; text-shadow:0px 1px 1px #FFFFFF;  color: #000000; border-width:1px; font-weight:bold; ; padding: 10px 15px 10px 15px;  text-decoration: none; min-height: 40px;  text-align: center;">Chat</button></div><div id="lo_poweredBy" style="text-align:right; margin-bottom:10px;  font-size:10px; width:100%; line-height:16px; color: #868686;">Powered by <img src="WWDI%20|%20World%20Bank%20World%20Development%20Indicators%20|%20Quandl_files/logo-light.png" title="Lucky Orange" alt="Chat Logo" onclick="LO.click_brand(event, 'chat');" style="cursor: pointer; height: 12px; width:auto; margin-right:10px; display: inline-block;" border="0" align="absmiddle"></div></div><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Product",
+    "name": "World Bank World Development Indicators",
+    "description": "Most current and accurate development indicators%2C compiled from officially-recognized international sources."
+}
+</script></body></html>

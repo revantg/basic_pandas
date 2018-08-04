@@ -31,9 +31,8 @@ print(df.sample()) #For testing purposes
 a_c_codes = [df['alpha-3'][i] for i in range(len(df['country-code'])) if df['region'][i] == 'Asia' ]
 ## --------------------------------------------------------- ##
 
-## -----------------Defining Quandl Auth-Token-------------- ##
+## -------------------Defining Quandl ---------------------- ##
 import quandl
-api_key = 'zQDZMnBsC_6bNDkviXpy'
 ## --------------------------------------------------------- ##
 
 ## --Selecting a Random parameter from the indicators list-- ##

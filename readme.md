@@ -68,7 +68,6 @@ Name: IND, dtype: float64
  ![alt text](https://github.com/revantg/basic_pandas/raw/master/Figure_1.png "Standard Deviation")
 - Compared Correlation of India-Japan and India-China for the selected Parameter
  ![alt text](https://github.com/revantg/basic_pandas/raw/master/Figure_2.png "Plotting and Comparing Correlations")
-Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site][df1]
 
 
 ### Dependencies

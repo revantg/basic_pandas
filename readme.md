@@ -7,7 +7,7 @@ Nothing Fancy.
   - Can analyse 1082 indicators for almost all of the countries in existance.
 For eg
 
-```sh
+```python
 In [21]: temp_df.sample(10)
 Out[21]:
                                                      0                     1
@@ -22,7 +22,7 @@ Out[21]:
 733  Nitrous oxide emissions in industrial and ener...     EN_ATM_NOXE_EI_ZS
 100      Chemicals (% of value added in manufacturing)     NV_MNF_CHEM_ZS_UN
 ```
-```sh
+```python
 In [22]: len(indicators)
 Out[22]: 1082
 ```
@@ -40,7 +40,7 @@ Out[23] : 51
   - Plot both of the above DataFrames. 
   - Pickle both the DataFrames for quick access.
   - Plot the correlations between different countries
- ```sh
+ ```python
  In [24]: growth_correlations.describe()['IND']
 Out[24]:
 count    48.000000
@@ -53,7 +53,7 @@ min       0.710692
 max       1.000000
 Name: IND, dtype: float64
 ```
-```sh
+```python
 In [25]: growth_correlations['IND'].head()
 Out[25]:
 AFG    0.726658
